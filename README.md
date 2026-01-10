@@ -2,7 +2,7 @@
 
 AI/ML References in Pharmacometrics / Clinical Pharmacology
 
-## ML for PK modeling 
+## ML for PK Modeling 
 
 - [Comparing Scientific Machine Learning With Population Pharmacokinetic and Classical Machine Learning Approaches for Prediction of Drug Concentrations](https://ascpt.onlinelibrary.wiley.com/doi/10.1002/psp4.13313)
 
@@ -10,7 +10,7 @@ AI/ML References in Pharmacometrics / Clinical Pharmacology
 
 - [Comparing the applications of machine learning, PBPK, and population pharmacokinetic models in pharmacokinetic drug–drug interaction prediction](https://ascpt.onlinelibrary.wiley.com/doi/10.1002/psp4.12870)
 
-## ML for PD prediction
+## ML for PD Modeling
 
 - [Clinical decision support for chemotherapy-induced neutropenia using a hybrid pharmacodynamic/machine learning model](https://ascpt.onlinelibrary.wiley.com/doi/10.1002/psp4.13019)
 
