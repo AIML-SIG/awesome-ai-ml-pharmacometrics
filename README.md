@@ -29,8 +29,6 @@ AI/ML References in Pharmacometrics / Clinical Pharmacology
 
 - [Using machine learning surrogate modeling for faster QSP VP cohort generation](https://ascpt.onlinelibrary.wiley.com/doi/10.1002/psp4.12999)
 
-- [Using machine learning surrogate modeling for faster QSP VP cohort generation](https://ascpt.onlinelibrary.wiley.com/doi/10.1002/psp4.12999)
-
 ## Surrogate Modeling
 
 - [Accelerating virtual patient generation with a Bayesian optimization and machine learning surrogate model](https://ascpt.onlinelibrary.wiley.com/doi/10.1002/psp4.13288)
