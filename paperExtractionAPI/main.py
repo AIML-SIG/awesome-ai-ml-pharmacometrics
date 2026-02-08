@@ -35,49 +35,162 @@ if "ANTHROPIC_API_KEY" in os.environ:
 
 BASE_URL = "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/"
 
-# Configuration
-CATEGORIES = [
-    "Drug Discovery",
-    "PBPK/Physiologically-Based Modeling",
-    "Pharmacometrics/Population PK-PD",
-    "QSP (Quantitative Systems Pharmacology)",
-    "Clinical Trial Design/Optimization",
-    "Safety & Toxicology",
-    "Formulation & Manufacturing",
-    "Other/General",
+MAIN_QUERY = """(
+  "machine learning"[MeSH Terms]
+  OR "artificial intelligence"[MeSH Terms]
+  OR "machine learning"[Title/Abstract]
+  OR "artificial intelligence"[Title/Abstract]
+  OR "deep learning"[Title/Abstract]
+  OR "neural network*"[Title/Abstract]
+  OR "random forest"[Title/Abstract]
+  OR "support vector machine*"[Title/Abstract]
+  OR "Gaussian process*"[Title/Abstract]
+  OR "reinforcement learning"[Title/Abstract]
+  OR "Bayesian machine learning"[Title/Abstract]
+  OR "hybrid model*"[Title/Abstract]
+  OR "mechanism-informed"[Title/Abstract]
+)
+AND
+(
+  pharmacokinetic*[Title/Abstract]
+  OR pharmacodynamic*[Title/Abstract]
+  OR PK/PD[Title/Abstract]
+  OR "population pharmacokinetic*"[Title/Abstract]
+  OR "nonlinear mixed effects"[Title/Abstract]
+  OR NLME[Title/Abstract]
+  OR PBPK[Title/Abstract]
+  OR "physiologically based pharmacokinetic*"[Title/Abstract]
+  OR QSP[Title/Abstract]
+  OR "quantitative systems pharmacology"[Title/Abstract]
+  OR "model-based drug development"[Title/Abstract]
+  OR "model-informed drug development"[Title/Abstract]
+  OR MIDD[Title/Abstract]
+  OR pharmacometrics[Title/Abstract]
+  OR "precision dosing"[Title/Abstract]
+  OR "dose optimization"[Title/Abstract]
+  OR "therapeutic drug monitoring"[Title/Abstract]
+)
+"""
+
+FALLBACK_TAG = "Other/General"
+
+# Updated mini-list of pharmacometrics applications
+PMX_APPLICATION_TAGS = [
+    "Outcome prediction",
+    "Covariate selection / confounding adjustment",
+    "Pharmacometric modeling (Pharmacokinetic modeling, survival analysis, exposure–response analysis, pharmacodynamic modeling)",
+    "RWD phenotyping",
+    "Drug toxicity prediction",
+    "Drug repurposing",
+    "Enrichment design",
+    "Patient risk stratification / management",
+    "Dose selection / optimization",
+    "Adherence to drug regimen",
+    "Synthetic control",
+    "Postmarketing surveillance",
+    "Endpoint / biomarker assessment",
+    "Disease progression modeling",
+    "Automation of PK/PD modeling",
+    "Precision medicine / optimized treatment regimen",
+    "Causal inference",
+    "Data imputation",
+    "Discovery of subpatient groups"
 ]
 
-SEARCH_TERMS = [
-    "machine learning pharmacology",
-    "artificial intelligence drug discovery",
-    "deep learning pharmacokinetics",
-    "AI PKPD",
-    "neural network pharmaceutical",
-    "machine learning clinical trial",
+PAPER_TYPE_TAGS = ["review", "tutorial", "perspective"]
+
+METHODOLOGY_TAGS = [
+    "Supervised learning",
+    "Unsupervised learning",
+    "Deep learning",
+    "Tree-based models",
+    "Gaussian processes",
+    "Bayesian ML",
+    "Hybrid mechanistic–ML models",
+    "Feature selection",
+    "Model selection",
+    "Surrogate modeling",
+    "Emulation of NLME models",
+    "Reinforcement learning",
+    "Explainable AI",
+    "Neural networks",
+    "Ensemble learning",
+    "Time-series modeling",
+    "Mechanism-informed machine learning",
+    "LLM",
+    "AI Agents"
 ]
 
 
-def get_pmids(term, days_back=1, max_results=20):
-    # Define time range
-    end_date = datetime.now()
+def get_pmids(
+    base_query: str,
+    days_back: int = 1,
+    max_results: int = 200,
+):
+    """
+    Query PubMed using a fixed Boolean query plus a sliding publication date window.
+
+    Parameters
+    ----------
+    base_query : str
+        PubMed Boolean query (e.g. pharmacometrics OR clinical pharmacology)
+    days_back : int
+        How many days back from today to search
+    max_results : int
+        Maximum number of PMIDs to return
+
+    Returns
+    -------
+    list[str]
+        List of PubMed IDs (PMIDs)
+    """
+
+    # Get today's date in UTC (PubMed uses publication dates, not local time)
+    end_date = datetime.utcnow().date()
+
+    # Compute the start date by subtracting days_back
     start_date = end_date - timedelta(days=days_back)
-    date_range = f"{start_date.strftime('%Y/%m/%d')}:{end_date.strftime('%Y/%m/%d')}"
 
-    search_query = f"{term} AND {date_range}[PDAT]"
+    # Construct PubMed date filter syntax
+    # Example:
+    # "2025/01/30"[Date - Publication] : "2025/01/31"[Date - Publication]
+    date_clause = (
+        f'"{start_date.strftime("%Y/%m/%d")}"[Date - Publication] : '
+        f'"{end_date.strftime("%Y/%m/%d")}"[Date - Publication]'
+    )
+
+    # Combine the base query with the date constraint
+    # Using parentheses ensures correct Boolean precedence
+    full_query = f"""
+    ({base_query})
+    AND
+    ({date_clause})
+    """
+
+    # PubMed E-utilities endpoint for searching
     search_url = f"{BASE_URL}esearch.fcgi"
-    search_params = {
-        "db": "pubmed",
-        "term": search_query,
-        "retmax": max_results,
-        "retmode": "json",
-    }
-    search_response = requests.get(search_url, params=search_params)
-    search_data = search_response.json()
 
-    pmids = []
-    if "esearchresult" in search_data and "idlist" in search_data["esearchresult"]:
-        pmids = search_data["esearchresult"]["idlist"]
-    return pmids
+    # Parameters passed to PubMed
+    search_params = {
+        "db": "pubmed",        # database to search
+        "term": full_query,    # search query
+        "retmax": max_results, # max number of results
+        "retmode": "json",     # JSON response (easier to parse)
+        "usehistory": "n",     # do not store query on NCBI servers
+    }
+
+    # Execute HTTP GET request with a timeout for safety
+    response = requests.get(search_url, params=search_params, timeout=30)
+
+    # Raise an exception if PubMed returns HTTP errors (4xx / 5xx)
+    response.raise_for_status()
+
+    # Parse JSON response into Python dict
+    data = response.json()
+
+    # Safely extract list of PMIDs
+    # If any key is missing, return an empty list
+    return data.get("esearchresult", {}).get("idlist", [])
 
 
 def get_article_entry(elem, key):
@@ -121,133 +234,277 @@ def query_pmid(pmid):
         raise RuntimeError(f"Too many articles for given PMID ({pmid})")
     return articles[0]
 
-
-@cache.memoize()
+# @cache.memoize()  
 def classify_paper(title, abstract):
-    """Use Claude API to classify and summarize paper"""
+    """
+    Classify a paper into multiple axes: paper_type, application, methodology.
+    Always returns an AI summary.
+
+    Rules:
+    - If all axes are empty, assign [Other/General]
+    - If at least one axis has a tag, only use the tags returned by Claude
+    - Summary is always returned
+    """
 
     if abstract is None:
         abstract = ""
-    prompt = f"""You are a pharmaceutical research expert. Classify this research paper into ONE of these categories and provide a brief 1-sentence summary.
 
-Categories:
-{chr(10).join(f"- {cat}" for cat in CATEGORIES)}
+    # --- Claude not configured ---
+    if anthropic_client is None:
+        return (
+            {
+                "paper_type": [FALLBACK_TAG],
+                "application": [FALLBACK_TAG],
+                "methodology": [FALLBACK_TAG],
+            },
+            "Claude not configured"
+        )
 
-Paper Title: {title}
+    # Build the prompt dynamically from external tag lists
+    prompt = f"""
+You are an experienced pharmacometrician with expertise in AI/ML applications in drug development and clinical pharmacology.
 
-Abstract: {abstract[:1500]}
+Classify the following paper into ZERO OR MORE tags per category.
+Only assign a tag if clearly supported by the title or abstract.
+Return STRICT JSON only.
 
-Respond in JSON format only:
+Paper Title:
+{title}
+
+Abstract:
+{abstract[:1500]}
+
+Tag schema:
+
+paper_type (choose any):
+{chr(10).join(f"- {t}" for t in PAPER_TYPE_TAGS)}
+
+application (choose any):
+{chr(10).join(f"- {t}" for t in PMX_APPLICATION_TAGS)}
+
+methodology (choose any):
+{chr(10).join(f"- {t}" for t in METHODOLOGY_TAGS)}
+
+Response format:
 {{
-  "category": "exact category name from list above",
+  "paper_type": [],
+  "application": [],
+  "methodology": [],
   "summary": "one sentence summary (max 150 chars)"
-}}"""
+}}
+"""
 
     try:
+        # --- Call Claude ---
         message = anthropic_client.messages.create(
             model="claude-sonnet-4-20250514",
             max_tokens=500,
+            temperature=0,
             messages=[{"role": "user", "content": prompt}],
         )
 
         response_text = message.content[0].text
-        # Extract JSON from response
-        start_idx = response_text.find("{")
-        end_idx = response_text.rfind("}") + 1
 
-        if start_idx != -1 and end_idx > start_idx:
+        # --- Default summary fallback ---
+        summary = "AI/ML application in pharmacometrics or clinical pharmacology"
+
+        # Try to parse JSON from Claude response
+        try:
+            start_idx = response_text.find("{")
+            end_idx = response_text.rfind("}") + 1
             result = json.loads(response_text[start_idx:end_idx])
-            return result["category"], result["summary"]
-        else:
-            return "Other/General", "AI/ML application in pharmaceutical research"
+            summary = result.get("summary", summary)
+
+        except Exception:
+            result = {}
+
+        # --- Extract tags per axis ---
+        classification = {}
+        for axis in ["paper_type", "application", "methodology"]:
+            tags = result.get(axis, []) if isinstance(result, dict) else []
+            classification[axis] = tags
+
+        # --- If all axes empty, assign fallback Other/General only to application ---
+        if all(len(tags) == 0 for tags in classification.values()):
+            classification["application"] = [FALLBACK_TAG]
+
+        return classification, summary
 
     except Exception as e:
-        print(f"Error classifying paper {title}: {e}")
-        return "Other/General", "AI/ML application in pharmaceutical research"
+        print(f"Error classifying paper '{title}': {e}")
+        return (
+            {
+                "paper_type": [FALLBACK_TAG],
+                "application": [FALLBACK_TAG],
+                "methodology": [FALLBACK_TAG],
+            },
+            "Error during classification"
+        )
 
+# --- Pipeline to classify all articles and prepare outputs ---
+def classify_and_prepare(articles, zot=None):
+    """
+    Classify papers, update articles dict, prepare cat_map for README, 
+    and Zotero tags if zot is provided.
+    """
+
+    # Only store PMX applications as README sections
+    cat_map = defaultdict(list)
+
+    for pmid, article in articles.items():
+        classification, summary = classify_paper(article["title"], article.get("abstractNote", ""))
+        article["classification"] = classification
+        article["extra"] = summary  # Always keep AI summary
+
+        # --- README aggregation: only use PMX applications as section headers ---
+        pmx_apps = classification.get("application", [])
+        pmx_apps = [t for t in pmx_apps if t != FALLBACK_TAG]
+        if not pmx_apps:
+            pmx_apps = [FALLBACK_TAG]
+
+        for app in pmx_apps:
+            cat_map[app].append(pmid)
+
+        # --- Prepare Zotero tags ---
+        if zot is not None:
+            zot_tags = []
+            for axis, tags in classification.items():
+                for t in tags:
+                    zot_tags.append({"tag": f"{axis}:{t}"})
+            article_for_zotero = article.copy()
+            article_for_zotero["tags"] = zot_tags
+            try:
+                zot.create_items([article_for_zotero])
+                sleep(1)
+            except Exception as e:
+                print(f"Error uploading {pmid} to Zotero: {e}")
+
+    return cat_map
+
+def generate_readme_toc(cat_map):
+    """
+    Generate an alphabetical Markdown Table of Contents for PMX applications.
+    """
+    toc_lines = ["## Table of Contents\n"]
+    for cat in sorted(cat_map.keys()):  # Sort alphabetically
+        link = cat.lower().replace(" ", "-")
+        toc_lines.append(f"- [{cat}](#{link})")
+    return "\n".join(toc_lines) + "\n"
 
 def update_readme(articles, cat_map, filename="README.md"):
-    header = f"""# Awesome AI/ML in Pharma 🧬🤖
+    header = f"""# Awesome AI/ML Applications in Pharmacometrics 🧬🤖
 
-A curated list of recent research papers on AI/ML applications in pharmaceutical sciences, automatically updated daily.
+A curated list of research papers on AI/ML applications in pharmacometrics and clinical pharmacology, regularly updated.
 
 **Last Updated**: {datetime.now().strftime('%Y-%m-%d')}
 
 ---
 """
 
+    toc = generate_readme_toc(cat_map)
+
     with open(filename, "w") as fh:
         fh.write(header)
+        fh.write(toc)
 
-        for cat, pmids in cat_map.items():
+        review_pmids = []
+
+        # Write PMX application sections in alphabetical order
+        for cat in sorted(cat_map.keys()):
+            pmids = cat_map[cat]
             fh.write(f"\n## {cat}\n")
-
             for pmid in pmids:
                 article = articles[pmid]
+                classification = article.get("classification", {})
+                paper_type = classification.get("paper_type", [])
+
+                # Collect reviews/tutorials/perspectives for bottom
+                if any(pt in ["review", "tutorial", "perspective"] for pt in paper_type):
+                    review_pmids.append(pmid)
+                    continue
+
+                methodology = classification.get("methodology", [])
+                methodology_str = f"Methodology: {', '.join(methodology)}" if methodology else ""
+
                 fh.write(
-                    f"\n- **[{article['title']}]({article['url']})**"
-                    f"\n\t- {article['extra']}"
-                    f"\n\t- Published: {article['date']}\n"
+                    f"\n- **[{article['title']}]({article['url']})**\n"
+                    f"\t- {methodology_str}\n"
+                    f"\t- Published: {article.get('date', 'N/A')}\n"
+                    f"\t- Summary: {article.get('extra', '')}\n"
                 )
 
+        # Append reviews/tutorials/perspectives at the bottom (also alphabetical by title)
+        if review_pmids:
+            fh.write("\n## Reviews / Tutorials / Perspectives\n")
+            for pmid in sorted(review_pmids, key=lambda x: articles[x]['title']):
+                article = articles[pmid]
+                classification = article.get("classification", {})
+                methodology = classification.get("methodology", [])
+                methodology_str = f"Methodology: {', '.join(methodology)}" if methodology else ""
+
+                fh.write(
+                    f"\n- **[{article['title']}]({article['url']})**\n"
+                    f"\t- {methodology_str}\n"
+                    f"\t- Published: {article.get('date', 'N/A')}\n"
+                    f"\t- Summary: {article.get('extra', '')}\n"
+                )
 
 def main(
     filename="all_articles.json",
-    readme_path="../README.md",
-    days_back=1,
-    max_results=20,
+    readme_path="README.md",
+    days_back=365,
+    max_results=100,
 ):
-    """Main execution"""
-    # Load previously fetched papers
-    articles = dict()
+    """
+    Full pipeline:
+    - Load existing articles
+    - Query PubMed for recent papers
+    - Classify using Claude
+    - Prepare cat_map based on PMX applications
+    - Upload to Zotero if configured
+    - Update README
+    """
+
+    # --- Load previously fetched articles ---
+    articles = {}
     if os.path.isfile(filename):
         with open(filename, "r") as fh:
             articles = json.load(fh)
 
-    # Download new papers
-    pmids = {
-        pmid
-        for term in SEARCH_TERMS
-        for pmid in get_pmids(term, days_back, max_results)
-    }
-    print("🔬 Fetching recent AI/ML pharma papers from PubMed...")
-    articles.update({pmid: query_pmid(pmid) for pmid in pmids if pmid not in articles})
-    print(f"Got {len(articles)} articles")
+    # --- Query PubMed ---
+    print("🔬 Fetching recent AI/ML pharmacometrics papers from PubMed...")
+    pmids = get_pmids(REVIEW_PUBMED_QUERY_PMX, days_back=days_back, max_results=max_results)
+    print(f"Found {len(pmids)} PMIDs")
 
-    # If zotero is accessible (API key is given), then check which papers have
-    # been already uploaded
+    # --- Fetch new articles ---
+    new_pmids = [pmid for pmid in pmids if pmid not in articles]
+    for pmid in new_pmids:
+        try:
+            articles[pmid] = query_pmid(pmid)
+        except Exception as e:
+            print(f"Error fetching PMID {pmid}: {e}")
+
+    print(f"Total articles in memory: {len(articles)}")
+
+    # --- Determine which PMIDs need upload to Zotero ---
+    pmids_to_upload = set()
     if zot is not None:
-        pmids_in_zot = {x["data"]["PMID"] for x in zot.items()}
-        pmids_to_upload = set(articles.keys()) - pmids_in_zot
+        existing_pmids_in_zot = {x["data"]["PMID"] for x in zot.items()}
+        pmids_to_upload = set(articles.keys()) - existing_pmids_in_zot
 
-    print("🤖 Classifying papers with Claude and uploading to zotero...")
-    cat2pmid = defaultdict(list)
-    for pmid, article in articles.items():
-        # Get category from claude
-        category = "Undetermined"
-        summary = ""
-        if anthropic_client is not None:
-            category, summary = classify_paper(
-                article["title"], article["abstractNote"]
-            )
+    # --- Classify and prepare articles ---
+    print("🤖 Classifying papers with Claude and preparing Zotero...")
+    cat_map = classify_and_prepare(articles, zot=zot)
 
-        cat2pmid[category].append(pmid)
-
-        if category != "Undetermined":
-            article["tags"] = [{"tag": category}]
-        article["extra"] = f"AI summary: {summary}"
-
-        # Upload to zotero
-        if zot is not None and article["PMID"] in pmids_to_upload:
-            zot.create_items([article])
-            sleep(1)
-
-    # Update json file
+    print("📝 Updating JSON file...")
+    # --- Update JSON file ---
     with open(filename, "w") as fh:
-        json.dump(articles, fh, indent=1)
+        json.dump(articles, fh, indent=2)
 
+    # --- Update README ---
     print("📝 Updating README.md...")
-    update_readme(articles, cat2pmid, readme_path)
+    update_readme(articles, cat_map, filename=readme_path)
+    print("✅ Pipeline complete!")
 
 
 if __name__ == "__main__":
