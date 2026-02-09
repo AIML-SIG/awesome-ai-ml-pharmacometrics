@@ -235,7 +235,7 @@ def query_pmid(pmid):
     return articles[0]
 
 
-# @cache.memoize()
+@cache.memoize()
 def classify_paper(title, abstract):
     """
     Classify a paper into multiple axes: paper_type, application, methodology.
@@ -489,8 +489,8 @@ def main(
 
     if len(pmids_to_upload) > 0:
         # To make sure previous print statement is fully overwritten,
-        # we add a space 20 times
-        print("Finished uploading" + " " * 20)
+        # we add a space 25 times
+        print("Finished uploading" + " " * 25)
 
     # Update json file
     print("📝 Updating JSON file...")
