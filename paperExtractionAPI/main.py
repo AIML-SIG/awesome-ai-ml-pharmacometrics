@@ -270,7 +270,7 @@ def classify_paper(title, abstract):
 You are an experienced pharmacometrician with expertise in AI/ML applications in drug development and clinical pharmacology.
 
 Classify the following paper into ZERO OR MORE tags per category. If the paper does not use or surveys AI/ML methods, then consider for all the classification the category not_AI_ML
-Only assign a tag if clearly supported by the title or abstract.
+Only assign a tag if clearly supported by the title or abstract. In the methodology choose the tag of the AI/ML methodology that is being used or surveyed in the paper that is best described by the Methodology Tags.
 Return STRICT JSON only.
 
 Paper Title:
