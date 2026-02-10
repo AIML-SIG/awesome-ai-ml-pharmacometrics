@@ -79,7 +79,10 @@ FALLBACK_TAG = "Other/General"
 PMX_APPLICATION_TAGS = [
     "Outcome prediction",
     "Covariate selection / confounding adjustment",
-    "Pharmacometric modeling (Pharmacokinetic modeling, survival analysis, exposure–response analysis, pharmacodynamic modeling)",
+    "Pharmacokinetic modeling",
+    "Survival analysis",
+    "Exposure–response analysis",
+    "Pharmacodynamic modeling",
     "RWD phenotyping",
     "Drug toxicity prediction",
     "Drug repurposing",
@@ -266,7 +269,7 @@ def classify_paper(title, abstract):
     prompt = f"""
 You are an experienced pharmacometrician with expertise in AI/ML applications in drug development and clinical pharmacology.
 
-Classify the following paper into ZERO OR MORE tags per category.
+Classify the following paper into ZERO OR MORE tags per category. If the paper does not use or surveys AI/ML methods, then consider for all the classification the category not_AI_ML
 Only assign a tag if clearly supported by the title or abstract.
 Return STRICT JSON only.
 
@@ -292,7 +295,7 @@ Response format:
   "paper_type": [],
   "application": [],
   "methodology": [],
-  "summary": "one sentence summary (max 150 chars)"
+  "summary": "One sentence summary. The summary should describe how AI/ML is being used/surveyed in the paper and the main purpose of the paper (max 200 chars)"
 }}
 """
 
@@ -463,7 +466,7 @@ def main(
 
         # --- README aggregation: only use PMX applications as section headers ---
         pmx_apps = classification.get("application", [])
-        pmx_apps = [t for t in pmx_apps if t != FALLBACK_TAG]
+        pmx_apps = [t for t in pmx_apps if t not in (FALLBACK_TAG,"not_AI_ML")]
         if not pmx_apps:
             pmx_apps = [FALLBACK_TAG]
         for app in pmx_apps:
