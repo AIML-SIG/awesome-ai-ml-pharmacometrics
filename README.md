@@ -7,7 +7,7 @@ A curated list of research papers on AI/ML applications in pharmacometrics and c
 ---
 ## Table of Contents
 
-- [Automation of PK/PD modeling](#automation-of-pk/pd-modeling)
+- [Automation of PK/PD modeling](#automation-of-pk-pd-modeling)
 - [Covariate selection / confounding adjustment](#covariate-selection-confounding-adjustment)
 - [Discovery of subpatient groups](#discovery-of-subpatient-groups)
 - [Dose selection / optimization](#dose-selection-optimization)
@@ -19,7 +19,7 @@ A curated list of research papers on AI/ML applications in pharmacometrics and c
 - [Outcome prediction](#outcome-prediction)
 - [Patient risk stratification / management](#patient-risk-stratification-management)
 - [Pharmacometric modeling](#pharmacometric-modeling)
-- [Pharmacometric modeling (Pharmacokinetic modeling, survival analysis, exposure–response analysis, pharmacodynamic modeling)](#pharmacometric-modeling-(pharmacokinetic-modeling,-survival-analysis,-exposure–response-analysis,-pharmacodynamic-modeling))
+- [Pharmacometric modeling (Pharmacokinetic modeling, survival analysis, exposure–response analysis, pharmacodynamic modeling)](#pharmacometric-modeling-(pharmacokinetic-modeling-survival-analysis-exposure–response-analysis-pharmacodynamic-modeling))
 - [Postmarketing surveillance](#postmarketing-surveillance)
 - [Precision medicine / optimized treatment regimen](#precision-medicine-optimized-treatment-regimen)
 
