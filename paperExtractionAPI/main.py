@@ -10,7 +10,7 @@ import os
 import re
 import xml.etree.ElementTree as ET
 from collections import defaultdict
-from datetime import datetime, timedelta
+from datetime import UTC, datetime, timedelta
 from time import sleep
 
 import anthropic
@@ -150,7 +150,7 @@ def get_pmids(
     """
 
     # Get today's date in UTC (PubMed uses publication dates, not local time)
-    end_date = datetime.utcnow().date()
+    end_date = datetime.now(UTC).date()
 
     # Compute the start date by subtracting days_back
     start_date = end_date - timedelta(days=days_back)
@@ -346,12 +346,15 @@ Response format:
         )
 
 
-def tags2classification(tags):
+def tags2classification(tags, key=None):
     classification = defaultdict(list)
     for tag in tags:
         axis, val = tag["tag"].split(":")
         classification[axis].append(val)
-    return classification
+    if key is not None:
+        return classification.get(key, [])
+    else:
+        return classification
 
 
 def generate_readme_toc(cat_map):
@@ -365,7 +368,7 @@ def generate_readme_toc(cat_map):
     return "\n".join(toc_lines) + "\n"
 
 
-def update_readme(articles, cat_map, filename="README.md"):
+def update_readme(articles, cat_map, review_pmids, filename="README.md"):
     header = f"""# Awesome AI/ML Applications in Pharmacometrics 🧬🤖
 
 A curated list of research papers on AI/ML applications in pharmacometrics and clinical pharmacology, regularly updated.
@@ -381,28 +384,22 @@ A curated list of research papers on AI/ML applications in pharmacometrics and c
         fh.write(header)
         fh.write(toc)
 
-        review_pmids = []
-
         # Write PMX application sections in alphabetical order
         for cat in sorted(cat_map.keys()):
             pmids = cat_map[cat]
             fh.write(f"\n## {cat}\n")
             for pmid in pmids:
-                article = articles[pmid]
-                classification = tags2classification(article.get("tags", {}))
-                paper_type = classification.get("paper_type", [])
-
                 # Collect reviews/tutorials/perspectives for bottom
-                if any(
-                    pt in ["review", "tutorial", "perspective"] for pt in paper_type
-                ):
-                    review_pmids.append(pmid)
+                if pmid in review_pmids:
                     continue
 
-                methodology = classification.get("methodology", [])
+                article = articles[pmid]
+                methodologies = tags2classification(
+                    article.get("tags", {}), "methodology"
+                )
                 methodology_str = (
-                    f"\t- Methodology: {', '.join(methodology)}\n"
-                    if methodology
+                    f"\t- Methodology: {', '.join(methodologies)}\n"
+                    if methodologies
                     else ""
                 )
 
@@ -418,11 +415,12 @@ A curated list of research papers on AI/ML applications in pharmacometrics and c
             fh.write("\n## Reviews / Tutorials / Perspectives\n")
             for pmid in sorted(review_pmids, key=lambda x: articles[x]["title"]):
                 article = articles[pmid]
-                classification = tags2classification(article.get("tags", {}))
-                methodology = classification.get("methodology", [])
+                methodologies = tags2classification(
+                    article.get("tags", {}), "methodology"
+                )
                 methodology_str = (
-                    f"\t- Methodology: {', '.join(methodology)}\n"
-                    if methodology
+                    f"\t- Methodology: {', '.join(methodologies)}\n"
+                    if methodologies
                     else ""
                 )
 
@@ -432,6 +430,17 @@ A curated list of research papers on AI/ML applications in pharmacometrics and c
                     f"\t- Published: {article.get('date', 'N/A')}\n"
                     f"\t- Summary: {article.get('extra', '')}\n"
                 )
+
+
+def filter_applications(applications):
+    pmx_apps = [t for t in applications if t not in (FALLBACK_TAG, "not_AI_ML")]
+    if not pmx_apps:
+        pmx_apps = [FALLBACK_TAG]
+    return pmx_apps
+
+
+def is_review(paper_types):
+    return any([x in ("review", "tutorial", "perspective") for x in paper_types])
 
 
 def main(
@@ -470,6 +479,7 @@ def main(
 
     # Only store PMX applications as README sections
     cat_map = defaultdict(list)
+    review_pmids = []
     num_uploaded = 0
     for pmid, article in articles.items():
         classification, summary = classify_paper(
@@ -477,12 +487,11 @@ def main(
         )
 
         # --- README aggregation: only use PMX applications as section headers ---
-        pmx_apps = classification.get("application", [])
-        pmx_apps = [t for t in pmx_apps if t not in (FALLBACK_TAG, "not_AI_ML")]
-        if not pmx_apps:
-            pmx_apps = [FALLBACK_TAG]
-        for app in pmx_apps:
-            cat_map[app].append(pmid)
+        if is_review(classification.get("paper_type", [])):
+            review_pmids.append(pmid)
+        else:
+            for app in filter_applications(classification.get("application", [])):
+                cat_map[app].append(pmid)
 
         # Update article entries based on response from claude
         article["extra"] = summary  # Always keep AI summary
@@ -493,10 +502,10 @@ def main(
         ]
 
         # Upload to zotero
-        if zot is not None and article["PMID"] in pmids_to_upload:
+        if zot is not None and pmid in pmids_to_upload:
             print(
                 f"Uploading ({num_uploaded} / {len(pmids_to_upload)}) to zotero PMID:",
-                article["PMID"],
+                pmid,
                 end="\r",
             )
             zot.create_items([article])
@@ -515,7 +524,7 @@ def main(
 
     # Update the readme file
     print("📝 Updating README.md...")
-    update_readme(articles, cat_map, filename=readme_path)
+    update_readme(articles, cat_map, review_pmids, filename=readme_path)
 
     print("✅ Pipeline complete!")
 
