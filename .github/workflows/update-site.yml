@@ -22,7 +22,7 @@ jobs:
           python-version: '3.12'
 
       - name: Build site
-        run: docs/build_site.py --readme README.md --output docs/index.html
+        run: python docs/build_site.py --readme README.md --output docs/index.html
 
       - name: Check for changes
         id: diff
