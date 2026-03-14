@@ -515,8 +515,9 @@ def main(
 
     # Upload to zotero
     if zot is not None and zotero:
+        print("Checking papers in zotero...")
 
-        pmids_in_zot = {x["data"]["PMID"] for x in zot.items()}
+        pmids_in_zot = {x["data"]["PMID"] for x in zot.all_top()}
         # pmids_to_upload = set(articles.keys()) - pmids_in_zot - set(not_ai_ml_pmids)
         pmids_to_upload = [
             pmid
