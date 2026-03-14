@@ -1,11 +1,9 @@
 name: Update Explorer Site
 
 on:
-  # Daily at 06:00 UTC (08:00 CET)
   push:
-    branches: main
-    paths:
-      - 'README.md'
+    branches:
+      - main
 
 permissions:
   contents: write
