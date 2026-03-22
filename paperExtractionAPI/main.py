@@ -372,13 +372,11 @@ def generate_readme_toc(cat_map):
 def update_readme(articles, cat_map, review_pmids, filename="README.md"):
     header = f"""# Awesome AI/ML Applications in Pharmacometrics 🧬🤖
 
+[![Interactive Explorer](https://img.shields.io/badge/🚀_Interactive-Explorer-blue?style=for-the-badge&logoColor=white)](https://aiml-sig.github.io/awesome-ai-ml-pharmacometrics/) [![Zotero Library](https://img.shields.io/badge/📚_Zotero-Library-CC2936?style=for-the-badge&logoColor=white)](https://www.zotero.org/groups/6377183/ai-ml-pharmacometrics/library)
+
 A curated list of research papers on AI/ML applications in pharmacometrics and clinical pharmacology, regularly updated.
 
 **Last Updated**: {datetime.now().strftime('%Y-%m-%d')}
-
-[Interactive explorer](https://aiml-sig.github.io/awesome-ai-ml-pharmacometrics/)
-
-[Zotero library](https://www.zotero.org/groups/6377183/ai-ml-pharmacometrics/library)
 
 ---
 """

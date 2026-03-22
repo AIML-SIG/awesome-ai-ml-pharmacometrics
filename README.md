@@ -1,12 +1,10 @@
 # Awesome AI/ML Applications in Pharmacometrics 🧬🤖
 
+[![Interactive Explorer](https://img.shields.io/badge/🚀_Interactive-Explorer-blue?style=for-the-badge&logoColor=white)](https://aiml-sig.github.io/awesome-ai-ml-pharmacometrics/) [![Zotero Library](https://img.shields.io/badge/📚_Zotero-Library-CC2936?style=for-the-badge&logoColor=white)](https://www.zotero.org/groups/6377183/ai-ml-pharmacometrics/library)
+
 A curated list of research papers on AI/ML applications in pharmacometrics and clinical pharmacology, regularly updated.
 
 **Last Updated**: 2026-03-22
-
-[Interactive explorer](https://aiml-sig.github.io/awesome-ai-ml-pharmacometrics/)
-
-[Zotero library](https://www.zotero.org/groups/6377183/ai-ml-pharmacometrics/library)
 
 ---
 ## Table of Contents
