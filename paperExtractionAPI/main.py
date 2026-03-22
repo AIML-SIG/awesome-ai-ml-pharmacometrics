@@ -376,7 +376,9 @@ A curated list of research papers on AI/ML applications in pharmacometrics and c
 
 **Last Updated**: {datetime.now().strftime('%Y-%m-%d')}
 
-Interactive explorer: <https://aiml-sig.github.io/awesome-ai-ml-pharmacometrics/>
+[Interactive explorer](https://aiml-sig.github.io/awesome-ai-ml-pharmacometrics/)
+
+[Zotero library](https://www.zotero.org/groups/6377183/ai-ml-pharmacometrics/library)
 
 ---
 """
