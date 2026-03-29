@@ -4,7 +4,7 @@
 
 A curated list of research papers on AI/ML applications in pharmacometrics and clinical pharmacology, regularly updated.
 
-**Last Updated**: 2026-03-22
+**Last Updated**: 2026-03-29
 
 ---
 ## Table of Contents
@@ -1846,15 +1846,15 @@ A curated list of research papers on AI/ML applications in pharmacometrics and c
 	- Published: 2026Mar21
 	- Summary: Uses LSTM neural networks within hybrid mechanistic-ML digital twins to optimize aminoglycoside dosing in neonates by predicting kidney function and modeling bacterial resistance evolution.
 
-- **[Machine-Learning-Accelerated Design of Ternary Carrier-Free Nanomedicine for Intranasal Therapy of Brain Metastatic Non-small-cell Lung Cancer.](https://pubmed.ncbi.nlm.nih.gov/41835183/)**
+- **[Personalized prediction of initial valproic acid dose in children with epilepsy using machine learning techniques.](https://pubmed.ncbi.nlm.nih.gov/41879924/)**
 	- Methodology: Supervised learning
-	- Published: 2026
-	- Summary: Machine learning platform guides rational design of ternary nanomedicine system to overcome empirical screening bottlenecks for brain metastatic NSCLC therapy.
+	- Published: 2026Mar25
+	- Summary: Machine learning techniques are used to predict personalized initial valproic acid doses in pediatric epilepsy patients to optimize treatment outcomes.
 
-- **[Development and validation of an artificial intelligence-based model for predicting teicoplanin plasma concentrations in intensive care unit patients with pulmonary infections: a retrospective study.](https://pubmed.ncbi.nlm.nih.gov/41849094/)**
-	- Methodology: Supervised learning
-	- Published: 2026Mar18
-	- Summary: Development of an AI-based predictive model for teicoplanin plasma concentrations in ICU patients to enhance therapeutic drug monitoring precision and support dosing decisions.
+- **[Uncertainty-Aware Framework for CT Radiation Dose Optimization in the Active Surveillance of Small Renal Masses: Clinical and Radiological Considerations.](https://pubmed.ncbi.nlm.nih.gov/41897676/)**
+	- Methodology: Supervised learning, Tree-based models, Ensemble learning
+	- Published: 2026Mar23
+	- Summary: Uses multiple ML algorithms (linear regression, random forest, gradient boosting, SVR) to optimize CT radiation dose while maintaining diagnostic accuracy for renal mass surveillance.
 
 ## Drug repurposing
 
@@ -2704,20 +2704,20 @@ A curated list of research papers on AI/ML applications in pharmacometrics and c
 	- Published: 2022Sep
 	- Summary: Machine learning models (Random Forest and SVM) are used for virtual screening to identify natural product inhibitors of p38α MAPK, combined with molecular docking and dynamics.
 
-- **[Drug-likeness prioritised selection identifies anti-Escherichia coli candidates confirmed by molecular docking, dynamics simulations, and antibacterial assays.](https://pubmed.ncbi.nlm.nih.gov/41840942/)**
-	- Methodology: Supervised learning
-	- Published: 2026Dec
-	- Summary: Uses 33 predictive submodels across five dimensions to screen and prioritize cephalosporin candidates against E. coli based on drug-likeness properties.
+- **[Integrated machine learning and multi-omics analysis identifies ALOX5 as a potential therapeutic target for tubulointerstitial inflammation in diabetic kidney disease.](https://pubmed.ncbi.nlm.nih.gov/41857149/)**
+	- Methodology: Supervised learning, Feature selection, Tree-based models
+	- Published: 2026Mar19
+	- Summary: Machine learning algorithms (LASSO, Random Forest) were used to identify ALOX5 as a key inflammatory biomarker in diabetic kidney disease from multi-omics data.
+
+- **[Glioblastoma diagnostic models and therapeutic drug discovery based on GEO data and machine learning methods.](https://pubmed.ncbi.nlm.nih.gov/41886832/)**
+	- Methodology: Ensemble learning, Feature selection, Explainable AI
+	- Published: 2026Mar21
+	- Summary: Develops ensemble ML pipeline combining 175 algorithms for glioblastoma biomarker discovery and drug repurposing using SHAP explainability methods.
 
 - **[Exploration of network-based, machine learning, MD simulations, and MM/GBSA approaches revealed luteolin from Gynura procumbens as key inhibitor of MMP9 in NSCLC.](https://pubmed.ncbi.nlm.nih.gov/41854859/)**
 	- Methodology: Supervised learning
 	- Published: 2026Mar19
 	- Summary: Machine learning is used to identify top target genes (CASP3, MMP9, SRC) for drug repurposing of Gynura procumbens compounds against NSCLC, with luteolin validated as a multi-target agent.
-
-- **[Integrated machine learning and multi-omics analysis identifies ALOX5 as a potential therapeutic target for tubulointerstitial inflammation in diabetic kidney disease.](https://pubmed.ncbi.nlm.nih.gov/41857149/)**
-	- Methodology: Supervised learning, Feature selection, Tree-based models
-	- Published: 2026Mar19
-	- Summary: Machine learning algorithms (LASSO, Random Forest) were used to identify ALOX5 as a key inflammatory biomarker in diabetic kidney disease from multi-omics data.
 
 ## Drug toxicity prediction
 
@@ -4635,20 +4635,15 @@ A curated list of research papers on AI/ML applications in pharmacometrics and c
 	- Published: 2025
 	- Summary: Random forest QSPR model predicts gut permeability to improve pharmacokinetic modeling and bioavailability estimation for non-pharmaceutical chemicals in toxicity assessment.
 
-- **[Machine-Learning-Accelerated Design of Ternary Carrier-Free Nanomedicine for Intranasal Therapy of Brain Metastatic Non-small-cell Lung Cancer.](https://pubmed.ncbi.nlm.nih.gov/41835183/)**
+- **[Machine learning-based prediction of drug lactation risk: Bridging molecular features and breastfeeding safety.](https://pubmed.ncbi.nlm.nih.gov/41889032/)**
 	- Methodology: Supervised learning
-	- Published: 2026
-	- Summary: Machine learning platform guides rational design of ternary nanomedicine system to overcome empirical screening bottlenecks for brain metastatic NSCLC therapy.
+	- Published: 2026Mar22
+	- Summary: Machine learning models predict drug lactation risk for breastfeeding safety using molecular features to support therapeutic decision-making.
 
-- **[Role of Structural, Pharmacokinetic, and Energy Properties in the High-Throughput Prediction of Redox Potentials for Organic Molecules with Experimental Calibration.](https://pubmed.ncbi.nlm.nih.gov/41835585/)**
-	- Methodology: Gaussian processes, Supervised learning
-	- Published: 2026Mar10
-	- Summary: Uses Gaussian Process Regression to predict redox potentials of organic molecules using molecular descriptors, DFT energies, and ADME properties for drug development applications.
-
-- **[Drug-likeness prioritised selection identifies anti-Escherichia coli candidates confirmed by molecular docking, dynamics simulations, and antibacterial assays.](https://pubmed.ncbi.nlm.nih.gov/41840942/)**
-	- Methodology: Supervised learning
-	- Published: 2026Dec
-	- Summary: Uses 33 predictive submodels across five dimensions to screen and prioritize cephalosporin candidates against E. coli based on drug-likeness properties.
+- **[MuCB-tabpfn: A multimodal feature fusion framework for predicting human blood concentrations of organic pollutants.](https://pubmed.ncbi.nlm.nih.gov/41886874/)**
+	- Methodology: Deep learning, Supervised learning, Explainable AI
+	- Published: 2026Mar25
+	- Summary: MuCB-tabpfn uses multimodal deep learning to predict human blood concentrations of organic pollutants by integrating ADME parameters, molecular descriptors, and graph-based features.
 
 ## Endpoint / biomarker assessment
 
@@ -5072,15 +5067,15 @@ A curated list of research papers on AI/ML applications in pharmacometrics and c
 	- Published: 2026Feb11
 	- Summary: Machine learning models integrate electronic nose data with feature selection and SHAP analysis to assess Codonopsis Radix quality based on chemical composition and pharmacological efficacy.
 
-- **[PCa-Mamba: Spatiotemporal state space models for prostate cancer detection in multi-parametric MRI.](https://pubmed.ncbi.nlm.nih.gov/41846146/)**
-	- Methodology: Deep learning, Time-series modeling, Hybrid mechanistic–ML models
-	- Published: 2026Mar11
-	- Summary: PCa-Mamba uses state-space models with pharmacokinetic regularization to detect prostate cancer by incorporating temporal DCE-MRI dynamics with spatial T2/DWI contrast.
-
 - **[Integrated machine learning and multi-omics analysis identifies ALOX5 as a potential therapeutic target for tubulointerstitial inflammation in diabetic kidney disease.](https://pubmed.ncbi.nlm.nih.gov/41857149/)**
 	- Methodology: Supervised learning, Feature selection, Tree-based models
 	- Published: 2026Mar19
 	- Summary: Machine learning algorithms (LASSO, Random Forest) were used to identify ALOX5 as a key inflammatory biomarker in diabetic kidney disease from multi-omics data.
+
+- **[Glioblastoma diagnostic models and therapeutic drug discovery based on GEO data and machine learning methods.](https://pubmed.ncbi.nlm.nih.gov/41886832/)**
+	- Methodology: Ensemble learning, Feature selection, Explainable AI
+	- Published: 2026Mar21
+	- Summary: Develops ensemble ML pipeline combining 175 algorithms for glioblastoma biomarker discovery and drug repurposing using SHAP explainability methods.
 
 ## Enrichment design
 
@@ -6167,11 +6162,6 @@ A curated list of research papers on AI/ML applications in pharmacometrics and c
 	- Published: 2005Apr01
 	- Summary: Neural networks (CODES) combined with chromatographic techniques are used to predict oral absorption and bioavailability of benzothiadiazine dioxide derivatives as HCMV inhibitors.
 
-- **[PCa-Mamba: Spatiotemporal state space models for prostate cancer detection in multi-parametric MRI.](https://pubmed.ncbi.nlm.nih.gov/41846146/)**
-	- Methodology: Deep learning, Time-series modeling, Hybrid mechanistic–ML models
-	- Published: 2026Mar11
-	- Summary: PCa-Mamba uses state-space models with pharmacokinetic regularization to detect prostate cancer by incorporating temporal DCE-MRI dynamics with spatial T2/DWI contrast.
-
 ## Patient risk stratification / management
 
 - **[Computer-aided diagnosis of prostate cancer in the peripheral zone using multiparametric MRI.](https://pubmed.ncbi.nlm.nih.gov/22640958/)**
@@ -6448,6 +6438,16 @@ A curated list of research papers on AI/ML applications in pharmacometrics and c
 	- Methodology: Supervised learning
 	- Published: 2018May01
 	- Summary: The paper uses support vector machine classifiers to create voxel-wise malignancy likelihood maps for prostate cancer diagnosis from multi-parametric MRI data.
+
+- **[Uncertainty-Aware Framework for CT Radiation Dose Optimization in the Active Surveillance of Small Renal Masses: Clinical and Radiological Considerations.](https://pubmed.ncbi.nlm.nih.gov/41897676/)**
+	- Methodology: Supervised learning, Tree-based models, Ensemble learning
+	- Published: 2026Mar23
+	- Summary: Uses multiple ML algorithms (linear regression, random forest, gradient boosting, SVR) to optimize CT radiation dose while maintaining diagnostic accuracy for renal mass surveillance.
+
+- **[Explainable AI for gastrointestinal lesion surveillance and precision targeted drug delivery.](https://pubmed.ncbi.nlm.nih.gov/41872672/)**
+	- Methodology: Deep learning, Neural networks, Explainable AI, Supervised learning
+	- Published: 2026Mar23
+	- Summary: Uses CNNs with explainable AI to classify GI diseases from imaging data and models drug delivery through pharmacokinetic frameworks for precision targeted therapy.
 
 ## Pharmacodynamic modeling
 
@@ -9237,20 +9237,25 @@ A curated list of research papers on AI/ML applications in pharmacometrics and c
 	- Published: 2019Feb
 	- Summary: Uses support vector machine and principal component analysis with global sensitivity analysis to explore sexual dimorphism and variability in pharmacokinetic model parameters.
 
-- **[Toward Generalizable Data-Driven Pharmacokinetics with Interpretable Neural ODEs.](https://pubmed.ncbi.nlm.nih.gov/41738401/)**
-	- Methodology: Deep learning, Hybrid mechanistic–ML models, Neural networks
-	- Published: 2026Mar09
-	- Summary: Proposes Uni-PK, a neural ODE framework combining molecular representations with mechanistic PK structure for generalizable drug concentration-time modeling.
+- **[MuCB-tabpfn: A multimodal feature fusion framework for predicting human blood concentrations of organic pollutants.](https://pubmed.ncbi.nlm.nih.gov/41886874/)**
+	- Methodology: Deep learning, Supervised learning, Explainable AI
+	- Published: 2026Mar25
+	- Summary: MuCB-tabpfn uses multimodal deep learning to predict human blood concentrations of organic pollutants by integrating ADME parameters, molecular descriptors, and graph-based features.
+
+- **[Toward animal-free approaches in subcutaneous drug delivery: A pain management case study.](https://pubmed.ncbi.nlm.nih.gov/41903753/)**
+	- Methodology: Supervised learning
+	- Published: 2026Mar26
+	- Summary: Machine learning models trained on rodent datasets predict subcutaneous drug delivery PK parameters as part of animal-free drug development approaches.
 
 - **[Evolutionary digital twin framework for optimal aminoglycoside dosing in neonates with suspected sepsis.](https://pubmed.ncbi.nlm.nih.gov/41862656/)**
 	- Methodology: Deep learning, Neural networks, Hybrid mechanistic–ML models
 	- Published: 2026Mar21
 	- Summary: Uses LSTM neural networks within hybrid mechanistic-ML digital twins to optimize aminoglycoside dosing in neonates by predicting kidney function and modeling bacterial resistance evolution.
 
-- **[Development and validation of an artificial intelligence-based model for predicting teicoplanin plasma concentrations in intensive care unit patients with pulmonary infections: a retrospective study.](https://pubmed.ncbi.nlm.nih.gov/41849094/)**
-	- Methodology: Supervised learning
-	- Published: 2026Mar18
-	- Summary: Development of an AI-based predictive model for teicoplanin plasma concentrations in ICU patients to enhance therapeutic drug monitoring precision and support dosing decisions.
+- **[Explainable AI for gastrointestinal lesion surveillance and precision targeted drug delivery.](https://pubmed.ncbi.nlm.nih.gov/41872672/)**
+	- Methodology: Deep learning, Neural networks, Explainable AI, Supervised learning
+	- Published: 2026Mar23
+	- Summary: Uses CNNs with explainable AI to classify GI diseases from imaging data and models drug delivery through pharmacokinetic frameworks for precision targeted therapy.
 
 ## Postmarketing surveillance
 
@@ -10089,20 +10094,25 @@ A curated list of research papers on AI/ML applications in pharmacometrics and c
 	- Published: 2023Aug
 	- Summary: Machine learning is used to predict vancomycin treatment targets (trough concentration and AUC) to calculate optimal individualized dosing regimens for neonates.
 
-- **[Toward Generalizable Data-Driven Pharmacokinetics with Interpretable Neural ODEs.](https://pubmed.ncbi.nlm.nih.gov/41738401/)**
-	- Methodology: Deep learning, Hybrid mechanistic–ML models, Neural networks
-	- Published: 2026Mar09
-	- Summary: Proposes Uni-PK, a neural ODE framework combining molecular representations with mechanistic PK structure for generalizable drug concentration-time modeling.
-
 - **[Evolutionary digital twin framework for optimal aminoglycoside dosing in neonates with suspected sepsis.](https://pubmed.ncbi.nlm.nih.gov/41862656/)**
 	- Methodology: Deep learning, Neural networks, Hybrid mechanistic–ML models
 	- Published: 2026Mar21
 	- Summary: Uses LSTM neural networks within hybrid mechanistic-ML digital twins to optimize aminoglycoside dosing in neonates by predicting kidney function and modeling bacterial resistance evolution.
 
-- **[Development and validation of an artificial intelligence-based model for predicting teicoplanin plasma concentrations in intensive care unit patients with pulmonary infections: a retrospective study.](https://pubmed.ncbi.nlm.nih.gov/41849094/)**
+- **[Glioblastoma diagnostic models and therapeutic drug discovery based on GEO data and machine learning methods.](https://pubmed.ncbi.nlm.nih.gov/41886832/)**
+	- Methodology: Ensemble learning, Feature selection, Explainable AI
+	- Published: 2026Mar21
+	- Summary: Develops ensemble ML pipeline combining 175 algorithms for glioblastoma biomarker discovery and drug repurposing using SHAP explainability methods.
+
+- **[Personalized prediction of initial valproic acid dose in children with epilepsy using machine learning techniques.](https://pubmed.ncbi.nlm.nih.gov/41879924/)**
 	- Methodology: Supervised learning
-	- Published: 2026Mar18
-	- Summary: Development of an AI-based predictive model for teicoplanin plasma concentrations in ICU patients to enhance therapeutic drug monitoring precision and support dosing decisions.
+	- Published: 2026Mar25
+	- Summary: Machine learning techniques are used to predict personalized initial valproic acid doses in pediatric epilepsy patients to optimize treatment outcomes.
+
+- **[Explainable AI for gastrointestinal lesion surveillance and precision targeted drug delivery.](https://pubmed.ncbi.nlm.nih.gov/41872672/)**
+	- Methodology: Deep learning, Neural networks, Explainable AI, Supervised learning
+	- Published: 2026Mar23
+	- Summary: Uses CNNs with explainable AI to classify GI diseases from imaging data and models drug delivery through pharmacokinetic frameworks for precision targeted therapy.
 
 ## RWD phenotyping
 
@@ -10705,11 +10715,6 @@ A curated list of research papers on AI/ML applications in pharmacometrics and c
 	- Published: 2025Dec07
 	- Summary: This review explores AI-driven methods integrated with nanomedicine for enhanced drug delivery, pharmacokinetic predictions, and personalized therapeutics development.
 
-- **[Artificial intelligence-enabled personalisation of oral drug delivery: From data-driven design to on-demand manufacturing.](https://pubmed.ncbi.nlm.nih.gov/41833742/)**
-	- Methodology: Supervised learning
-	- Published: 2026Mar13
-	- Summary: This review surveys AI/ML applications in personalizing oral drug delivery, covering dose prediction, formulation optimization, and digital manufacturing for patient-specific medicines.
-
 - **[Automating drug discovery.](https://pubmed.ncbi.nlm.nih.gov/29242609/)**
 	- Methodology: Reinforcement learning
 	- Published: 2018Feb
@@ -10967,11 +10972,6 @@ A curated list of research papers on AI/ML applications in pharmacometrics and c
 	- Published: 2022
 	- Summary: This review discusses drug repurposing for cancer therapy and mentions the need for AI methods to analyze molecular signatures, but does not focus on specific AI/ML methodologies.
 
-- **[Drug repurposing in oncology: Bridging computational discovery to clinical application.](https://pubmed.ncbi.nlm.nih.gov/41839763/)**
-	- Methodology: Supervised learning
-	- Published: 2026Mar16
-	- Summary: This review surveys computational methods including machine learning for drug repurposing in oncology, bridging discovery to clinical application.
-
 - **[Editor's note on the themed issue: integration of machine learning and quantitative systems pharmacology.](https://pubmed.ncbi.nlm.nih.gov/35041146/)**
 	- Published: 2022Feb
 	- Summary: Editor's note introducing a themed issue on integrating machine learning with quantitative systems pharmacology, providing perspective on the field's direction.
@@ -11188,6 +11188,11 @@ A curated list of research papers on AI/ML applications in pharmacometrics and c
 	- Published: 2024Dec
 	- Summary: Study protocol proposing to use machine learning techniques to analyze inflammatory mechanisms in depression onset, treatment response, and comorbidity across multiple patient cohorts.
 
+- **[Innovative applications of artificial intelligence technology in pharmacometrics.](https://pubmed.ncbi.nlm.nih.gov/41872613/)**
+	- Methodology: Supervised learning, Unsupervised learning, Deep learning, Neural networks, Bayesian ML
+	- Published: 2026Mar24
+	- Summary: This review paper surveys innovative AI/ML applications across various pharmacometric domains including PK/PD modeling, dose optimization, and precision medicine.
+
 - **[Integrating Model-Informed Drug Development With AI: A Synergistic Approach to Accelerating Pharmaceutical Innovation.](https://pubmed.ncbi.nlm.nih.gov/39797502/)**
 	- Methodology: Deep learning, LLM
 	- Published: 2025Jan
@@ -11277,11 +11282,6 @@ A curated list of research papers on AI/ML applications in pharmacometrics and c
 	- Methodology: Supervised learning
 	- Published: 2024Aug08
 	- Summary: This paper provides practical guidelines for using ML ADME models in lead optimization through a case study, focusing on expediting compound design decisions.
-
-- **[Machine Learning Algorithm for Nanomedicine: AI Curated Nanocarriers for Cancer Treatment.](https://pubmed.ncbi.nlm.nih.gov/41832692/)**
-	- Methodology: Supervised learning
-	- Published: 2026Mar12
-	- Summary: This review surveys AI/ML integration in nanoparticle design for cancer therapy, focusing on optimizing drug delivery systems and enabling precision nanomedicine.
 
 - **[Machine Learning Applications in Mental Health and Substance Use Research Among the LGBTQ2S+ Population: Scoping Review.](https://pubmed.ncbi.nlm.nih.gov/34762059/)**
 	- Methodology: Supervised learning, Unsupervised learning
@@ -11780,11 +11780,6 @@ A curated list of research papers on AI/ML applications in pharmacometrics and c
 	- Methodology: Supervised learning
 	- Published: 2026Feb04
 	- Summary: This review discusses how AI/ML methods are being used to optimize polymeric nanoparticle formulations, predict drug release patterns, and accelerate clinical development.
-
-- **[Recent advances and current landscape of software tools for image analysis and dosimetry in nuclear medicine.](https://pubmed.ncbi.nlm.nih.gov/41795779/)**
-	- Methodology: Deep learning
-	- Published: 2026Mar08
-	- Summary: This review surveys software tools for nuclear medicine image analysis and dosimetry, highlighting AI-driven segmentation and modeling advances for personalized radiopharmaceutical therapy.
 
 - **[Recent advances in computational prediction of drug absorption and permeability in drug discovery.](https://pubmed.ncbi.nlm.nih.gov/17017917/)**
 	- Methodology: Supervised learning
