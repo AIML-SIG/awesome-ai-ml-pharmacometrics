@@ -4,7 +4,7 @@
 
 A curated list of research papers on AI/ML applications in pharmacometrics and clinical pharmacology, regularly updated.
 
-**Last Updated**: 2026-04-12
+**Last Updated**: 2026-04-19
 
 ---
 ## Table of Contents
@@ -2744,6 +2744,11 @@ A curated list of research papers on AI/ML applications in pharmacometrics and c
 	- Published: 2026Apr09
 	- Summary: Uses PhoreGen, a pharmacophore-oriented generative AI platform, to design broad-spectrum HIV reverse transcriptase inhibitors with improved efficacy and reduced toxicity.
 
+- **[Automated Molecular Design in BRADSHAW, Applied to the Optimization of ERAP1 Inhibitors.](https://pubmed.ncbi.nlm.nih.gov/41973545/)**
+	- Methodology: Supervised learning, Deep learning
+	- Published: 2026Apr13
+	- Summary: The paper applies generative AI and machine learning in the BRADSHAW platform to optimize ERAP1 inhibitors through automated molecular design and property prediction.
+
 ## Drug toxicity prediction
 
 - **[Attention Mechanism-Based Graph Neural Network Model for Effective Activity Prediction of SARS-CoV-2 Main Protease Inhibitors: Application to Drug Repurposing as Potential COVID-19 Therapy.](https://pubmed.ncbi.nlm.nih.gov/37960886/)**
@@ -4685,6 +4690,11 @@ A curated list of research papers on AI/ML applications in pharmacometrics and c
 	- Published: 2026
 	- Summary: The paper uses machine learning approaches integrated with network toxicology to predict and understand the toxicological mechanisms of Bisphenol A exposure in dermatomyositis.
 
+- **[Multi-modal feature learning to prioritize ADCs with favorable half-life in mice.](https://pubmed.ncbi.nlm.nih.gov/41996252/)**
+	- Methodology: Supervised learning, Deep learning, Tree-based models, Feature selection, Ensemble learning
+	- Published: 2026Dec
+	- Summary: Multi-modal machine learning framework using XGBoost and protein language models to predict half-lives of antibody-drug conjugates in mice for early PK screening.
+
 ## Endpoint / biomarker assessment
 
 - **[Analyzing patient perspectives with large language models: a cross-sectional study of sentiment and thematic classification on exception from informed consent.](https://pubmed.ncbi.nlm.nih.gov/39979559/)**
@@ -6493,6 +6503,11 @@ A curated list of research papers on AI/ML applications in pharmacometrics and c
 	- Methodology: Deep learning, Neural networks, Explainable AI, Supervised learning
 	- Published: 2026Mar23
 	- Summary: Uses CNNs with explainable AI to classify GI diseases from imaging data and models drug delivery through pharmacokinetic frameworks for precision targeted therapy.
+
+- **[An integrated multi-factor decision model for personalized NIPT timing using BMI stratification.](https://pubmed.ncbi.nlm.nih.gov/41991957/)**
+	- Methodology: Unsupervised learning
+	- Published: 2026Apr16
+	- Summary: The paper uses K-means clustering to develop a personalized NIPT timing model based on BMI stratification and gestational age for optimizing prenatal testing.
 
 ## Pharmacodynamic modeling
 
@@ -9322,6 +9337,16 @@ A curated list of research papers on AI/ML applications in pharmacometrics and c
 	- Published: 2026Apr03
 	- Summary: Machine learning models are trained on population pharmacokinetic-simulated datasets to predict early ketamine exposure in pediatric status epilepticus patients.
 
+- **[Multi-modal feature learning to prioritize ADCs with favorable half-life in mice.](https://pubmed.ncbi.nlm.nih.gov/41996252/)**
+	- Methodology: Supervised learning, Deep learning, Tree-based models, Feature selection, Ensemble learning
+	- Published: 2026Dec
+	- Summary: Multi-modal machine learning framework using XGBoost and protein language models to predict half-lives of antibody-drug conjugates in mice for early PK screening.
+
+- **[Automated Molecular Design in BRADSHAW, Applied to the Optimization of ERAP1 Inhibitors.](https://pubmed.ncbi.nlm.nih.gov/41973545/)**
+	- Methodology: Supervised learning, Deep learning
+	- Published: 2026Apr13
+	- Summary: The paper applies generative AI and machine learning in the BRADSHAW platform to optimize ERAP1 inhibitors through automated molecular design and property prediction.
+
 ## Postmarketing surveillance
 
 - **[PharmBERT: a domain-specific BERT model for drug labels.](https://pubmed.ncbi.nlm.nih.gov/37317617/)**
@@ -10183,6 +10208,11 @@ A curated list of research papers on AI/ML applications in pharmacometrics and c
 	- Methodology: Supervised learning, Tree-based models, Hybrid mechanistic–ML models, Ensemble learning
 	- Published: 2026Apr
 	- Summary: Machine learning algorithms (Lasso Regression and LightGBM) are integrated with pharmacokinetic models to predict individualized vancomycin concentration-time curves in ICU patients.
+
+- **[An integrated multi-factor decision model for personalized NIPT timing using BMI stratification.](https://pubmed.ncbi.nlm.nih.gov/41991957/)**
+	- Methodology: Unsupervised learning
+	- Published: 2026Apr16
+	- Summary: The paper uses K-means clustering to develop a personalized NIPT timing model based on BMI stratification and gestational age for optimizing prenatal testing.
 
 ## RWD phenotyping
 
@@ -11991,6 +12021,11 @@ A curated list of research papers on AI/ML applications in pharmacometrics and c
 	- Methodology: LLM
 	- Published: 2025May01
 	- Summary: This perspective critically evaluates the feasibility and challenges of implementing open-source LLMs for extracting pharmacokinetic information from FDA drug labels in regulatory research.
+
+- **[Simulation-guided design of peptide-metal coordination interfaces for next-generation metallo-immunotherapy.](https://pubmed.ncbi.nlm.nih.gov/41973186/)**
+	- Methodology: Supervised learning, Deep learning, Surrogate modeling
+	- Published: 2026Apr13
+	- Summary: Review of simulation-guided computational approaches including ML workflows for designing peptide-metal coordination interfaces in cancer immunotherapy.
 
 - **[Spatial proteomics in precision medicine: technologies, bioinformatics, and translational applications.](https://pubmed.ncbi.nlm.nih.gov/41647441/)**
 	- Methodology: Deep learning, Neural networks, Unsupervised learning
