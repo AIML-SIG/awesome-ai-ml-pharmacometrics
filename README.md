@@ -4,7 +4,7 @@
 
 A curated list of research papers on AI/ML applications in pharmacometrics and clinical pharmacology, regularly updated.
 
-**Last Updated**: 2026-04-19
+**Last Updated**: 2026-04-26
 
 ---
 ## Table of Contents
@@ -2749,6 +2749,11 @@ A curated list of research papers on AI/ML applications in pharmacometrics and c
 	- Published: 2026Apr13
 	- Summary: The paper applies generative AI and machine learning in the BRADSHAW platform to optimize ERAP1 inhibitors through automated molecular design and property prediction.
 
+- **[A structure-based virtual screening approach to identify novel anaplastic lymphoma kinase inhibitors.](https://pubmed.ncbi.nlm.nih.gov/42024204/)**
+	- Methodology: Unsupervised learning
+	- Published: 2026Apr23
+	- Summary: Uses virtual screening and principal component analysis to identify novel ALK inhibitors from the ZINC database for cancer treatment.
+
 ## Drug toxicity prediction
 
 - **[Attention Mechanism-Based Graph Neural Network Model for Effective Activity Prediction of SARS-CoV-2 Main Protease Inhibitors: Application to Drug Repurposing as Potential COVID-19 Therapy.](https://pubmed.ncbi.nlm.nih.gov/37960886/)**
@@ -4694,6 +4699,21 @@ A curated list of research papers on AI/ML applications in pharmacometrics and c
 	- Methodology: Supervised learning, Deep learning, Tree-based models, Feature selection, Ensemble learning
 	- Published: 2026Dec
 	- Summary: Multi-modal machine learning framework using XGBoost and protein language models to predict half-lives of antibody-drug conjugates in mice for early PK screening.
+
+- **[Genetic algorithm-guided design of garlic-derived ligands targeting the TEN domain of telomerase reverse transcriptase with machine learning-based activity classification.](https://pubmed.ncbi.nlm.nih.gov/42013033/)**
+	- Methodology: Supervised learning, Tree-based models
+	- Published: 2026Apr21
+	- Summary: This paper uses genetic algorithms and RandomForest machine learning to design and classify garlic-derived compounds as potential telomerase inhibitors for cancer therapy.
+
+- **[Harnessing machine learning and multi-scale modeling to discover novel ALOX15 inhibitors from marine natural products.](https://pubmed.ncbi.nlm.nih.gov/42012717/)**
+	- Methodology: Supervised learning
+	- Published: 2026Apr21
+	- Summary: Machine learning is integrated with molecular docking and 3D-QSAR pharmacophore modeling to screen marine natural products and discover novel ALOX15 inhibitors with favorable pharmacokinetic properties.
+
+- **[Fragment-Aware Contrastive Learning Framework for Molecular Property Prediction.](https://pubmed.ncbi.nlm.nih.gov/42018366/)**
+	- Methodology: Deep learning, Unsupervised learning
+	- Published: 2026Apr22
+	- Summary: The paper develops a fragment-aware contrastive learning framework using deep learning for molecular property prediction, focusing on pharmacokinetic and toxicity properties.
 
 ## Endpoint / biomarker assessment
 
@@ -9347,6 +9367,11 @@ A curated list of research papers on AI/ML applications in pharmacometrics and c
 	- Published: 2026Apr13
 	- Summary: The paper applies generative AI and machine learning in the BRADSHAW platform to optimize ERAP1 inhibitors through automated molecular design and property prediction.
 
+- **[Fragment-Aware Contrastive Learning Framework for Molecular Property Prediction.](https://pubmed.ncbi.nlm.nih.gov/42018366/)**
+	- Methodology: Deep learning, Unsupervised learning
+	- Published: 2026Apr22
+	- Summary: The paper develops a fragment-aware contrastive learning framework using deep learning for molecular property prediction, focusing on pharmacokinetic and toxicity properties.
+
 ## Postmarketing surveillance
 
 - **[PharmBERT: a domain-specific BERT model for drug labels.](https://pubmed.ncbi.nlm.nih.gov/37317617/)**
@@ -10497,6 +10522,11 @@ A curated list of research papers on AI/ML applications in pharmacometrics and c
 - **[Advancing drug development with "Fit-for-Purpose" modeling informed approaches.](https://pubmed.ncbi.nlm.nih.gov/40952534/)**
 	- Published: 2025Sep15
 	- Summary: This review surveys MIDD approaches across drug development stages and explores the evolving role of AI/ML in enhancing traditional pharmacometric modeling methodologies.
+
+- **[Advancing nanomedicine with machine learning: predicting protein corona and nano-bio interactions.](https://pubmed.ncbi.nlm.nih.gov/42012015/)**
+	- Methodology: Supervised learning
+	- Published: 2026Apr21
+	- Summary: This systematic review surveys machine learning applications for predicting protein corona formation and nano-bio interactions in nanomedicine drug delivery systems.
 
 - **[Agents for Change: Artificial Intelligent Workflows for Quantitative Clinical Pharmacology and Translational Sciences.](https://pubmed.ncbi.nlm.nih.gov/40055986/)**
 	- Methodology: AI Agents
