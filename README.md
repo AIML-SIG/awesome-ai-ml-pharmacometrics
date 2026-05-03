@@ -4,7 +4,7 @@
 
 A curated list of research papers on AI/ML applications in pharmacometrics and clinical pharmacology, regularly updated.
 
-**Last Updated**: 2026-04-26
+**Last Updated**: 2026-05-03
 
 ---
 ## Table of Contents
@@ -2754,6 +2754,21 @@ A curated list of research papers on AI/ML applications in pharmacometrics and c
 	- Published: 2026Apr23
 	- Summary: Uses virtual screening and principal component analysis to identify novel ALK inhibitors from the ZINC database for cancer treatment.
 
+- **[Discovery of novel MDM2 inhibitors from a Penicillium metabolome library: An integrated phylogenetic, machine learning, and molecular simulation approach.](https://pubmed.ncbi.nlm.nih.gov/42068607/)**
+	- Methodology: Supervised learning, Ensemble learning
+	- Published: 2026Apr30
+	- Summary: Uses gradient boosting ML-QSAR modeling and ensemble docking to discover novel MDM2 inhibitors from Penicillium metabolites for cancer therapy.
+
+- **[LigGen-a GEN-AI based ligand generation approach for de-novo drug design.](https://pubmed.ncbi.nlm.nih.gov/42069853/)**
+	- Methodology: Deep learning, Neural networks
+	- Published: 2026May02
+	- Summary: LigGen uses recurrent neural networks and Monte Carlo methods for de novo drug design to generate novel ligands for target proteins.
+
+- **[Repurposing Clinical Candidates for Nipah and Hendra Viruses.](https://pubmed.ncbi.nlm.nih.gov/42052926/)**
+	- Methodology: Supervised learning
+	- Published: 2026Apr29
+	- Summary: The paper uses machine-learning-guided prioritization to identify and evaluate repurposed clinical candidates for antiviral activity against Nipah and Hendra viruses.
+
 ## Drug toxicity prediction
 
 - **[Attention Mechanism-Based Graph Neural Network Model for Effective Activity Prediction of SARS-CoV-2 Main Protease Inhibitors: Application to Drug Repurposing as Potential COVID-19 Therapy.](https://pubmed.ncbi.nlm.nih.gov/37960886/)**
@@ -4714,6 +4729,11 @@ A curated list of research papers on AI/ML applications in pharmacometrics and c
 	- Methodology: Deep learning, Unsupervised learning
 	- Published: 2026Apr22
 	- Summary: The paper develops a fragment-aware contrastive learning framework using deep learning for molecular property prediction, focusing on pharmacokinetic and toxicity properties.
+
+- **[Resolving the ambiguous binding site of quercetin at the calcineurin subunit junction using funnel metadynamics with deep learning collective variables.](https://pubmed.ncbi.nlm.nih.gov/42053720/)**
+	- Methodology: Deep learning
+	- Published: 2026Apr29
+	- Summary: Deep learning collective variables are used with funnel metadynamics to identify quercetin's binding site on calcineurin for immunosuppressive drug development.
 
 ## Endpoint / biomarker assessment
 
@@ -6930,6 +6950,11 @@ A curated list of research papers on AI/ML applications in pharmacometrics and c
 	- Methodology: Deep learning, Neural networks, Hybrid mechanistic–ML models
 	- Published: 2026Mar21
 	- Summary: Uses LSTM neural networks within hybrid mechanistic-ML digital twins to optimize aminoglycoside dosing in neonates by predicting kidney function and modeling bacterial resistance evolution.
+
+- **[One model to rule them all: Unification of voltage-gated potassium channel models via deep non-linear mixed effects modelling.](https://pubmed.ncbi.nlm.nih.gov/42044162/)**
+	- Methodology: Deep learning, Hybrid mechanistic–ML models, Mechanism-informed machine learning
+	- Published: 2026Apr27
+	- Summary: Uses scientific machine learning and deep non-linear mixed effects modeling to create a unified model for voltage-gated potassium channel kinetics across multiple channel types.
 
 ## Pharmacokinetic modeling
 
@@ -9372,6 +9397,11 @@ A curated list of research papers on AI/ML applications in pharmacometrics and c
 	- Published: 2026Apr22
 	- Summary: The paper develops a fragment-aware contrastive learning framework using deep learning for molecular property prediction, focusing on pharmacokinetic and toxicity properties.
 
+- **[Machine Learning Meets Pharmacokinetics: A Comparative Analysis of Predictive Models for Plasma Concentration-Time Profiles.](https://pubmed.ncbi.nlm.nih.gov/42023479/)**
+	- Methodology: Neural networks, Tree-based models, Hybrid mechanistic–ML models, Deep learning
+	- Published: 2026May
+	- Summary: Compares five AI/ML approaches for predicting plasma concentration-time profiles from molecular structures, with physics-informed neural networks achieving best performance.
+
 ## Postmarketing surveillance
 
 - **[PharmBERT: a domain-specific BERT model for drug labels.](https://pubmed.ncbi.nlm.nih.gov/37317617/)**
@@ -10500,6 +10530,11 @@ A curated list of research papers on AI/ML applications in pharmacometrics and c
 	- Published: 2026Jan05
 	- Summary: This review comprehensively surveys AI/ML methods for drug-drug interaction prediction, covering classical ML, deep learning, graph-based models, and biomimetic approaches.
 
+- **[Advancing IBD Management: A Literature Review on the Role of Non-Invasive Blood-Based Biomarkers in Predicting and Assessing Pharmacodynamic Response to Treatment.](https://pubmed.ncbi.nlm.nih.gov/42045784/)**
+	- Methodology: Supervised learning
+	- Published: 2026May
+	- Summary: This review surveys blood-based biomarkers for IBD treatment response prediction, highlighting advances using machine learning methods and multi-omics technologies.
+
 - **[Advancing PROTAC Discovery Through Artificial Intelligence: Opportunities, Challenges, and Future Directions.](https://pubmed.ncbi.nlm.nih.gov/41471282/)**
 	- Methodology: Deep learning, Supervised learning, Neural networks
 	- Published: 2025Nov25
@@ -10728,6 +10763,11 @@ A curated list of research papers on AI/ML applications in pharmacometrics and c
 	- Methodology: Deep learning, Neural networks
 	- Published: 2025Jan15
 	- Summary: This review surveys AI applications in computer-aided drug design, covering traditional to modern computational approaches for discovering biologically active small molecules.
+
+- **[Artificial Intelligence in Drug Discovery and Development: Transforming Pharmaceutical Innovation.](https://pubmed.ncbi.nlm.nih.gov/42003205/)**
+	- Methodology: Deep learning, Neural networks
+	- Published: 2026May
+	- Summary: This review examines AI's transformative role in drug discovery, covering machine learning applications in target identification, toxicity prediction, and personalized medicine.
 
 - **[Artificial Intelligence in Drug Metabolism and Excretion Prediction: Recent Advances, Challenges, and Future Perspectives.](https://pubmed.ncbi.nlm.nih.gov/37111744/)**
 	- Methodology: Deep learning, Supervised learning
@@ -11664,6 +11704,11 @@ A curated list of research papers on AI/ML applications in pharmacometrics and c
 	- Published: 2022
 	- Summary: This review surveys AI/ML applications in nanomedicine development, covering modeling approaches and artificial intelligence methods for drug delivery optimization.
 
+- **[Network pharmacology and AI: illuminating the path to precision herbal medicine in Ganoderma spp.](https://pubmed.ncbi.nlm.nih.gov/42062030/)**
+	- Methodology: Supervised learning, Neural networks
+	- Published: 2026May
+	- Summary: This review surveys AI/ML applications in network pharmacology for identifying bioactive constituents and therapeutic pathways in Ganoderma species to advance precision herbal medicine.
+
 - **[Neural networks as robust tools in drug lead discovery and development.](https://pubmed.ncbi.nlm.nih.gov/15208456/)**
 	- Methodology: Neural networks
 	- Published: 2004Jun
@@ -11790,6 +11835,11 @@ A curated list of research papers on AI/ML applications in pharmacometrics and c
 - **[Physics-Informed Machine Learning in Biomedical Science and Engineering.](https://pubmed.ncbi.nlm.nih.gov/41281212/)**
 	- Methodology: Deep learning, Neural networks, Hybrid mechanistic–ML models, Mechanism-informed machine learning
 	- Published: 2025Oct06
+	- Summary: This review surveys physics-informed machine learning frameworks (PINNs, NODEs, neural operators) that integrate physical laws with data-driven methods for biomedical applications.
+
+- **[Physics-Informed Machine Learning in Biomedical Science and Engineering.](https://pubmed.ncbi.nlm.nih.gov/42067517/)**
+	- Methodology: Deep learning, Neural networks, Hybrid mechanistic–ML models, Mechanism-informed machine learning
+	- Published: 2026May
 	- Summary: This review surveys physics-informed machine learning frameworks (PINNs, NODEs, neural operators) that integrate physical laws with data-driven methods for biomedical applications.
 
 - **[Pirana and Integrated PMX Tools, a Workbench for NONMEM, NLME, pyDarwin, and RsNLME.](https://pubmed.ncbi.nlm.nih.gov/40613737/)**
@@ -12017,6 +12067,11 @@ A curated list of research papers on AI/ML applications in pharmacometrics and c
 	- Published: 2026Feb
 	- Summary: This review examines the rising role of AI in clinical pharmacometrics and model-informed precision dosing specifically in pediatric populations.
 
+- **[Risk Prediction for Linezolid-Induced Thrombocytopenia and Exposure-Guided Safety Optimization.](https://pubmed.ncbi.nlm.nih.gov/42069215/)**
+	- Methodology: Supervised learning
+	- Published: 2026Apr30
+	- Summary: This review surveys machine learning approaches for predicting linezolid-induced thrombocytopenia and optimizing dosing through model-informed precision medicine strategies.
+
 - **[Roadmap for Routine Pharmacogenetic Testing in a Psychiatric University Hospital.](https://pubmed.ncbi.nlm.nih.gov/31185510/)**
 	- Methodology: Supervised learning
 	- Published: 2020Jul
@@ -12056,6 +12111,10 @@ A curated list of research papers on AI/ML applications in pharmacometrics and c
 	- Methodology: Supervised learning, Deep learning, Surrogate modeling
 	- Published: 2026Apr13
 	- Summary: Review of simulation-guided computational approaches including ML workflows for designing peptide-metal coordination interfaces in cancer immunotherapy.
+
+- **[Smart nanomaterials enabling drug delivery and glucose monitoring for diabetes management.](https://pubmed.ncbi.nlm.nih.gov/42047990/)**
+	- Published: 2026Apr28
+	- Summary: This review surveys smart nanomaterials for diabetes management and mentions AI convergence with nanotechnology for personalized diabetes care and predictive monitoring.
 
 - **[Spatial proteomics in precision medicine: technologies, bioinformatics, and translational applications.](https://pubmed.ncbi.nlm.nih.gov/41647441/)**
 	- Methodology: Deep learning, Neural networks, Unsupervised learning
