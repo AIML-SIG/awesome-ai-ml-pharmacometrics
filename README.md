@@ -4,7 +4,7 @@
 
 A curated list of research papers on AI/ML applications in pharmacometrics and clinical pharmacology, regularly updated.
 
-**Last Updated**: 2026-05-03
+**Last Updated**: 2026-05-10
 
 ---
 ## Table of Contents
@@ -267,6 +267,11 @@ A curated list of research papers on AI/ML applications in pharmacometrics and c
 	- Methodology: Supervised learning, Neural networks
 	- Published: 2022Aug
 	- Summary: This simulation study evaluates ML methods for exposure-response analysis using propensity score estimation and neural networks to improve confounding adjustment and E-R relationship estimation.
+
+- **[Divergent neuropsychiatric and systemic toxicity profiles of abemaciclib and palbociclib: a triangulation study integrating pharmacovigilance, genetic epidemiology, and multi-omics profiling.](https://pubmed.ncbi.nlm.nih.gov/42091703/)**
+	- Methodology: Explainable AI
+	- Published: 2026May07
+	- Summary: The study uses explainable machine learning to compare neuropsychiatric and systemic toxicity profiles between two CDK4/6 inhibitors through pharmacovigilance data analysis.
 
 ## Covariate selection / confounding adjustment
 
@@ -1875,6 +1880,21 @@ A curated list of research papers on AI/ML applications in pharmacometrics and c
 	- Methodology: Supervised learning, Hybrid mechanistic–ML models
 	- Published: 2026Apr03
 	- Summary: Machine learning models are trained on population pharmacokinetic-simulated datasets to predict early ketamine exposure in pediatric status epilepticus patients.
+
+- **[DeepDRP: Dose-response predictions of drug pairs using deep learning based on data-driven feature representation and dose-response curve characteristics.](https://pubmed.ncbi.nlm.nih.gov/42102151/)**
+	- Methodology: Deep learning, Neural networks, Supervised learning
+	- Published: 2026
+	- Summary: DeepDRP uses deep learning with embedding networks and graph convolutional networks to predict dose-response relationships for drug combinations to optimize dosing regimens.
+
+- **[Machine Learning Prediction of Unbound Ceftriaxone Concentrations in Children: Capturing Developmental Changes in Protein Binding for Precision Dosing.](https://pubmed.ncbi.nlm.nih.gov/42095663/)**
+	- Methodology: Supervised learning, Tree-based models, Model selection, Ensemble learning
+	- Published: 2026May07
+	- Summary: Machine learning models, particularly ExtraTrees Regressor, were developed to predict unbound ceftriaxone concentrations in pediatric patients using routine clinical variables for precision dosing.
+
+- **[Raltegravir Plasma Exposure: A Machine Learning-Based Model for its Prediction Using Limited Sampling Strategy.](https://pubmed.ncbi.nlm.nih.gov/42091773/)**
+	- Methodology: Supervised learning, Tree-based models, Ensemble learning
+	- Published: 2026May06
+	- Summary: Machine learning algorithms (XGBoost, Random Forest, GLMNet, SVM) are used to develop a limited sampling strategy for predicting raltegravir plasma exposure (AUC).
 
 ## Drug repurposing
 
@@ -4734,6 +4754,26 @@ A curated list of research papers on AI/ML applications in pharmacometrics and c
 	- Methodology: Deep learning
 	- Published: 2026Apr29
 	- Summary: Deep learning collective variables are used with funnel metadynamics to identify quercetin's binding site on calcineurin for immunosuppressive drug development.
+
+- **[HighFold-MeD2: An Enhanced Boltz-2 Model for Accurate Structure Prediction of N-Methylated and d-Amino Acid Cyclic Peptides.](https://pubmed.ncbi.nlm.nih.gov/42076870/)**
+	- Methodology: Deep learning
+	- Published: 2026May03
+	- Summary: HighFold-MeD2 uses deep learning with Pairformer-Diffusion architecture to predict 3D structures of modified cyclic peptides for drug development applications.
+
+- **[An Integrated AIVIVE-PBPK-QIVIVE Framework with HTTK Validation for Probabilistic Risk Assessment of Neodymium Nitrate.](https://pubmed.ncbi.nlm.nih.gov/42083101/)**
+	- Methodology: Deep learning, Neural networks
+	- Published: 2026May04
+	- Summary: Uses conditional GANs for AI-enhanced in vitro to in vivo extrapolation to predict neodymium nitrate toxicity pathways and risk assessment through integrated PBPK modeling.
+
+- **[DeepDRP: Dose-response predictions of drug pairs using deep learning based on data-driven feature representation and dose-response curve characteristics.](https://pubmed.ncbi.nlm.nih.gov/42102151/)**
+	- Methodology: Deep learning, Neural networks, Supervised learning
+	- Published: 2026
+	- Summary: DeepDRP uses deep learning with embedding networks and graph convolutional networks to predict dose-response relationships for drug combinations to optimize dosing regimens.
+
+- **[Divergent neuropsychiatric and systemic toxicity profiles of abemaciclib and palbociclib: a triangulation study integrating pharmacovigilance, genetic epidemiology, and multi-omics profiling.](https://pubmed.ncbi.nlm.nih.gov/42091703/)**
+	- Methodology: Explainable AI
+	- Published: 2026May07
+	- Summary: The study uses explainable machine learning to compare neuropsychiatric and systemic toxicity profiles between two CDK4/6 inhibitors through pharmacovigilance data analysis.
 
 ## Endpoint / biomarker assessment
 
@@ -9402,6 +9442,26 @@ A curated list of research papers on AI/ML applications in pharmacometrics and c
 	- Published: 2026May
 	- Summary: Compares five AI/ML approaches for predicting plasma concentration-time profiles from molecular structures, with physics-informed neural networks achieving best performance.
 
+- **[An Integrated AIVIVE-PBPK-QIVIVE Framework with HTTK Validation for Probabilistic Risk Assessment of Neodymium Nitrate.](https://pubmed.ncbi.nlm.nih.gov/42083101/)**
+	- Methodology: Deep learning, Neural networks
+	- Published: 2026May04
+	- Summary: Uses conditional GANs for AI-enhanced in vitro to in vivo extrapolation to predict neodymium nitrate toxicity pathways and risk assessment through integrated PBPK modeling.
+
+- **[Machine Learning Prediction of Unbound Ceftriaxone Concentrations in Children: Capturing Developmental Changes in Protein Binding for Precision Dosing.](https://pubmed.ncbi.nlm.nih.gov/42095663/)**
+	- Methodology: Supervised learning, Tree-based models, Model selection, Ensemble learning
+	- Published: 2026May07
+	- Summary: Machine learning models, particularly ExtraTrees Regressor, were developed to predict unbound ceftriaxone concentrations in pediatric patients using routine clinical variables for precision dosing.
+
+- **[Machine learning-based unified models for predicting drug clearance from pharmacokinetic animal and study design variables.](https://pubmed.ncbi.nlm.nih.gov/42090429/)**
+	- Methodology: Supervised learning, Neural networks, Tree-based models, Ensemble learning
+	- Published: 2026
+	- Summary: Machine learning models including linear regression, multi-layer perceptron, and random forest are used to predict drug clearance from pharmacokinetic variables in animals.
+
+- **[Raltegravir Plasma Exposure: A Machine Learning-Based Model for its Prediction Using Limited Sampling Strategy.](https://pubmed.ncbi.nlm.nih.gov/42091773/)**
+	- Methodology: Supervised learning, Tree-based models, Ensemble learning
+	- Published: 2026May06
+	- Summary: Machine learning algorithms (XGBoost, Random Forest, GLMNet, SVM) are used to develop a limited sampling strategy for predicting raltegravir plasma exposure (AUC).
+
 ## Postmarketing surveillance
 
 - **[PharmBERT: a domain-specific BERT model for drug labels.](https://pubmed.ncbi.nlm.nih.gov/37317617/)**
@@ -9443,6 +9503,11 @@ A curated list of research papers on AI/ML applications in pharmacometrics and c
 	- Methodology: Unsupervised learning
 	- Published: 2018Dec
 	- Summary: Natural language processing is used to automatically assess consistency between original and generic antimicrobial drug labels for regulatory surveillance purposes.
+
+- **[Divergent neuropsychiatric and systemic toxicity profiles of abemaciclib and palbociclib: a triangulation study integrating pharmacovigilance, genetic epidemiology, and multi-omics profiling.](https://pubmed.ncbi.nlm.nih.gov/42091703/)**
+	- Methodology: Explainable AI
+	- Published: 2026May07
+	- Summary: The study uses explainable machine learning to compare neuropsychiatric and systemic toxicity profiles between two CDK4/6 inhibitors through pharmacovigilance data analysis.
 
 ## Precision medicine / optimized treatment regimen
 
@@ -10269,6 +10334,16 @@ A curated list of research papers on AI/ML applications in pharmacometrics and c
 	- Published: 2026Apr16
 	- Summary: The paper uses K-means clustering to develop a personalized NIPT timing model based on BMI stratification and gestational age for optimizing prenatal testing.
 
+- **[DeepDRP: Dose-response predictions of drug pairs using deep learning based on data-driven feature representation and dose-response curve characteristics.](https://pubmed.ncbi.nlm.nih.gov/42102151/)**
+	- Methodology: Deep learning, Neural networks, Supervised learning
+	- Published: 2026
+	- Summary: DeepDRP uses deep learning with embedding networks and graph convolutional networks to predict dose-response relationships for drug combinations to optimize dosing regimens.
+
+- **[Machine Learning Prediction of Unbound Ceftriaxone Concentrations in Children: Capturing Developmental Changes in Protein Binding for Precision Dosing.](https://pubmed.ncbi.nlm.nih.gov/42095663/)**
+	- Methodology: Supervised learning, Tree-based models, Model selection, Ensemble learning
+	- Published: 2026May07
+	- Summary: Machine learning models, particularly ExtraTrees Regressor, were developed to predict unbound ceftriaxone concentrations in pediatric patients using routine clinical variables for precision dosing.
+
 ## RWD phenotyping
 
 - **[Boosting drug named entity recognition using an aggregate classifier.](https://pubmed.ncbi.nlm.nih.gov/26116947/)**
@@ -10418,6 +10493,11 @@ A curated list of research papers on AI/ML applications in pharmacometrics and c
 	- Methodology: Supervised learning
 	- Published: 2019May
 	- Summary: This review surveys machine learning approaches for ADMET modeling in drug discovery, covering the evolution from traditional chemometrics to advanced ML methods.
+
+- **[AI and network biology for rational polypharmacology in signaling drug design: a review.](https://pubmed.ncbi.nlm.nih.gov/42086809/)**
+	- Methodology: Deep learning, Neural networks, Reinforcement learning
+	- Published: 2026May05
+	- Summary: This review surveys AI/ML methods including machine learning, graph neural networks, generative models, and reinforcement learning for network-based polypharmacology drug design.
 
 - **[AI for NONMEM Coding in Pharmacometrics Research and Education: Shortcut or Pitfall?](https://pubmed.ncbi.nlm.nih.gov/41187068/)**
 	- Methodology: LLM
@@ -11088,6 +11168,15 @@ A curated list of research papers on AI/ML applications in pharmacometrics and c
 	- Published: 2011Dec
 	- Summary: The paper proposes using machine-learning algorithms to analyze 3D DNA methylation patterns for detecting epigenetic drug-induced toxicity and chromatin reorganization.
 
+- **[De-risking Biopharma Asset Acquisition: Towards a Quantitative Framework for Strategic Decision-making.](https://pubmed.ncbi.nlm.nih.gov/42091774/)**
+	- Published: 2026May06
+	- Summary: Review examining AI/ML role in biopharma asset evaluation for discovering prognostic factors and identifying patient subgroups during acquisition decisions.
+
+- **[Deciphering spatial-temporal mechanisms of PD-1 blockade resistance via biologically informed machine learning.](https://pubmed.ncbi.nlm.nih.gov/42096960/)**
+	- Methodology: Hybrid mechanistic–ML models, Mechanism-informed machine learning
+	- Published: 2026May06
+	- Summary: Reviews biologically informed machine learning approaches that embed biophysical principles and biological priors to understand PD-1 blockade resistance mechanisms in cancer immunotherapy.
+
 - **[Deep learning and machine intelligence: New computational modeling techniques for discovery of the combination rules and pharmacodynamic characteristics of Traditional Chinese Medicine.](https://pubmed.ncbi.nlm.nih.gov/36116517/)**
 	- Methodology: Deep learning, Supervised learning, Unsupervised learning
 	- Published: 2022Oct15
@@ -11376,6 +11465,11 @@ A curated list of research papers on AI/ML applications in pharmacometrics and c
 	- Methodology: Supervised learning, Unsupervised learning, Deep learning, Neural networks, Bayesian ML
 	- Published: 2026Mar24
 	- Summary: This review paper surveys innovative AI/ML applications across various pharmacometric domains including PK/PD modeling, dose optimization, and precision medicine.
+
+- **[Integrating AI into next-generation PROTAC Engineering: a comprehensive toolkit for rational PROTAC design.](https://pubmed.ncbi.nlm.nih.gov/42071118/)**
+	- Methodology: Deep learning, Reinforcement learning, Neural networks
+	- Published: 2026May03
+	- Summary: This review surveys AI-driven tools for PROTAC drug design including target selection, linker generation, activity prediction, and ADME property estimation.
 
 - **[Integrating Model-Informed Drug Development With AI: A Synergistic Approach to Accelerating Pharmaceutical Innovation.](https://pubmed.ncbi.nlm.nih.gov/39797502/)**
 	- Methodology: Deep learning, LLM
