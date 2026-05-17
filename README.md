@@ -4,7 +4,7 @@
 
 A curated list of research papers on AI/ML applications in pharmacometrics and clinical pharmacology, regularly updated.
 
-**Last Updated**: 2026-05-10
+**Last Updated**: 2026-05-17
 
 ---
 ## Table of Contents
@@ -1896,6 +1896,11 @@ A curated list of research papers on AI/ML applications in pharmacometrics and c
 	- Published: 2026May06
 	- Summary: Machine learning algorithms (XGBoost, Random Forest, GLMNet, SVM) are used to develop a limited sampling strategy for predicting raltegravir plasma exposure (AUC).
 
+- **[Model-guided design of lymphatic drug delivery systems using osmotic pressure, viscosity and lymph node size.](https://pubmed.ncbi.nlm.nih.gov/42128061/)**
+	- Methodology: Deep learning, Supervised learning, Hybrid mechanistic–ML models, Surrogate modeling, Neural networks
+	- Published: 2026May12
+	- Summary: Uses multilayer perceptron neural networks as surrogate models integrated with mechanistic modeling to predict intranodal drug kinetics and optimize lymphatic drug delivery systems.
+
 ## Drug repurposing
 
 - **[Attention Mechanism-Based Graph Neural Network Model for Effective Activity Prediction of SARS-CoV-2 Main Protease Inhibitors: Application to Drug Repurposing as Potential COVID-19 Therapy.](https://pubmed.ncbi.nlm.nih.gov/37960886/)**
@@ -2788,6 +2793,16 @@ A curated list of research papers on AI/ML applications in pharmacometrics and c
 	- Methodology: Supervised learning
 	- Published: 2026Apr29
 	- Summary: The paper uses machine-learning-guided prioritization to identify and evaluate repurposed clinical candidates for antiviral activity against Nipah and Hendra viruses.
+
+- **[Integrating molecular representations for machine learning-based virtual screening of Glutaminyl Cyclase inhibitors.](https://pubmed.ncbi.nlm.nih.gov/42127661/)**
+	- Methodology: Deep learning, Supervised learning
+	- Published: 2026May12
+	- Summary: Deep learning model combining ChemBERTa embeddings with molecular fingerprints to predict IC50 values and screen natural products for Glutaminyl Cyclase inhibitors.
+
+- **[Insights into SIRT2 inhibition from machine learning-assisted multi-level screening of the NCI database.](https://pubmed.ncbi.nlm.nih.gov/42115733/)**
+	- Methodology: Deep learning
+	- Published: 2026May11
+	- Summary: The paper uses an AttentiveFP deep learning model to screen the NCI database for potential SIRT2 inhibitors, identifying promising compounds for anticancer therapy.
 
 ## Drug toxicity prediction
 
@@ -4775,6 +4790,26 @@ A curated list of research papers on AI/ML applications in pharmacometrics and c
 	- Published: 2026May07
 	- Summary: The study uses explainable machine learning to compare neuropsychiatric and systemic toxicity profiles between two CDK4/6 inhibitors through pharmacovigilance data analysis.
 
+- **[Integrating molecular representations for machine learning-based virtual screening of Glutaminyl Cyclase inhibitors.](https://pubmed.ncbi.nlm.nih.gov/42127661/)**
+	- Methodology: Deep learning, Supervised learning
+	- Published: 2026May12
+	- Summary: Deep learning model combining ChemBERTa embeddings with molecular fingerprints to predict IC50 values and screen natural products for Glutaminyl Cyclase inhibitors.
+
+- **[A quantum graph-based differential model for drug-drug interaction prediction.](https://pubmed.ncbi.nlm.nih.gov/42126742/)**
+	- Methodology: Neural networks, Hybrid mechanistic–ML models
+	- Published: 2026May13
+	- Summary: The paper presents a quantum graph-based differential model combining quantum-inspired graph theory with fractional differential equations to predict drug-drug interactions.
+
+- **[Dynamic stability-driven machine learning improves binding pose identification on human serum albumin.](https://pubmed.ncbi.nlm.nih.gov/42120797/)**
+	- Methodology: Supervised learning, Feature selection
+	- Published: 2026May13
+	- Summary: Machine learning framework incorporating molecular dynamics features to improve identification of drug binding poses on human serum albumin for better drug-protein interaction prediction.
+
+- **[Functional Groups Are All You Need for Chemically Interpretable Molecular Property Prediction.](https://pubmed.ncbi.nlm.nih.gov/42108966/)**
+	- Methodology: Deep learning, Unsupervised learning, Explainable AI
+	- Published: 2026May11
+	- Summary: The paper develops a functional group representation framework using deep learning for interpretable molecular property prediction in drug discovery.
+
 ## Endpoint / biomarker assessment
 
 - **[Analyzing patient perspectives with large language models: a cross-sectional study of sentiment and thematic classification on exception from informed consent.](https://pubmed.ncbi.nlm.nih.gov/39979559/)**
@@ -6588,6 +6623,11 @@ A curated list of research papers on AI/ML applications in pharmacometrics and c
 	- Methodology: Unsupervised learning
 	- Published: 2026Apr16
 	- Summary: The paper uses K-means clustering to develop a personalized NIPT timing model based on BMI stratification and gestational age for optimizing prenatal testing.
+
+- **[Determinants and Machine Learning Prediction of Subtherapeutic Sodium Valproate Concentrations in Epilepsy Management in Xinjiang, China.](https://pubmed.ncbi.nlm.nih.gov/42107022/)**
+	- Methodology: Supervised learning
+	- Published: 2026May10
+	- Summary: Machine learning algorithms are used to predict subtherapeutic valproate concentrations and identify factors influencing drug levels for individualized epilepsy treatment.
 
 ## Pharmacodynamic modeling
 
@@ -9462,6 +9502,21 @@ A curated list of research papers on AI/ML applications in pharmacometrics and c
 	- Published: 2026May06
 	- Summary: Machine learning algorithms (XGBoost, Random Forest, GLMNet, SVM) are used to develop a limited sampling strategy for predicting raltegravir plasma exposure (AUC).
 
+- **[Model-guided design of lymphatic drug delivery systems using osmotic pressure, viscosity and lymph node size.](https://pubmed.ncbi.nlm.nih.gov/42128061/)**
+	- Methodology: Deep learning, Supervised learning, Hybrid mechanistic–ML models, Surrogate modeling, Neural networks
+	- Published: 2026May12
+	- Summary: Uses multilayer perceptron neural networks as surrogate models integrated with mechanistic modeling to predict intranodal drug kinetics and optimize lymphatic drug delivery systems.
+
+- **[Determinants and Machine Learning Prediction of Subtherapeutic Sodium Valproate Concentrations in Epilepsy Management in Xinjiang, China.](https://pubmed.ncbi.nlm.nih.gov/42107022/)**
+	- Methodology: Supervised learning
+	- Published: 2026May10
+	- Summary: Machine learning algorithms are used to predict subtherapeutic valproate concentrations and identify factors influencing drug levels for individualized epilepsy treatment.
+
+- **[Functional Groups Are All You Need for Chemically Interpretable Molecular Property Prediction.](https://pubmed.ncbi.nlm.nih.gov/42108966/)**
+	- Methodology: Deep learning, Unsupervised learning, Explainable AI
+	- Published: 2026May11
+	- Summary: The paper develops a functional group representation framework using deep learning for interpretable molecular property prediction in drug discovery.
+
 ## Postmarketing surveillance
 
 - **[PharmBERT: a domain-specific BERT model for drug labels.](https://pubmed.ncbi.nlm.nih.gov/37317617/)**
@@ -10343,6 +10398,11 @@ A curated list of research papers on AI/ML applications in pharmacometrics and c
 	- Methodology: Supervised learning, Tree-based models, Model selection, Ensemble learning
 	- Published: 2026May07
 	- Summary: Machine learning models, particularly ExtraTrees Regressor, were developed to predict unbound ceftriaxone concentrations in pediatric patients using routine clinical variables for precision dosing.
+
+- **[Determinants and Machine Learning Prediction of Subtherapeutic Sodium Valproate Concentrations in Epilepsy Management in Xinjiang, China.](https://pubmed.ncbi.nlm.nih.gov/42107022/)**
+	- Methodology: Supervised learning
+	- Published: 2026May10
+	- Summary: Machine learning algorithms are used to predict subtherapeutic valproate concentrations and identify factors influencing drug levels for individualized epilepsy treatment.
 
 ## RWD phenotyping
 
@@ -11411,6 +11471,10 @@ A curated list of research papers on AI/ML applications in pharmacometrics and c
 - **[Imaging Beyond Seeing: Early Prognosis of Cancer Treatment.](https://pubmed.ncbi.nlm.nih.gov/34927817/)**
 	- Published: 2021Mar
 	- Summary: This review surveys AI and machine learning applications in medical imaging for predicting cancer treatment response and advancing precision medicine through molecular imaging.
+
+- **[Immunological Drug-Drug Interactions in Immune Checkpoint Inhibitor Therapy: Mechanisms, Clinical Evidence, and Artificial Intelligence.](https://pubmed.ncbi.nlm.nih.gov/42133231/)**
+	- Published: 2026May14
+	- Summary: This review proposes a conceptual framework for immunological drug-drug interactions in immune checkpoint inhibitor therapy, mentioning AI in the title but not detailing specific AI/ML applications.
 
 - **[Implementation of Pharmacogenomics and Artificial Intelligence Tools for Chronic Disease Management in Primary Care Setting.](https://pubmed.ncbi.nlm.nih.gov/34063850/)**
 	- Published: 2021May21
