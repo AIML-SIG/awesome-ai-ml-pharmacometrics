@@ -4,7 +4,7 @@
 
 A curated list of research papers on AI/ML applications in pharmacometrics and clinical pharmacology, regularly updated.
 
-**Last Updated**: 2026-05-17
+**Last Updated**: 2026-05-24
 
 ---
 ## Table of Contents
@@ -1900,6 +1900,16 @@ A curated list of research papers on AI/ML applications in pharmacometrics and c
 	- Methodology: Deep learning, Supervised learning, Hybrid mechanistic–ML models, Surrogate modeling, Neural networks
 	- Published: 2026May12
 	- Summary: Uses multilayer perceptron neural networks as surrogate models integrated with mechanistic modeling to predict intranodal drug kinetics and optimize lymphatic drug delivery systems.
+
+- **[Model-informed vancomycin precision dosing by population pharmacokinetics combined with machine learning algorithms.](https://pubmed.ncbi.nlm.nih.gov/42159999/)**
+	- Methodology: Hybrid mechanistic–ML models
+	- Published: 2026May20
+	- Summary: The paper develops a PopPK-informed machine learning model to optimize vancomycin dosing by predicting 24-h AUC for individualized therapeutic drug monitoring.
+
+- **[Machine Learning-Assisted Molecularly Imprinted Polymer Sensor for Point-of-Care Vancomycin Monitoring in Serum.](https://pubmed.ncbi.nlm.nih.gov/42166153/)**
+	- Methodology: Tree-based models, Supervised learning
+	- Published: 2026May21
+	- Summary: Random Forest regression model processes electrochemical sensor output to enable rapid vancomycin quantification in serum for point-of-care therapeutic drug monitoring.
 
 ## Drug repurposing
 
@@ -4810,6 +4820,21 @@ A curated list of research papers on AI/ML applications in pharmacometrics and c
 	- Published: 2026May11
 	- Summary: The paper develops a functional group representation framework using deep learning for interpretable molecular property prediction in drug discovery.
 
+- **[Prediction of intrinsic clearance using an explainable learning framework integrating molecular fingerprints and graph representation.](https://pubmed.ncbi.nlm.nih.gov/42176654/)**
+	- Methodology: Supervised learning, Deep learning, Ensemble learning, Explainable AI
+	- Published: 2026May20
+	- Summary: The paper develops ML/DL models integrating molecular fingerprints and graph features to predict intrinsic clearance for pharmacokinetic assessment and drug screening.
+
+- **[DeepCYP: an integrated deep learning web server for the holistic "pathway-site product" prediction of CYP450 metabolism.](https://pubmed.ncbi.nlm.nih.gov/42152517/)**
+	- Methodology: Deep learning, Neural networks
+	- Published: 2026May19
+	- Summary: DeepCYP uses multi-task graph neural networks to predict CYP450-mediated drug metabolism pathways, sites, and products for comprehensive metabolic profiling in drug discovery.
+
+- **[Pharmacovigilance Assistant: An Agentic Workflow for Reproducible Drug Safety Summaries.](https://pubmed.ncbi.nlm.nih.gov/42174782/)**
+	- Methodology: LLM, AI Agents
+	- Published: 2026May21
+	- Summary: An agentic workflow using LLMs integrates FAERS data, PubMed records, and pharmacokinetic context to generate reproducible drug safety summaries for pharmacovigilance.
+
 ## Endpoint / biomarker assessment
 
 - **[Analyzing patient perspectives with large language models: a cross-sectional study of sentiment and thematic classification on exception from informed consent.](https://pubmed.ncbi.nlm.nih.gov/39979559/)**
@@ -6332,6 +6357,16 @@ A curated list of research papers on AI/ML applications in pharmacometrics and c
 	- Published: 2026Apr
 	- Summary: Compares classical pharmacometric tumor growth models with Neural-ODE deep learning framework for predicting tumor dynamics, showing reduced bias with the AI approach.
 
+- **[A translational multimodal machine-learning prototype predicting valproate response in epilepsy treatment.](https://pubmed.ncbi.nlm.nih.gov/42159090/)**
+	- Methodology: Supervised learning
+	- Published: 2026May20
+	- Summary: Develops a multimodal machine learning model to predict valproate response in epilepsy patients for personalized treatment selection.
+
+- **[Machine Learning Prediction of Growth Hormone Response in Children Non-Growth Hormone-Deficient Short Stature.](https://pubmed.ncbi.nlm.nih.gov/42174866/)**
+	- Methodology: Supervised learning
+	- Published: 2026May21
+	- Summary: Machine learning models predict growth hormone treatment response in children with short stature to enable personalized treatment decisions and optimize care.
+
 ## Patient risk stratification / management
 
 - **[Computer-aided diagnosis of prostate cancer in the peripheral zone using multiparametric MRI.](https://pubmed.ncbi.nlm.nih.gov/22640958/)**
@@ -6628,6 +6663,16 @@ A curated list of research papers on AI/ML applications in pharmacometrics and c
 	- Methodology: Supervised learning
 	- Published: 2026May10
 	- Summary: Machine learning algorithms are used to predict subtherapeutic valproate concentrations and identify factors influencing drug levels for individualized epilepsy treatment.
+
+- **[A Mechanistic Framework Integrating Renal QSP-PK-PD and Machine Learning for Baseline-Informed Stratification of Diuretic Resistance.](https://pubmed.ncbi.nlm.nih.gov/42174295/)**
+	- Methodology: Hybrid mechanistic–ML models
+	- Published: 2026May23
+	- Summary: The paper integrates mechanistic renal QSP-PK-PD modeling with machine learning to enable baseline-informed risk stratification of diuretic resistance in heart failure patients.
+
+- **[Machine Learning Prediction of Growth Hormone Response in Children Non-Growth Hormone-Deficient Short Stature.](https://pubmed.ncbi.nlm.nih.gov/42174866/)**
+	- Methodology: Supervised learning
+	- Published: 2026May21
+	- Summary: Machine learning models predict growth hormone treatment response in children with short stature to enable personalized treatment decisions and optimize care.
 
 ## Pharmacodynamic modeling
 
@@ -7035,6 +7080,16 @@ A curated list of research papers on AI/ML applications in pharmacometrics and c
 	- Methodology: Deep learning, Hybrid mechanistic–ML models, Mechanism-informed machine learning
 	- Published: 2026Apr27
 	- Summary: Uses scientific machine learning and deep non-linear mixed effects modeling to create a unified model for voltage-gated potassium channel kinetics across multiple channel types.
+
+- **[Machine Learning-Based Study on Xin-Pi Simultaneous Treatment Formula via Drug Nanodelivery Systems Regulating Macrophage Polarization and TEAD2/PKM2 Synergistic Repair Strategy in Myocarditis.](https://pubmed.ncbi.nlm.nih.gov/42150704/)**
+	- Methodology: Supervised learning
+	- Published: 2026May17
+	- Summary: Machine learning approaches are used to systematically analyze molecular mechanisms of TCM formula nanocarriers in myocarditis treatment, focusing on macrophage polarization regulation.
+
+- **[A Mechanistic Framework Integrating Renal QSP-PK-PD and Machine Learning for Baseline-Informed Stratification of Diuretic Resistance.](https://pubmed.ncbi.nlm.nih.gov/42174295/)**
+	- Methodology: Hybrid mechanistic–ML models
+	- Published: 2026May23
+	- Summary: The paper integrates mechanistic renal QSP-PK-PD modeling with machine learning to enable baseline-informed risk stratification of diuretic resistance in heart failure patients.
 
 ## Pharmacokinetic modeling
 
@@ -9517,6 +9572,26 @@ A curated list of research papers on AI/ML applications in pharmacometrics and c
 	- Published: 2026May11
 	- Summary: The paper develops a functional group representation framework using deep learning for interpretable molecular property prediction in drug discovery.
 
+- **[Prediction of intrinsic clearance using an explainable learning framework integrating molecular fingerprints and graph representation.](https://pubmed.ncbi.nlm.nih.gov/42176654/)**
+	- Methodology: Supervised learning, Deep learning, Ensemble learning, Explainable AI
+	- Published: 2026May20
+	- Summary: The paper develops ML/DL models integrating molecular fingerprints and graph features to predict intrinsic clearance for pharmacokinetic assessment and drug screening.
+
+- **[DeepCYP: an integrated deep learning web server for the holistic "pathway-site product" prediction of CYP450 metabolism.](https://pubmed.ncbi.nlm.nih.gov/42152517/)**
+	- Methodology: Deep learning, Neural networks
+	- Published: 2026May19
+	- Summary: DeepCYP uses multi-task graph neural networks to predict CYP450-mediated drug metabolism pathways, sites, and products for comprehensive metabolic profiling in drug discovery.
+
+- **[A Mechanistic Framework Integrating Renal QSP-PK-PD and Machine Learning for Baseline-Informed Stratification of Diuretic Resistance.](https://pubmed.ncbi.nlm.nih.gov/42174295/)**
+	- Methodology: Hybrid mechanistic–ML models
+	- Published: 2026May23
+	- Summary: The paper integrates mechanistic renal QSP-PK-PD modeling with machine learning to enable baseline-informed risk stratification of diuretic resistance in heart failure patients.
+
+- **[Model-informed vancomycin precision dosing by population pharmacokinetics combined with machine learning algorithms.](https://pubmed.ncbi.nlm.nih.gov/42159999/)**
+	- Methodology: Hybrid mechanistic–ML models
+	- Published: 2026May20
+	- Summary: The paper develops a PopPK-informed machine learning model to optimize vancomycin dosing by predicting 24-h AUC for individualized therapeutic drug monitoring.
+
 ## Postmarketing surveillance
 
 - **[PharmBERT: a domain-specific BERT model for drug labels.](https://pubmed.ncbi.nlm.nih.gov/37317617/)**
@@ -9563,6 +9638,11 @@ A curated list of research papers on AI/ML applications in pharmacometrics and c
 	- Methodology: Explainable AI
 	- Published: 2026May07
 	- Summary: The study uses explainable machine learning to compare neuropsychiatric and systemic toxicity profiles between two CDK4/6 inhibitors through pharmacovigilance data analysis.
+
+- **[Pharmacovigilance Assistant: An Agentic Workflow for Reproducible Drug Safety Summaries.](https://pubmed.ncbi.nlm.nih.gov/42174782/)**
+	- Methodology: LLM, AI Agents
+	- Published: 2026May21
+	- Summary: An agentic workflow using LLMs integrates FAERS data, PubMed records, and pharmacokinetic context to generate reproducible drug safety summaries for pharmacovigilance.
 
 ## Precision medicine / optimized treatment regimen
 
@@ -10403,6 +10483,31 @@ A curated list of research papers on AI/ML applications in pharmacometrics and c
 	- Methodology: Supervised learning
 	- Published: 2026May10
 	- Summary: Machine learning algorithms are used to predict subtherapeutic valproate concentrations and identify factors influencing drug levels for individualized epilepsy treatment.
+
+- **[Machine Learning-Based Study on Xin-Pi Simultaneous Treatment Formula via Drug Nanodelivery Systems Regulating Macrophage Polarization and TEAD2/PKM2 Synergistic Repair Strategy in Myocarditis.](https://pubmed.ncbi.nlm.nih.gov/42150704/)**
+	- Methodology: Supervised learning
+	- Published: 2026May17
+	- Summary: Machine learning approaches are used to systematically analyze molecular mechanisms of TCM formula nanocarriers in myocarditis treatment, focusing on macrophage polarization regulation.
+
+- **[A translational multimodal machine-learning prototype predicting valproate response in epilepsy treatment.](https://pubmed.ncbi.nlm.nih.gov/42159090/)**
+	- Methodology: Supervised learning
+	- Published: 2026May20
+	- Summary: Develops a multimodal machine learning model to predict valproate response in epilepsy patients for personalized treatment selection.
+
+- **[Machine Learning Prediction of Growth Hormone Response in Children Non-Growth Hormone-Deficient Short Stature.](https://pubmed.ncbi.nlm.nih.gov/42174866/)**
+	- Methodology: Supervised learning
+	- Published: 2026May21
+	- Summary: Machine learning models predict growth hormone treatment response in children with short stature to enable personalized treatment decisions and optimize care.
+
+- **[Model-informed vancomycin precision dosing by population pharmacokinetics combined with machine learning algorithms.](https://pubmed.ncbi.nlm.nih.gov/42159999/)**
+	- Methodology: Hybrid mechanistic–ML models
+	- Published: 2026May20
+	- Summary: The paper develops a PopPK-informed machine learning model to optimize vancomycin dosing by predicting 24-h AUC for individualized therapeutic drug monitoring.
+
+- **[Machine Learning-Assisted Molecularly Imprinted Polymer Sensor for Point-of-Care Vancomycin Monitoring in Serum.](https://pubmed.ncbi.nlm.nih.gov/42166153/)**
+	- Methodology: Tree-based models, Supervised learning
+	- Published: 2026May21
+	- Summary: Random Forest regression model processes electrochemical sensor output to enable rapid vancomycin quantification in serum for point-of-care therapeutic drug monitoring.
 
 ## RWD phenotyping
 
@@ -11485,6 +11590,11 @@ A curated list of research papers on AI/ML applications in pharmacometrics and c
 	- Published: 2024Jul14
 	- Summary: This review examines variability in permeability data that affects AI-based quantitative structure-permeability relationship models for predicting drug permeation.
 
+- **[In Silico ADMET Profiling: Evolution from Traditional Models to Deep Learning Techniques.](https://pubmed.ncbi.nlm.nih.gov/42163730/)**
+	- Methodology: Deep learning, Supervised learning, Tree-based models, Neural networks, Ensemble learning, Explainable AI
+	- Published: 2026May18
+	- Summary: This review examines state-of-the-art ML methods for ADMET prediction, covering traditional to deep learning approaches for drug absorption, distribution, metabolism, excretion, and toxicity.
+
 - **[In Silico Approaches for the Prediction and Analysis of Antiviral Peptides: A Review.](https://pubmed.ncbi.nlm.nih.gov/33138759/)**
 	- Methodology: Supervised learning, Tree-based models, Feature selection
 	- Published: 2021
@@ -12288,6 +12398,11 @@ A curated list of research papers on AI/ML applications in pharmacometrics and c
 	- Methodology: Deep learning, Neural networks
 	- Published: 2022Jul
 	- Summary: This review surveys traditional and modern AI/ML methods for structure-based drug repurposing, including generative models for molecular scaffold generation.
+
+- **[Surface-enhanced Raman spectroscopy for comprehensive urinalysis: advances, challenges, and clinical perspectives.](https://pubmed.ncbi.nlm.nih.gov/42108902/)**
+	- Methodology: Supervised learning, Unsupervised learning
+	- Published: 2026May18
+	- Summary: This review examines SERS-based urinalysis advances, highlighting how machine learning and chemometrics enable spectral interpretation for clinical diagnostics and therapeutic monitoring.
 
 - **[Survey of Machine Learning Techniques for Prediction of the Isoform Specificity of Cytochrome P450 Substrates.](https://pubmed.ncbi.nlm.nih.gov/30338736/)**
 	- Methodology: Supervised learning
