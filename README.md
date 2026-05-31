@@ -4,7 +4,7 @@
 
 A curated list of research papers on AI/ML applications in pharmacometrics and clinical pharmacology, regularly updated.
 
-**Last Updated**: 2026-05-24
+**Last Updated**: 2026-05-31
 
 ---
 ## Table of Contents
@@ -633,6 +633,11 @@ A curated list of research papers on AI/ML applications in pharmacometrics and c
 	- Methodology: Unsupervised learning
 	- Published: 2020
 	- Summary: Machine learning techniques are used to impute missing cannabinoid chemotype data and cluster Cannabis cultivars into groups based on chemical similarity.
+
+- **[AI-driven multi-omics drug repurposing nominates AZD7762 as a multitarget inhibitor of IL22RA1 and FAM221A in esophageal squamous cell carcinoma.](https://pubmed.ncbi.nlm.nih.gov/42191940/)**
+	- Methodology: Supervised learning, Unsupervised learning, Feature selection, Explainable AI
+	- Published: 2026May26
+	- Summary: AI-driven multi-omics pipeline using Cox regression, matrix factorization, and SHAP for drug repurposing in esophageal cancer, identifying AZD7762 as a multitarget inhibitor.
 
 ## Disease progression modeling
 
@@ -2814,6 +2819,11 @@ A curated list of research papers on AI/ML applications in pharmacometrics and c
 	- Published: 2026May11
 	- Summary: The paper uses an AttentiveFP deep learning model to screen the NCI database for potential SIRT2 inhibitors, identifying promising compounds for anticancer therapy.
 
+- **[AI-driven multi-omics drug repurposing nominates AZD7762 as a multitarget inhibitor of IL22RA1 and FAM221A in esophageal squamous cell carcinoma.](https://pubmed.ncbi.nlm.nih.gov/42191940/)**
+	- Methodology: Supervised learning, Unsupervised learning, Feature selection, Explainable AI
+	- Published: 2026May26
+	- Summary: AI-driven multi-omics pipeline using Cox regression, matrix factorization, and SHAP for drug repurposing in esophageal cancer, identifying AZD7762 as a multitarget inhibitor.
+
 ## Drug toxicity prediction
 
 - **[Attention Mechanism-Based Graph Neural Network Model for Effective Activity Prediction of SARS-CoV-2 Main Protease Inhibitors: Application to Drug Repurposing as Potential COVID-19 Therapy.](https://pubmed.ncbi.nlm.nih.gov/37960886/)**
@@ -4835,6 +4845,21 @@ A curated list of research papers on AI/ML applications in pharmacometrics and c
 	- Published: 2026May21
 	- Summary: An agentic workflow using LLMs integrates FAERS data, PubMed records, and pharmacokinetic context to generate reproducible drug safety summaries for pharmacovigilance.
 
+- **[ADMET-vault: an interactive framework for real-time ADMET prediction and molecular optimization.](https://pubmed.ncbi.nlm.nih.gov/42185606/)**
+	- Methodology: Supervised learning, Deep learning, Neural networks, Ensemble learning
+	- Published: 2026May25
+	- Summary: ADMET-Vault is an interactive ML platform that integrates multiple molecular representations including graph neural networks to predict ADMET properties for real-time drug optimization.
+
+- **[Prediction of antibody non-specificity using protein language models and biophysical parameters.](https://pubmed.ncbi.nlm.nih.gov/42200306/)**
+	- Methodology: Supervised learning, Deep learning, Feature selection
+	- Published: 2026Dec31
+	- Summary: Uses protein language models and biophysical parameters to predict antibody non-specificity through supervised learning approaches including deep learning embeddings.
+
+- **[AI-driven multi-omics drug repurposing nominates AZD7762 as a multitarget inhibitor of IL22RA1 and FAM221A in esophageal squamous cell carcinoma.](https://pubmed.ncbi.nlm.nih.gov/42191940/)**
+	- Methodology: Supervised learning, Unsupervised learning, Feature selection, Explainable AI
+	- Published: 2026May26
+	- Summary: AI-driven multi-omics pipeline using Cox regression, matrix factorization, and SHAP for drug repurposing in esophageal cancer, identifying AZD7762 as a multitarget inhibitor.
+
 ## Endpoint / biomarker assessment
 
 - **[Analyzing patient perspectives with large language models: a cross-sectional study of sentiment and thematic classification on exception from informed consent.](https://pubmed.ncbi.nlm.nih.gov/39979559/)**
@@ -5529,6 +5554,10 @@ A curated list of research papers on AI/ML applications in pharmacometrics and c
 - **[Characterization of drug efficacy regions based on dosage and frequency schedules.](https://pubmed.ncbi.nlm.nih.gov/21095860/)**
 	- Published: 2011Mar
 	- Summary: This paper develops a hybrid system model for PK/PD analysis to optimize dosage-frequency regimens without using AI/ML methods, relying on analytical approaches instead.
+
+- **[Efficient in vivo assembly of DNA encoded multivalent BTEs for dual antigen targeting for broadening therapeutic impact in ovarian cancer.](https://pubmed.ncbi.nlm.nih.gov/42198849/)**
+	- Published: 2026May26
+	- Summary: This paper describes development of DNA-encoded bispecific T cell engagers for ovarian cancer treatment without using or surveying AI/ML methods.
 
 ## Outcome prediction
 
@@ -6366,6 +6395,11 @@ A curated list of research papers on AI/ML applications in pharmacometrics and c
 	- Methodology: Supervised learning
 	- Published: 2026May21
 	- Summary: Machine learning models predict growth hormone treatment response in children with short stature to enable personalized treatment decisions and optimize care.
+
+- **[AI-driven multi-omics drug repurposing nominates AZD7762 as a multitarget inhibitor of IL22RA1 and FAM221A in esophageal squamous cell carcinoma.](https://pubmed.ncbi.nlm.nih.gov/42191940/)**
+	- Methodology: Supervised learning, Unsupervised learning, Feature selection, Explainable AI
+	- Published: 2026May26
+	- Summary: AI-driven multi-omics pipeline using Cox regression, matrix factorization, and SHAP for drug repurposing in esophageal cancer, identifying AZD7762 as a multitarget inhibitor.
 
 ## Patient risk stratification / management
 
@@ -9592,6 +9626,11 @@ A curated list of research papers on AI/ML applications in pharmacometrics and c
 	- Published: 2026May20
 	- Summary: The paper develops a PopPK-informed machine learning model to optimize vancomycin dosing by predicting 24-h AUC for individualized therapeutic drug monitoring.
 
+- **[ADMET-vault: an interactive framework for real-time ADMET prediction and molecular optimization.](https://pubmed.ncbi.nlm.nih.gov/42185606/)**
+	- Methodology: Supervised learning, Deep learning, Neural networks, Ensemble learning
+	- Published: 2026May25
+	- Summary: ADMET-Vault is an interactive ML platform that integrates multiple molecular representations including graph neural networks to predict ADMET properties for real-time drug optimization.
+
 ## Postmarketing surveillance
 
 - **[PharmBERT: a domain-specific BERT model for drug labels.](https://pubmed.ncbi.nlm.nih.gov/37317617/)**
@@ -11640,6 +11679,11 @@ A curated list of research papers on AI/ML applications in pharmacometrics and c
 	- Published: 2026Mar24
 	- Summary: This review paper surveys innovative AI/ML applications across various pharmacometric domains including PK/PD modeling, dose optimization, and precision medicine.
 
+- **[Insights From Spatiality: Accelerating Pharmaceutical Research Using Mass Spectrometry Imaging.](https://pubmed.ncbi.nlm.nih.gov/42179332/)**
+	- Methodology: Unsupervised learning
+	- Published: 2026May25
+	- Summary: This review discusses mass spectrometry imaging in pharmaceutical research, mentioning AI-powered data analysis tools for pattern recognition in drug distribution studies.
+
 - **[Integrating AI into next-generation PROTAC Engineering: a comprehensive toolkit for rational PROTAC design.](https://pubmed.ncbi.nlm.nih.gov/42071118/)**
 	- Methodology: Deep learning, Reinforcement learning, Neural networks
 	- Published: 2026May03
@@ -11981,6 +12025,11 @@ A curated list of research papers on AI/ML applications in pharmacometrics and c
 	- Methodology: Neural networks
 	- Published: 2004Jun
 	- Summary: This review surveys neural network applications in QSAR for predicting molecular properties, toxicity, and pharmacokinetics in drug discovery and development.
+
+- **[New Frontiers of Drug Development Through the Use of New Approach Methodologies.](https://pubmed.ncbi.nlm.nih.gov/42215821/)**
+	- Methodology: Supervised learning, Unsupervised learning
+	- Published: 2026May29
+	- Summary: This symposium report surveys New Approach Methodologies including AI/ML tools for drug toxicity prediction and personalized medicine applications in drug development.
 
 - **[New Horizons of Model Informed Drug Development in Rare Diseases Drug Development.](https://pubmed.ncbi.nlm.nih.gov/38989644/)**
 	- Methodology: Supervised learning, Unsupervised learning
