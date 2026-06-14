@@ -4,7 +4,7 @@
 
 A curated list of research papers on AI/ML applications in pharmacometrics and clinical pharmacology, regularly updated.
 
-**Last Updated**: 2026-05-31
+**Last Updated**: 2026-06-14
 
 ---
 ## Table of Contents
@@ -469,6 +469,11 @@ A curated list of research papers on AI/ML applications in pharmacometrics and c
 	- Methodology: Supervised learning, Tree-based models, Feature selection, Ensemble learning
 	- Published: 2022Oct
 	- Summary: Machine learning methods including LASSO, survival trees, and random forests are used to select important covariates for time-to-event models predicting survival outcomes in cancer patients.
+
+- **[A multidimensional strategy for identifying quality markers of Radix ginseng-Schisandra chinensis in the disruption of the inflammation-cancer transformation process of hepatocellular carcinoma based on metabolic regulation and chemical properties.](https://pubmed.ncbi.nlm.nih.gov/42264398/)**
+	- Methodology: Supervised learning
+	- Published: 2026Jun08
+	- Summary: Machine learning algorithms were used to analyze HPLC fingerprinting data to identify characteristic constituents and quality markers of traditional Chinese medicine herb pairs.
 
 ## Data imputation
 
@@ -2823,6 +2828,11 @@ A curated list of research papers on AI/ML applications in pharmacometrics and c
 	- Methodology: Supervised learning, Unsupervised learning, Feature selection, Explainable AI
 	- Published: 2026May26
 	- Summary: AI-driven multi-omics pipeline using Cox regression, matrix factorization, and SHAP for drug repurposing in esophageal cancer, identifying AZD7762 as a multitarget inhibitor.
+
+- **[Machine learning-assisted screening of natural product database for the identification of novel chalcone-based derivative as a potent DHODH inhibitor in cancer therapy.](https://pubmed.ncbi.nlm.nih.gov/42283901/)**
+	- Methodology: Supervised learning
+	- Published: 2026Jun12
+	- Summary: Machine learning is used to screen natural product databases to identify novel chalcone-based derivatives as potential DHODH inhibitors for cancer therapy.
 
 ## Drug toxicity prediction
 
@@ -5291,6 +5301,11 @@ A curated list of research papers on AI/ML applications in pharmacometrics and c
 	- Methodology: Ensemble learning, Feature selection, Explainable AI
 	- Published: 2026Mar21
 	- Summary: Develops ensemble ML pipeline combining 175 algorithms for glioblastoma biomarker discovery and drug repurposing using SHAP explainability methods.
+
+- **[A multidimensional strategy for identifying quality markers of Radix ginseng-Schisandra chinensis in the disruption of the inflammation-cancer transformation process of hepatocellular carcinoma based on metabolic regulation and chemical properties.](https://pubmed.ncbi.nlm.nih.gov/42264398/)**
+	- Methodology: Supervised learning
+	- Published: 2026Jun08
+	- Summary: Machine learning algorithms were used to analyze HPLC fingerprinting data to identify characteristic constituents and quality markers of traditional Chinese medicine herb pairs.
 
 ## Enrichment design
 
@@ -9631,6 +9646,11 @@ A curated list of research papers on AI/ML applications in pharmacometrics and c
 	- Published: 2026May25
 	- Summary: ADMET-Vault is an interactive ML platform that integrates multiple molecular representations including graph neural networks to predict ADMET properties for real-time drug optimization.
 
+- **[OralAbsPredict: A data-driven framework to predict human intestinal absorption (HIA) and human oral bioavailability (HOB) from chemical structures.](https://pubmed.ncbi.nlm.nih.gov/42263584/)**
+	- Methodology: Supervised learning, Feature selection
+	- Published: 2026Jun08
+	- Summary: The paper develops machine learning models using chemical structure descriptors to predict human intestinal absorption and oral bioavailability from SMILES strings.
+
 ## Postmarketing surveillance
 
 - **[PharmBERT: a domain-specific BERT model for drug labels.](https://pubmed.ncbi.nlm.nih.gov/37317617/)**
@@ -11261,6 +11281,11 @@ A curated list of research papers on AI/ML applications in pharmacometrics and c
 	- Methodology: Hybrid mechanistic–ML models
 	- Published: 2025Dec
 	- Summary: This paper proposes a framework integrating AI/ML with traditional modeling approaches for mRNA therapeutic development and decision making across the drug development lifecycle.
+
+- **[Combinations of single gene predictors with AI-driven polygenic precision therapies in cardiovascular diseases.](https://pubmed.ncbi.nlm.nih.gov/42268291/)**
+	- Methodology: Supervised learning
+	- Published: 2026Jun10
+	- Summary: This review surveys pharmacogenomics in cardiovascular disease, highlighting how machine learning and polygenic risk scores are expanding precision medicine approaches.
 
 - **[Combining mechanistic modeling with machine learning as a strategy to predict inflammatory bowel disease clinical scores.](https://pubmed.ncbi.nlm.nih.gov/40070575/)**
 	- Methodology: Hybrid mechanistic–ML models
