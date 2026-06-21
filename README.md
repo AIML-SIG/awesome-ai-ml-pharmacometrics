@@ -4,7 +4,7 @@
 
 A curated list of research papers on AI/ML applications in pharmacometrics and clinical pharmacology, regularly updated.
 
-**Last Updated**: 2026-06-14
+**Last Updated**: 2026-06-21
 
 ---
 ## Table of Contents
@@ -5573,6 +5573,41 @@ A curated list of research papers on AI/ML applications in pharmacometrics and c
 - **[Efficient in vivo assembly of DNA encoded multivalent BTEs for dual antigen targeting for broadening therapeutic impact in ovarian cancer.](https://pubmed.ncbi.nlm.nih.gov/42198849/)**
 	- Published: 2026May26
 	- Summary: This paper describes development of DNA-encoded bispecific T cell engagers for ovarian cancer treatment without using or surveying AI/ML methods.
+
+- **[Research trends and emerging topics in antifungal therapeutic drug monitoring: a bibliometric analysis with implications for clinical pharmacy practice.](https://pubmed.ncbi.nlm.nih.gov/42319602/)**
+	- Methodology: Other/General
+	- Published: 2026Jun19
+	- Summary: Error during classification
+
+- **[Applying Deep-Learning-Driven De Novo Design to Hit Identification: A Case Study on A2A Adenosine Receptor Antagonists.](https://pubmed.ncbi.nlm.nih.gov/42319230/)**
+	- Methodology: Other/General
+	- Published: 2026Jun19
+	- Summary: Error during classification
+
+- **[Phenotypic response surfaces in pharmacology: Mechanistic and translational perspectives on optimizing drug combination therapies.](https://pubmed.ncbi.nlm.nih.gov/42297219/)**
+	- Methodology: Other/General
+	- Published: 2026Jun15
+	- Summary: Error during classification
+
+- **[Preventing Medication Errors in Paediatrics: A Narrative Review.](https://pubmed.ncbi.nlm.nih.gov/42311356/)**
+	- Methodology: Other/General
+	- Published: 2026
+	- Summary: Error during classification
+
+- **[Understanding drug diffusion and permeation in transdermal patches: A kinetic perspective.](https://pubmed.ncbi.nlm.nih.gov/42315040/)**
+	- Methodology: Other/General
+	- Published: 2026Jun18
+	- Summary: Error during classification
+
+- **[The potential utility of in-silico approach in identifying phytochemicals against various targets for the management of lung cancer.](https://pubmed.ncbi.nlm.nih.gov/42301529/)**
+	- Methodology: Other/General
+	- Published: 2026Jun16
+	- Summary: Error during classification
+
+- **[Beyond snapshot dosing: a dynamic living digital twin framework for model-informed precision dosing in critical illness.](https://pubmed.ncbi.nlm.nih.gov/42318854/)**
+	- Methodology: Other/General
+	- Published: 2026Jun19
+	- Summary: Error during classification
 
 ## Outcome prediction
 
