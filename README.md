@@ -4,7 +4,7 @@
 
 A curated list of research papers on AI/ML applications in pharmacometrics and clinical pharmacology, regularly updated.
 
-**Last Updated**: 2026-06-21
+**Last Updated**: 2026-06-22
 
 ---
 ## Table of Contents
@@ -750,6 +750,11 @@ A curated list of research papers on AI/ML applications in pharmacometrics and c
 	- Methodology: Deep learning, Neural networks, Hybrid mechanistic–ML models
 	- Published: 2026Apr
 	- Summary: Compares classical pharmacometric tumor growth models with Neural-ODE deep learning framework for predicting tumor dynamics, showing reduced bias with the AI approach.
+
+- **[Data-driven system identification in cancer systems biology: A multiscale modeling approach to melanoma.](https://pubmed.ncbi.nlm.nih.gov/42322753/)**
+	- Methodology: Hybrid mechanistic–ML models, Mechanism-informed machine learning, Time-series modeling
+	- Published: 2026Jun18
+	- Summary: Data-driven system identification using ML to construct fully mechanistic multiscale systems biology models of melanoma directly from synthetic data.
 
 ## Dose selection / optimization
 
@@ -2833,6 +2838,11 @@ A curated list of research papers on AI/ML applications in pharmacometrics and c
 	- Methodology: Supervised learning
 	- Published: 2026Jun12
 	- Summary: Machine learning is used to screen natural product databases to identify novel chalcone-based derivatives as potential DHODH inhibitors for cancer therapy.
+
+- **[Applying Deep-Learning-Driven De Novo Design to Hit Identification: A Case Study on A2A Adenosine Receptor Antagonists.](https://pubmed.ncbi.nlm.nih.gov/42319230/)**
+	- Methodology: Deep learning, Reinforcement learning, Neural networks
+	- Published: 2026Jun19
+	- Summary: AI-driven de novo design using REINVENT with reinforcement learning to generate novel A2A adenosine receptor antagonists with CNS permeability via multiparameter optimization.
 
 ## Drug toxicity prediction
 
@@ -5574,41 +5584,6 @@ A curated list of research papers on AI/ML applications in pharmacometrics and c
 	- Published: 2026May26
 	- Summary: This paper describes development of DNA-encoded bispecific T cell engagers for ovarian cancer treatment without using or surveying AI/ML methods.
 
-- **[Research trends and emerging topics in antifungal therapeutic drug monitoring: a bibliometric analysis with implications for clinical pharmacy practice.](https://pubmed.ncbi.nlm.nih.gov/42319602/)**
-	- Methodology: Other/General
-	- Published: 2026Jun19
-	- Summary: Error during classification
-
-- **[Applying Deep-Learning-Driven De Novo Design to Hit Identification: A Case Study on A2A Adenosine Receptor Antagonists.](https://pubmed.ncbi.nlm.nih.gov/42319230/)**
-	- Methodology: Other/General
-	- Published: 2026Jun19
-	- Summary: Error during classification
-
-- **[Phenotypic response surfaces in pharmacology: Mechanistic and translational perspectives on optimizing drug combination therapies.](https://pubmed.ncbi.nlm.nih.gov/42297219/)**
-	- Methodology: Other/General
-	- Published: 2026Jun15
-	- Summary: Error during classification
-
-- **[Preventing Medication Errors in Paediatrics: A Narrative Review.](https://pubmed.ncbi.nlm.nih.gov/42311356/)**
-	- Methodology: Other/General
-	- Published: 2026
-	- Summary: Error during classification
-
-- **[Understanding drug diffusion and permeation in transdermal patches: A kinetic perspective.](https://pubmed.ncbi.nlm.nih.gov/42315040/)**
-	- Methodology: Other/General
-	- Published: 2026Jun18
-	- Summary: Error during classification
-
-- **[The potential utility of in-silico approach in identifying phytochemicals against various targets for the management of lung cancer.](https://pubmed.ncbi.nlm.nih.gov/42301529/)**
-	- Methodology: Other/General
-	- Published: 2026Jun16
-	- Summary: Error during classification
-
-- **[Beyond snapshot dosing: a dynamic living digital twin framework for model-informed precision dosing in critical illness.](https://pubmed.ncbi.nlm.nih.gov/42318854/)**
-	- Methodology: Other/General
-	- Published: 2026Jun19
-	- Summary: Error during classification
-
 ## Outcome prediction
 
 - **[Deep learning prediction of patient response time course from early data via neural-pharmacokinetic/pharmacodynamic modelling.](https://pubmed.ncbi.nlm.nih.gov/40271424/)**
@@ -7174,6 +7149,11 @@ A curated list of research papers on AI/ML applications in pharmacometrics and c
 	- Methodology: Hybrid mechanistic–ML models
 	- Published: 2026May23
 	- Summary: The paper integrates mechanistic renal QSP-PK-PD modeling with machine learning to enable baseline-informed risk stratification of diuretic resistance in heart failure patients.
+
+- **[Data-driven system identification in cancer systems biology: A multiscale modeling approach to melanoma.](https://pubmed.ncbi.nlm.nih.gov/42322753/)**
+	- Methodology: Hybrid mechanistic–ML models, Mechanism-informed machine learning, Time-series modeling
+	- Published: 2026Jun18
+	- Summary: Data-driven system identification using ML to construct fully mechanistic multiscale systems biology models of melanoma directly from synthetic data.
 
 ## Pharmacokinetic modeling
 
@@ -9686,6 +9666,11 @@ A curated list of research papers on AI/ML applications in pharmacometrics and c
 	- Published: 2026Jun08
 	- Summary: The paper develops machine learning models using chemical structure descriptors to predict human intestinal absorption and oral bioavailability from SMILES strings.
 
+- **[Applying Deep-Learning-Driven De Novo Design to Hit Identification: A Case Study on A2A Adenosine Receptor Antagonists.](https://pubmed.ncbi.nlm.nih.gov/42319230/)**
+	- Methodology: Deep learning, Reinforcement learning, Neural networks
+	- Published: 2026Jun19
+	- Summary: AI-driven de novo design using REINVENT with reinforcement learning to generate novel A2A adenosine receptor antagonists with CNS permeability via multiparameter optimization.
+
 ## Postmarketing surveillance
 
 - **[PharmBERT: a domain-specific BERT model for drug labels.](https://pubmed.ncbi.nlm.nih.gov/37317617/)**
@@ -10796,6 +10781,10 @@ A curated list of research papers on AI/ML applications in pharmacometrics and c
 	- Published: 2020
 	- Summary: This perspective paper describes the ATOM consortium's machine learning-based drug discovery platform that simultaneously optimizes pharmacokinetics, toxicity, and molecular design.
 
+- **[Accelerating drug discovery with mass spectrometry-driven bioanalytical innovations and beyond.](https://pubmed.ncbi.nlm.nih.gov/42324885/)**
+	- Published: 2026Jun21
+	- Summary: Perspective on MS-driven bioanalytical innovations for complex therapeutics, with AI/ML-driven automation identified as a priority for managing data complexity in ADME workflows.
+
 - **[Active metabolites combination therapies: towards the next paradigm for more efficient and more scientific Chinese medicine.](https://pubmed.ncbi.nlm.nih.gov/38698817/)**
 	- Published: 2024
 	- Summary: Review paper on traditional Chinese medicine combination therapies that mentions AI as an emerging technology but does not focus on AI/ML methods or applications.
@@ -11242,6 +11231,11 @@ A curated list of research papers on AI/ML applications in pharmacometrics and c
 	- Methodology: Machine learning, Deep learning, Neural networks
 	- Published: 2020Sep
 	- Summary: This paper presents Bayer's two-decade journey developing machine learning models for ADMET prediction in drug discovery, emphasizing data quality and deep neural networks.
+
+- **[Beyond snapshot dosing: a dynamic living digital twin framework for model-informed precision dosing in critical illness.](https://pubmed.ncbi.nlm.nih.gov/42318854/)**
+	- Methodology: Hybrid mechanistic–ML models, Bayesian ML, Time-series modeling
+	- Published: 2026Jun19
+	- Summary: Proposes a dynamic digital twin framework integrating continuously updated PK models with real-time physiological data for precision dosing in critically ill patients.
 
 - **[Bifunctional robots inducing targeted protein degradation.](https://pubmed.ncbi.nlm.nih.gov/37119667/)**
 	- Methodology: Deep learning
@@ -12139,6 +12133,10 @@ A curated list of research papers on AI/ML applications in pharmacometrics and c
 	- Published: 2025Dec
 	- Summary: This review paper surveys ML/AI opportunities in PBPK modeling for parameter estimation, model learning, and uncertainty quantification to address current limitations.
 
+- **[Optimising biologic therapy in psoriasis: dose adjustment, treatment duration, and tapering-an expert perspective.](https://pubmed.ncbi.nlm.nih.gov/42323205/)**
+	- Published: 2026Jun20
+	- Summary: Expert perspective on optimizing biologic therapy in psoriasis through dose adjustment, treatment duration, and tapering strategies; no AI/ML methods used.
+
 - **[Optimized therapeutic drug monitoring: the role of machine learning models.](https://pubmed.ncbi.nlm.nih.gov/41460893/)**
 	- Methodology: Supervised learning
 	- Published: 2026Jan
@@ -12204,6 +12202,11 @@ A curated list of research papers on AI/ML applications in pharmacometrics and c
 	- Methodology: LLM
 	- Published: 2025Sep29
 	- Summary: This perspective paper explores the potential applications of Large Language Models across pharmacometrics workflows, from data processing to model development and reporting.
+
+- **[Phenotypic response surfaces in pharmacology: Mechanistic and translational perspectives on optimizing drug combination therapies.](https://pubmed.ncbi.nlm.nih.gov/42297219/)**
+	- Methodology: Hybrid mechanistic–ML models, Bayesian ML, Gaussian processes, Supervised learning, Deep learning
+	- Published: 2026Jun15
+	- Summary: Review of Phenotypic Response Surfaces for drug combination optimization, critically evaluating mechanistic PK/PD frameworks and AI platforms for patient-specific dose optimization across therapeutic areas.
 
 - **[Physicians' Perspectives on AI in Clinical Decision Support Systems: Interview Study of the CURATE.AI Personalized Dose Optimization Platform.](https://pubmed.ncbi.nlm.nih.gov/37902825/)**
 	- Published: 2023Oct30
@@ -12287,6 +12290,10 @@ A curated list of research papers on AI/ML applications in pharmacometrics and c
 	- Methodology: Supervised learning
 	- Published: 2024
 	- Summary: A comprehensive review of intelligent prescription systems that leverage machine learning and big data analytics to provide personalized medication recommendations and clinical decision support.
+
+- **[Preventing Medication Errors in Paediatrics: A Narrative Review.](https://pubmed.ncbi.nlm.nih.gov/42311356/)**
+	- Published: 2026
+	- Summary: Narrative review on paediatric medication error prevention; no AI/ML methods used or surveyed—focuses on system-level and technological safety strategies.
 
 - **[Probing the characteristics and biofunctional effects of disease-affected cells and drug response via machine learning applications.](https://pubmed.ncbi.nlm.nih.gov/32633615/)**
 	- Methodology: Supervised learning, Deep learning
@@ -12401,6 +12408,10 @@ A curated list of research papers on AI/ML applications in pharmacometrics and c
 	- Published: 2019Mar15
 	- Summary: This review surveys AI/ML approaches including IBM Watson for identifying drug repurposing candidates to treat L-DOPA-induced dyskinesia in Parkinson's disease.
 
+- **[Research trends and emerging topics in antifungal therapeutic drug monitoring: a bibliometric analysis with implications for clinical pharmacy practice.](https://pubmed.ncbi.nlm.nih.gov/42319602/)**
+	- Published: 2026Jun19
+	- Summary: Bibliometric analysis of antifungal TDM research trends; no AI/ML methods are used or surveyed in this paper.
+
 - **[Review of Precision Medicine and Diagnosis of Neonatal Illness.](https://pubmed.ncbi.nlm.nih.gov/40002629/)**
 	- Methodology: Supervised learning
 	- Published: 2025Feb16
@@ -12502,6 +12513,10 @@ A curated list of research papers on AI/ML applications in pharmacometrics and c
 	- Methodology: Bayesian ML
 	- Published: 2025
 	- Summary: This review surveys tacrolimus dose individualization methods including emerging machine learning and AI technologies alongside traditional pharmacokinetic modeling approaches.
+
+- **[Stem cell-derived extracellular vesicles for rare diseases: A clinical‑bottleneck‑to‑mechanism framework for translation.](https://pubmed.ncbi.nlm.nih.gov/42324126/)**
+	- Published: 2026Jun20
+	- Summary: Non-AI/ML review proposing a bottleneck-to-mechanism framework for translating stem cell-derived extracellular vesicles as therapeutics for rare diseases.
 
 - **[Structure-based drug repurposing: Traditional and advanced AI/ML-aided methods.](https://pubmed.ncbi.nlm.nih.gov/35301148/)**
 	- Methodology: Deep learning, Neural networks
@@ -12623,6 +12638,11 @@ A curated list of research papers on AI/ML applications in pharmacometrics and c
 	- Published: 2021Dec30
 	- Summary: This review surveys artificial intelligence applications in drug discovery and development, with emphasis on drug repurposing and accelerating new medicine development.
 
+- **[The potential utility of in-silico approach in identifying phytochemicals against various targets for the management of lung cancer.](https://pubmed.ncbi.nlm.nih.gov/42301529/)**
+	- Methodology: Supervised learning
+	- Published: 2026Jun16
+	- Summary: Review of in silico methods including ML algorithms, molecular docking, and ADMET profiling to identify phytochemicals targeting lung cancer pathways (EGFR, KRAS, ALK, PD-L1).
+
 - **[The predictive edge: modeling and simulation in drug product development.](https://pubmed.ncbi.nlm.nih.gov/41592638/)**
 	- Methodology: Supervised learning, Deep learning, Machine learning
 	- Published: 2026Mar
@@ -12694,6 +12714,10 @@ A curated list of research papers on AI/ML applications in pharmacometrics and c
 	- Methodology: Hybrid mechanistic–ML models
 	- Published: 2022Feb
 	- Summary: A white paper reviewing the integration of quantitative systems pharmacology and machine learning approaches in drug development, identifying four categories of current research activity.
+
+- **[Understanding drug diffusion and permeation in transdermal patches: A kinetic perspective.](https://pubmed.ncbi.nlm.nih.gov/42315040/)**
+	- Published: 2026Jun18
+	- Summary: Review of mathematical, kinetic, and computational models for transdermal drug delivery, including AI/ML and molecular dynamics approaches to optimize formulation design.
 
 - **[Understanding gut microbiome-based machine learning platforms: A review on therapeutic approaches using deep learning.](https://pubmed.ncbi.nlm.nih.gov/38491814/)**
 	- Methodology: Deep learning

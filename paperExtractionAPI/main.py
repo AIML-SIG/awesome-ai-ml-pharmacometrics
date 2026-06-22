@@ -211,7 +211,11 @@ def query_pmid(pmid):
     fetch_params = {"db": "pubmed", "id": pmid, "retmode": "xml"}
     fetch_response = requests.get(fetch_url, params=fetch_params)
 
-    root = ET.fromstring(fetch_response.content)
+    try:
+        root = ET.fromstring(fetch_response.content)
+    except ET.ParseError as e:
+        e.add_note(f"Invalid string: {fetch_response.content}")
+        raise
 
     articles = []
     for article in root.findall(".//PubmedArticle"):
@@ -303,7 +307,7 @@ Response format:
     try:
         # --- Call Claude ---
         message = anthropic_client.messages.create(
-            model="claude-sonnet-4-20250514",
+            model="claude-sonnet-4-6",
             max_tokens=500,
             temperature=0,
             messages=[{"role": "user", "content": prompt}],
