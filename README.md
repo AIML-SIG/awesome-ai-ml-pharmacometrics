@@ -4,7 +4,7 @@
 
 A curated list of research papers on AI/ML applications in pharmacometrics and clinical pharmacology, regularly updated.
 
-**Last Updated**: 2026-06-22
+**Last Updated**: 2026-06-28
 
 ---
 ## Table of Contents
@@ -273,6 +273,11 @@ A curated list of research papers on AI/ML applications in pharmacometrics and c
 	- Published: 2026May07
 	- Summary: The study uses explainable machine learning to compare neuropsychiatric and systemic toxicity profiles between two CDK4/6 inhibitors through pharmacovigilance data analysis.
 
+- **[Counterfactual AI for Dynamic Dose Optimization with Side-Effect Constraints.](https://pubmed.ncbi.nlm.nih.gov/42340918/)**
+	- Methodology: Deep learning, Neural networks, Time-series modeling, Hybrid mechanistic–ML models, Reinforcement learning
+	- Published: 2026Jun24
+	- Summary: DoseAI uses Neural CDEs for counterfactual prediction and dynamic dose optimization under time-dependent confounding, evaluated on synthetic cancer and MIMIC-IV semi-synthetic data.
+
 ## Covariate selection / confounding adjustment
 
 - **[Toward a Combinatorial Approach for the Prediction of IgG Half-Life and Clearance.](https://pubmed.ncbi.nlm.nih.gov/30232177/)**
@@ -475,6 +480,16 @@ A curated list of research papers on AI/ML applications in pharmacometrics and c
 	- Published: 2026Jun08
 	- Summary: Machine learning algorithms were used to analyze HPLC fingerprinting data to identify characteristic constituents and quality markers of traditional Chinese medicine herb pairs.
 
+- **[Counterfactual AI for Dynamic Dose Optimization with Side-Effect Constraints.](https://pubmed.ncbi.nlm.nih.gov/42340918/)**
+	- Methodology: Deep learning, Neural networks, Time-series modeling, Hybrid mechanistic–ML models, Reinforcement learning
+	- Published: 2026Jun24
+	- Summary: DoseAI uses Neural CDEs for counterfactual prediction and dynamic dose optimization under time-dependent confounding, evaluated on synthetic cancer and MIMIC-IV semi-synthetic data.
+
+- **[Optimizing Amiodarone Maintenance Dose to Minimize N-Desethylamiodarone Accumulation and Pulmonary Toxicity: Insights from Machine Learning and Pharmacokinetic Simulation.](https://pubmed.ncbi.nlm.nih.gov/42332214/)**
+	- Methodology: Tree-based models
+	- Published: 2026Jun22
+	- Summary: Uses classification and regression tree (CART) analysis with PK simulation to identify predictors of DEA accumulation and optimize amiodarone dosing to minimize pulmonary toxicity.
+
 ## Data imputation
 
 - **[Improving Genotype Imputation in High-Dimensional Pharmacogenomics Using Multiple Imputation: Evaluation with Machine Learning Approaches.](https://pubmed.ncbi.nlm.nih.gov/41407383/)**
@@ -644,6 +659,11 @@ A curated list of research papers on AI/ML applications in pharmacometrics and c
 	- Published: 2026May26
 	- Summary: AI-driven multi-omics pipeline using Cox regression, matrix factorization, and SHAP for drug repurposing in esophageal cancer, identifying AZD7762 as a multitarget inhibitor.
 
+- **[Optimizing Amiodarone Maintenance Dose to Minimize N-Desethylamiodarone Accumulation and Pulmonary Toxicity: Insights from Machine Learning and Pharmacokinetic Simulation.](https://pubmed.ncbi.nlm.nih.gov/42332214/)**
+	- Methodology: Tree-based models
+	- Published: 2026Jun22
+	- Summary: Uses classification and regression tree (CART) analysis with PK simulation to identify predictors of DEA accumulation and optimize amiodarone dosing to minimize pulmonary toxicity.
+
 ## Disease progression modeling
 
 - **[Data-Driven Discovery of Mathematical and Physical Relations in Oncology Data Using Human-Understandable Machine Learning.](https://pubmed.ncbi.nlm.nih.gov/34901835/)**
@@ -755,6 +775,11 @@ A curated list of research papers on AI/ML applications in pharmacometrics and c
 	- Methodology: Hybrid mechanistic–ML models, Mechanism-informed machine learning, Time-series modeling
 	- Published: 2026Jun18
 	- Summary: Data-driven system identification using ML to construct fully mechanistic multiscale systems biology models of melanoma directly from synthetic data.
+
+- **[Counterfactual AI for Dynamic Dose Optimization with Side-Effect Constraints.](https://pubmed.ncbi.nlm.nih.gov/42340918/)**
+	- Methodology: Deep learning, Neural networks, Time-series modeling, Hybrid mechanistic–ML models, Reinforcement learning
+	- Published: 2026Jun24
+	- Summary: DoseAI uses Neural CDEs for counterfactual prediction and dynamic dose optimization under time-dependent confounding, evaluated on synthetic cancer and MIMIC-IV semi-synthetic data.
 
 ## Dose selection / optimization
 
@@ -1926,6 +1951,21 @@ A curated list of research papers on AI/ML applications in pharmacometrics and c
 	- Published: 2026May21
 	- Summary: Random Forest regression model processes electrochemical sensor output to enable rapid vancomycin quantification in serum for point-of-care therapeutic drug monitoring.
 
+- **[Counterfactual AI for Dynamic Dose Optimization with Side-Effect Constraints.](https://pubmed.ncbi.nlm.nih.gov/42340918/)**
+	- Methodology: Deep learning, Neural networks, Time-series modeling, Hybrid mechanistic–ML models, Reinforcement learning
+	- Published: 2026Jun24
+	- Summary: DoseAI uses Neural CDEs for counterfactual prediction and dynamic dose optimization under time-dependent confounding, evaluated on synthetic cancer and MIMIC-IV semi-synthetic data.
+
+- **[Optimizing Amiodarone Maintenance Dose to Minimize N-Desethylamiodarone Accumulation and Pulmonary Toxicity: Insights from Machine Learning and Pharmacokinetic Simulation.](https://pubmed.ncbi.nlm.nih.gov/42332214/)**
+	- Methodology: Tree-based models
+	- Published: 2026Jun22
+	- Summary: Uses classification and regression tree (CART) analysis with PK simulation to identify predictors of DEA accumulation and optimize amiodarone dosing to minimize pulmonary toxicity.
+
+- **[Population pharmacokinetics of dalbavancin: external validation, model averaging, and implications for precision dosing in prolonged therapy.](https://pubmed.ncbi.nlm.nih.gov/42363831/)**
+	- Methodology: Bayesian ML, Ensemble learning
+	- Published: 2026Jun22
+	- Summary: PopPK model for dalbavancin with external validation; model averaging (ensemble) and Bayesian forecasting used to optimize repeat-dose precision dosing strategies.
+
 ## Drug repurposing
 
 - **[Attention Mechanism-Based Graph Neural Network Model for Effective Activity Prediction of SARS-CoV-2 Main Protease Inhibitors: Application to Drug Repurposing as Potential COVID-19 Therapy.](https://pubmed.ncbi.nlm.nih.gov/37960886/)**
@@ -2843,6 +2883,11 @@ A curated list of research papers on AI/ML applications in pharmacometrics and c
 	- Methodology: Deep learning, Reinforcement learning, Neural networks
 	- Published: 2026Jun19
 	- Summary: AI-driven de novo design using REINVENT with reinforcement learning to generate novel A2A adenosine receptor antagonists with CNS permeability via multiparameter optimization.
+
+- **[Integrated machine learning, molecular docking, and molecular dynamics simulations for in silico identification of GSK3β inhibitors for Alzheimer's disease.](https://pubmed.ncbi.nlm.nih.gov/42365084/)**
+	- Methodology: Supervised learning, Ensemble learning, Feature selection, Model selection, Unsupervised learning
+	- Published: 2026Jun27
+	- Summary: Two-stage ML virtual screening framework identifies GSK3β inhibitors for Alzheimer's disease, combined with molecular docking and MD simulations for structure-based validation.
 
 ## Drug toxicity prediction
 
@@ -4880,6 +4925,21 @@ A curated list of research papers on AI/ML applications in pharmacometrics and c
 	- Published: 2026May26
 	- Summary: AI-driven multi-omics pipeline using Cox regression, matrix factorization, and SHAP for drug repurposing in esophageal cancer, identifying AZD7762 as a multitarget inhibitor.
 
+- **[Counterfactual AI for Dynamic Dose Optimization with Side-Effect Constraints.](https://pubmed.ncbi.nlm.nih.gov/42340918/)**
+	- Methodology: Deep learning, Neural networks, Time-series modeling, Hybrid mechanistic–ML models, Reinforcement learning
+	- Published: 2026Jun24
+	- Summary: DoseAI uses Neural CDEs for counterfactual prediction and dynamic dose optimization under time-dependent confounding, evaluated on synthetic cancer and MIMIC-IV semi-synthetic data.
+
+- **[Optimizing Amiodarone Maintenance Dose to Minimize N-Desethylamiodarone Accumulation and Pulmonary Toxicity: Insights from Machine Learning and Pharmacokinetic Simulation.](https://pubmed.ncbi.nlm.nih.gov/42332214/)**
+	- Methodology: Tree-based models
+	- Published: 2026Jun22
+	- Summary: Uses classification and regression tree (CART) analysis with PK simulation to identify predictors of DEA accumulation and optimize amiodarone dosing to minimize pulmonary toxicity.
+
+- **[Integrated machine learning, molecular docking, and molecular dynamics simulations for in silico identification of GSK3β inhibitors for Alzheimer's disease.](https://pubmed.ncbi.nlm.nih.gov/42365084/)**
+	- Methodology: Supervised learning, Ensemble learning, Feature selection, Model selection, Unsupervised learning
+	- Published: 2026Jun27
+	- Summary: Two-stage ML virtual screening framework identifies GSK3β inhibitors for Alzheimer's disease, combined with molecular docking and MD simulations for structure-based validation.
+
 ## Endpoint / biomarker assessment
 
 - **[Analyzing patient perspectives with large language models: a cross-sectional study of sentiment and thematic classification on exception from informed consent.](https://pubmed.ncbi.nlm.nih.gov/39979559/)**
@@ -6425,6 +6485,11 @@ A curated list of research papers on AI/ML applications in pharmacometrics and c
 	- Methodology: Supervised learning, Unsupervised learning, Feature selection, Explainable AI
 	- Published: 2026May26
 	- Summary: AI-driven multi-omics pipeline using Cox regression, matrix factorization, and SHAP for drug repurposing in esophageal cancer, identifying AZD7762 as a multitarget inhibitor.
+
+- **[Counterfactual AI for Dynamic Dose Optimization with Side-Effect Constraints.](https://pubmed.ncbi.nlm.nih.gov/42340918/)**
+	- Methodology: Deep learning, Neural networks, Time-series modeling, Hybrid mechanistic–ML models, Reinforcement learning
+	- Published: 2026Jun24
+	- Summary: DoseAI uses Neural CDEs for counterfactual prediction and dynamic dose optimization under time-dependent confounding, evaluated on synthetic cancer and MIMIC-IV semi-synthetic data.
 
 ## Patient risk stratification / management
 
@@ -9671,6 +9736,16 @@ A curated list of research papers on AI/ML applications in pharmacometrics and c
 	- Published: 2026Jun19
 	- Summary: AI-driven de novo design using REINVENT with reinforcement learning to generate novel A2A adenosine receptor antagonists with CNS permeability via multiparameter optimization.
 
+- **[Optimizing Amiodarone Maintenance Dose to Minimize N-Desethylamiodarone Accumulation and Pulmonary Toxicity: Insights from Machine Learning and Pharmacokinetic Simulation.](https://pubmed.ncbi.nlm.nih.gov/42332214/)**
+	- Methodology: Tree-based models
+	- Published: 2026Jun22
+	- Summary: Uses classification and regression tree (CART) analysis with PK simulation to identify predictors of DEA accumulation and optimize amiodarone dosing to minimize pulmonary toxicity.
+
+- **[Population pharmacokinetics of dalbavancin: external validation, model averaging, and implications for precision dosing in prolonged therapy.](https://pubmed.ncbi.nlm.nih.gov/42363831/)**
+	- Methodology: Bayesian ML, Ensemble learning
+	- Published: 2026Jun22
+	- Summary: PopPK model for dalbavancin with external validation; model averaging (ensemble) and Bayesian forecasting used to optimize repeat-dose precision dosing strategies.
+
 ## Postmarketing surveillance
 
 - **[PharmBERT: a domain-specific BERT model for drug labels.](https://pubmed.ncbi.nlm.nih.gov/37317617/)**
@@ -10588,6 +10663,16 @@ A curated list of research papers on AI/ML applications in pharmacometrics and c
 	- Published: 2026May21
 	- Summary: Random Forest regression model processes electrochemical sensor output to enable rapid vancomycin quantification in serum for point-of-care therapeutic drug monitoring.
 
+- **[Counterfactual AI for Dynamic Dose Optimization with Side-Effect Constraints.](https://pubmed.ncbi.nlm.nih.gov/42340918/)**
+	- Methodology: Deep learning, Neural networks, Time-series modeling, Hybrid mechanistic–ML models, Reinforcement learning
+	- Published: 2026Jun24
+	- Summary: DoseAI uses Neural CDEs for counterfactual prediction and dynamic dose optimization under time-dependent confounding, evaluated on synthetic cancer and MIMIC-IV semi-synthetic data.
+
+- **[Population pharmacokinetics of dalbavancin: external validation, model averaging, and implications for precision dosing in prolonged therapy.](https://pubmed.ncbi.nlm.nih.gov/42363831/)**
+	- Methodology: Bayesian ML, Ensemble learning
+	- Published: 2026Jun22
+	- Summary: PopPK model for dalbavancin with external validation; model averaging (ensemble) and Bayesian forecasting used to optimize repeat-dose precision dosing strategies.
+
 ## RWD phenotyping
 
 - **[Boosting drug named entity recognition using an aggregate classifier.](https://pubmed.ncbi.nlm.nih.gov/26116947/)**
@@ -11110,6 +11195,11 @@ A curated list of research papers on AI/ML applications in pharmacometrics and c
 	- Methodology: Supervised learning, Deep learning, Neural networks
 	- Published: 2020Jan06
 	- Summary: This review surveys AI methods for drug treatment including patient-drug matching, drug interaction prediction, and treatment protocol optimization using various ML approaches.
+
+- **[Artificial Intelligence in Nanopharmaceutical Development: From Predictive Design to Clinical Translation.](https://pubmed.ncbi.nlm.nih.gov/42357379/)**
+	- Methodology: Supervised learning, Deep learning, Hybrid mechanistic–ML models, Neural networks, Surrogate modeling, Explainable AI, Bayesian ML, Gaussian processes
+	- Published: 2026Jun22
+	- Summary: Review of AI/ML applications in nanopharmaceutical development, covering predictive formulation design, PK/toxicity modeling, multi-objective optimization, and clinical translation of nanocarriers.
 
 - **[Artificial Intelligence in Ocular Drug Delivery: Precision Drug Delivery's New Horizon.](https://pubmed.ncbi.nlm.nih.gov/41388211/)**
 	- Published: 2025Dec12
@@ -11665,6 +11755,10 @@ A curated list of research papers on AI/ML applications in pharmacometrics and c
 	- Methodology: Supervised learning
 	- Published: 2025Aug31
 	- Summary: This review surveys how AI/ML methods including predictive modeling and machine learning algorithms are being integrated to accelerate drug discovery and development processes.
+
+- **[Human organ-on-a-chip technology as a catalyst for drug discovery.](https://pubmed.ncbi.nlm.nih.gov/42336322/)**
+	- Published: 2026Jun23
+	- Summary: Review of Organ-on-a-Chip technology for drug discovery, including its integration with AI and high-throughput screens to improve preclinical-to-clinical translation.
 
 - **[Imaging Beyond Seeing: Early Prognosis of Cancer Treatment.](https://pubmed.ncbi.nlm.nih.gov/34927817/)**
 	- Published: 2021Mar
