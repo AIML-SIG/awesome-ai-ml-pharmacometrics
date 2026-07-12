@@ -4,7 +4,7 @@
 
 A curated list of research papers on AI/ML applications in pharmacometrics and clinical pharmacology, regularly updated.
 
-**Last Updated**: 2026-07-05
+**Last Updated**: 2026-07-12
 
 ---
 ## Table of Contents
@@ -1980,6 +1980,21 @@ A curated list of research papers on AI/ML applications in pharmacometrics and c
 	- Methodology: Deep learning, Neural networks
 	- Published: 2026Jul
 	- Summary: Deep learning model predicts radiation dose distributions for MR-guided prostate treatment to support rapid feasibility assessment and adaptive planning margin selection.
+
+- **[Transformer-Based Deep Learning Model for Predicting Hemoglobin Response to Mircera® in Hemodialysis Patients.](https://pubmed.ncbi.nlm.nih.gov/42418351/)**
+	- Methodology: Deep learning, Neural networks, Time-series modeling, Supervised learning
+	- Published: 2026Jul08
+	- Summary: A transformer-based deep learning model is developed to predict individual hemoglobin responses to ESA therapy in hemodialysis patients for personalized anemia management.
+
+- **[Predicting First-in-Human Pharmacokinetics: Comparative Evaluation of Standard PBPK, High-Throughput PBPK, and Machine Learning.](https://pubmed.ncbi.nlm.nih.gov/42418317/)**
+	- Methodology: Supervised learning, Ensemble learning, Hybrid mechanistic–ML models
+	- Published: 2026Jul08
+	- Summary: Compares standard PBPK, high-throughput PBPK, and ML for predicting first-in-human PK (AUC, Cmax) in 40 small molecules, exploring ensemble combinations to improve accuracy.
+
+- **[A Novel Dosing Strategy for Tacrolimus in Lung Transplant Recipients: Integrating Machine Learning with Population Pharmacokinetic Analysis.](https://pubmed.ncbi.nlm.nih.gov/42397045/)**
+	- Methodology: Hybrid mechanistic–ML models, Supervised learning
+	- Published: 2026Jul06
+	- Summary: Integrates ML with population PK modeling to improve tacrolimus dosing and therapeutic drug monitoring in lung transplant recipients.
 
 ## Drug repurposing
 
@@ -4985,6 +5000,26 @@ A curated list of research papers on AI/ML applications in pharmacometrics and c
 	- Published: 2026Jul02
 	- Summary: ML models (Random Forest, stacking ensemble) predict IRE1α inhibitor toxicity using physicochemical descriptors to identify mutation-resilient breast cancer drug candidates.
 
+- **[Optical Spectral Fingerprinting Enables Sensitive Detection of Anthracycline Chemotherapeutics in Synthetic Clinical Biofluids.](https://pubmed.ncbi.nlm.nih.gov/42409644/)**
+	- Methodology: Supervised learning, Unsupervised learning, Tree-based models, Ensemble learning, Feature selection
+	- Published: 2026Jul06
+	- Summary: XGBoost and PCA classify anthracycline chemotherapeutics from optical nanosensor spectral fingerprints in synthetic biofluids for PK measurement.
+
+- **[Reinforcement Learning-Driven Multiproperty Optimization in Molecular Design Using Multicontext Transcriptome Data.](https://pubmed.ncbi.nlm.nih.gov/42406991/)**
+	- Methodology: Reinforcement learning, Deep learning, Neural networks
+	- Published: 2026Jul06
+	- Summary: Reinforcement learning integrated with a transcriptome-conditioned molecular generative model to optimize drug-likeness, synthetic accessibility, and logP simultaneously.
+
+- **[Machine learning-guided discovery of spirocyclic inhibitors targeting Mycobacterium tuberculosis FtsZ.](https://pubmed.ncbi.nlm.nih.gov/42406008/)**
+	- Methodology: Supervised learning, Surrogate modeling
+	- Published: 2026Jul06
+	- Summary: ML-guided QSAR predictive models (pIC50) combined with structure-based virtual screening to discover spirocyclic FtsZ inhibitors as novel anti-tuberculosis drug candidates.
+
+- **[Accurate and interpretable ADMET prediction: Integrating structural, geometric, and global molecular context representations.](https://pubmed.ncbi.nlm.nih.gov/41985263/)**
+	- Methodology: Deep learning, Neural networks, LLM, Explainable AI
+	- Published: 2026Jul05
+	- Summary: LGSM fuses 2D topology, 3D conformational, and SMILES-based language model representations in a deep learning framework for accurate, interpretable ADMET property prediction.
+
 ## Endpoint / biomarker assessment
 
 - **[Analyzing patient perspectives with large language models: a cross-sectional study of sentiment and thematic classification on exception from informed consent.](https://pubmed.ncbi.nlm.nih.gov/39979559/)**
@@ -5426,6 +5461,11 @@ A curated list of research papers on AI/ML applications in pharmacometrics and c
 	- Methodology: Supervised learning, Ensemble learning
 	- Published: 2026Jul02
 	- Summary: ML models (AUC=0.840) combined with a Bi/h-Bi2Te3 photoelectric sensor for apatinib detection to predict HCC recurrence after TACE and enable precision management.
+
+- **[Optical Spectral Fingerprinting Enables Sensitive Detection of Anthracycline Chemotherapeutics in Synthetic Clinical Biofluids.](https://pubmed.ncbi.nlm.nih.gov/42409644/)**
+	- Methodology: Supervised learning, Unsupervised learning, Tree-based models, Ensemble learning, Feature selection
+	- Published: 2026Jul06
+	- Summary: XGBoost and PCA classify anthracycline chemotherapeutics from optical nanosensor spectral fingerprints in synthetic biofluids for PK measurement.
 
 ## Enrichment design
 
@@ -6546,6 +6586,11 @@ A curated list of research papers on AI/ML applications in pharmacometrics and c
 	- Published: 2026Jul02
 	- Summary: ML models (AUC=0.840) combined with a Bi/h-Bi2Te3 photoelectric sensor for apatinib detection to predict HCC recurrence after TACE and enable precision management.
 
+- **[Transformer-Based Deep Learning Model for Predicting Hemoglobin Response to Mircera® in Hemodialysis Patients.](https://pubmed.ncbi.nlm.nih.gov/42418351/)**
+	- Methodology: Deep learning, Neural networks, Time-series modeling, Supervised learning
+	- Published: 2026Jul08
+	- Summary: A transformer-based deep learning model is developed to predict individual hemoglobin responses to ESA therapy in hemodialysis patients for personalized anemia management.
+
 ## Patient risk stratification / management
 
 - **[Computer-aided diagnosis of prostate cancer in the peripheral zone using multiparametric MRI.](https://pubmed.ncbi.nlm.nih.gov/22640958/)**
@@ -7284,6 +7329,11 @@ A curated list of research papers on AI/ML applications in pharmacometrics and c
 	- Methodology: Deep learning, Hybrid mechanistic–ML models, Feature selection, Neural networks, Time-series modeling, Mechanism-informed machine learning
 	- Published: 2026Jul
 	- Summary: Combines neural ODEs with LASSO regression to automatically propose interpretable mechanistic PK/PD structural models from data, enabling automated pharmacometric model development.
+
+- **[Transformer-Based Deep Learning Model for Predicting Hemoglobin Response to Mircera® in Hemodialysis Patients.](https://pubmed.ncbi.nlm.nih.gov/42418351/)**
+	- Methodology: Deep learning, Neural networks, Time-series modeling, Supervised learning
+	- Published: 2026Jul08
+	- Summary: A transformer-based deep learning model is developed to predict individual hemoglobin responses to ESA therapy in hemodialysis patients for personalized anemia management.
 
 ## Pharmacokinetic modeling
 
@@ -9826,6 +9876,41 @@ A curated list of research papers on AI/ML applications in pharmacometrics and c
 	- Published: 2026Jul
 	- Summary: Combines neural ODEs with LASSO regression to automatically propose interpretable mechanistic PK/PD structural models from data, enabling automated pharmacometric model development.
 
+- **[Predicting First-in-Human Pharmacokinetics: Comparative Evaluation of Standard PBPK, High-Throughput PBPK, and Machine Learning.](https://pubmed.ncbi.nlm.nih.gov/42418317/)**
+	- Methodology: Supervised learning, Ensemble learning, Hybrid mechanistic–ML models
+	- Published: 2026Jul08
+	- Summary: Compares standard PBPK, high-throughput PBPK, and ML for predicting first-in-human PK (AUC, Cmax) in 40 small molecules, exploring ensemble combinations to improve accuracy.
+
+- **[Optical Spectral Fingerprinting Enables Sensitive Detection of Anthracycline Chemotherapeutics in Synthetic Clinical Biofluids.](https://pubmed.ncbi.nlm.nih.gov/42409644/)**
+	- Methodology: Supervised learning, Unsupervised learning, Tree-based models, Ensemble learning, Feature selection
+	- Published: 2026Jul06
+	- Summary: XGBoost and PCA classify anthracycline chemotherapeutics from optical nanosensor spectral fingerprints in synthetic biofluids for PK measurement.
+
+- **[Reinforcement Learning-Driven Multiproperty Optimization in Molecular Design Using Multicontext Transcriptome Data.](https://pubmed.ncbi.nlm.nih.gov/42406991/)**
+	- Methodology: Reinforcement learning, Deep learning, Neural networks
+	- Published: 2026Jul06
+	- Summary: Reinforcement learning integrated with a transcriptome-conditioned molecular generative model to optimize drug-likeness, synthetic accessibility, and logP simultaneously.
+
+- **[Machine learning-guided discovery of spirocyclic inhibitors targeting Mycobacterium tuberculosis FtsZ.](https://pubmed.ncbi.nlm.nih.gov/42406008/)**
+	- Methodology: Supervised learning, Surrogate modeling
+	- Published: 2026Jul06
+	- Summary: ML-guided QSAR predictive models (pIC50) combined with structure-based virtual screening to discover spirocyclic FtsZ inhibitors as novel anti-tuberculosis drug candidates.
+
+- **[Assessing the impact of data harmonization on human liver microsomal stability prediction model performance.](https://pubmed.ncbi.nlm.nih.gov/42137024/)**
+	- Methodology: Supervised learning, Tree-based models, Ensemble learning, Neural networks
+	- Published: 2026Jul05
+	- Summary: Evaluates impact of data harmonization on ML-based QSAR models (KNN, SVC, XGBoost, Chemprop) for predicting human liver microsomal metabolic stability.
+
+- **[Accurate and interpretable ADMET prediction: Integrating structural, geometric, and global molecular context representations.](https://pubmed.ncbi.nlm.nih.gov/41985263/)**
+	- Methodology: Deep learning, Neural networks, LLM, Explainable AI
+	- Published: 2026Jul05
+	- Summary: LGSM fuses 2D topology, 3D conformational, and SMILES-based language model representations in a deep learning framework for accurate, interpretable ADMET property prediction.
+
+- **[A Novel Dosing Strategy for Tacrolimus in Lung Transplant Recipients: Integrating Machine Learning with Population Pharmacokinetic Analysis.](https://pubmed.ncbi.nlm.nih.gov/42397045/)**
+	- Methodology: Hybrid mechanistic–ML models, Supervised learning
+	- Published: 2026Jul06
+	- Summary: Integrates ML with population PK modeling to improve tacrolimus dosing and therapeutic drug monitoring in lung transplant recipients.
+
 ## Postmarketing surveillance
 
 - **[PharmBERT: a domain-specific BERT model for drug labels.](https://pubmed.ncbi.nlm.nih.gov/37317617/)**
@@ -10762,6 +10847,16 @@ A curated list of research papers on AI/ML applications in pharmacometrics and c
 	- Methodology: Supervised learning, Ensemble learning
 	- Published: 2026Jul02
 	- Summary: ML models (AUC=0.840) combined with a Bi/h-Bi2Te3 photoelectric sensor for apatinib detection to predict HCC recurrence after TACE and enable precision management.
+
+- **[Transformer-Based Deep Learning Model for Predicting Hemoglobin Response to Mircera® in Hemodialysis Patients.](https://pubmed.ncbi.nlm.nih.gov/42418351/)**
+	- Methodology: Deep learning, Neural networks, Time-series modeling, Supervised learning
+	- Published: 2026Jul08
+	- Summary: A transformer-based deep learning model is developed to predict individual hemoglobin responses to ESA therapy in hemodialysis patients for personalized anemia management.
+
+- **[A Novel Dosing Strategy for Tacrolimus in Lung Transplant Recipients: Integrating Machine Learning with Population Pharmacokinetic Analysis.](https://pubmed.ncbi.nlm.nih.gov/42397045/)**
+	- Methodology: Hybrid mechanistic–ML models, Supervised learning
+	- Published: 2026Jul06
+	- Summary: Integrates ML with population PK modeling to improve tacrolimus dosing and therapeutic drug monitoring in lung transplant recipients.
 
 ## RWD phenotyping
 
@@ -11788,6 +11883,10 @@ A curated list of research papers on AI/ML applications in pharmacometrics and c
 	- Published: 2026Feb26
 	- Summary: This review examines evolving methodologies for oral drug absorption assessment, emphasizing integration of mechanistic research with predictive modeling platforms.
 
+- **[From pharmacometric foundations to emerging artificial intelligence applications: A bibliometric analysis of model-informed precision dosing for anti-infective therapy (2005-2025).](https://pubmed.ncbi.nlm.nih.gov/42416390/)**
+	- Published: 2026Jan-Dec
+	- Summary: Bibliometric analysis mapping MIPD research in anti-infective therapy from 2005-2025, tracing evolution from pharmacometric foundations to emerging AI/ML applications.
+
 - **[FtsZ as a novel target for antibiotics development: Promises and challenges.](https://pubmed.ncbi.nlm.nih.gov/40893674/)**
 	- Methodology: Supervised learning
 	- Published: 2025Aug
@@ -12199,6 +12298,10 @@ A curated list of research papers on AI/ML applications in pharmacometrics and c
 	- Published: 2025Mar10
 	- Summary: Personal perspective on using text mining and AI to master complexities in cancer nanomedicine for hypothesis generation, drug combination optimization, and automated nanoparticle discovery.
 
+- **[Matrix Effects and Analytical Instability in Pharmaceutical Bioanalysis: Current Challenges and Future Directions.](https://pubmed.ncbi.nlm.nih.gov/42421221/)**
+	- Published: 2026Jul08
+	- Summary: Review of matrix effects and analytical instability in pharmaceutical bioanalysis, mentioning AI-assisted workflows among advances in LC-MS and sample preparation technologies.
+
 - **[Metabolic phenotypes: Molecular bridges between health homeostasis and disease imbalance.](https://pubmed.ncbi.nlm.nih.gov/41245891/)**
 	- Published: 2025
 	- Summary: This review discusses metabolic phenotypes in disease and mentions future integration of AI and big data mining but does not survey specific AI/ML methodologies.
@@ -12281,6 +12384,10 @@ A curated list of research papers on AI/ML applications in pharmacometrics and c
 	- Methodology: Supervised learning, Unsupervised learning, Deep learning, Hybrid mechanistic–ML models
 	- Published: 2022
 	- Summary: This review surveys AI/ML applications in nanomedicine development, covering modeling approaches and artificial intelligence methods for drug delivery optimization.
+
+- **[Naturally derived excipients in injectable nanomedicines: a systematic review of pharmacokinetic performance, regulatory readiness, and future quality by design perspectives.](https://pubmed.ncbi.nlm.nih.gov/42411369/)**
+	- Published: 2026Jul07
+	- Summary: Systematic review of naturally derived excipients in injectable nanomedicines evaluating pharmacokinetic performance, regulatory readiness, and quality by design perspectives; no AI/ML methods used.
 
 - **[Network pharmacology and AI: illuminating the path to precision herbal medicine in Ganoderma spp.](https://pubmed.ncbi.nlm.nih.gov/42062030/)**
 	- Methodology: Supervised learning, Neural networks
@@ -12535,6 +12642,11 @@ A curated list of research papers on AI/ML applications in pharmacometrics and c
 - **[Protocol-Based Management of Medication Confounders in Brain Death Determination: A Multi-Institutional Review.](https://pubmed.ncbi.nlm.nih.gov/42310841/)**
 	- Published: 2026Jul
 	- Summary: Non-AI/ML study reviewing institutional protocols for brain death determination, focusing on medication confounders and ancillary testing across US hospitals.
+
+- **[QSAR-Based Strategies for Selective-HDAC6 Inhibitor Development: A Detailed Review.](https://pubmed.ncbi.nlm.nih.gov/42411215/)**
+	- Methodology: Supervised learning, Feature selection
+	- Published: 2026Jul06
+	- Summary: A detailed review of QSAR-based AI/ML strategies for developing selective HDAC6 inhibitors, covering structure-activity relationships and predictive modeling approaches.
 
 - **[Quantitative Systems Pharmacology and Machine Learning: A Match Made in Heaven or Hell?](https://pubmed.ncbi.nlm.nih.gov/37652709/)**
 	- Methodology: Hybrid mechanistic–ML models
@@ -12850,6 +12962,11 @@ A curated list of research papers on AI/ML applications in pharmacometrics and c
 	- Published: 2023
 	- Summary: This perspective paper discusses the potential of AI/ML, particularly deep machine learning, to assist in personalized antiseizure medication selection for epilepsy patients.
 
+- **[The evolution of nonlinear mixed effects modeling in pharmacometrics: toward AI-based variational autoencoders.](https://pubmed.ncbi.nlm.nih.gov/42420693/)**
+	- Methodology: Deep learning, Hybrid mechanistic–ML models, Bayesian ML, Emulation of NLME models
+	- Published: 2026Jul08
+	- Summary: Commentary tracing NLME modeling evolution from linearization to AI-based variational autoencoders, enabling AI-augmented pharmacometric models with multimodal data integration.
+
 - **[The history and future of population pharmacokinetic analysis in drug development.](https://pubmed.ncbi.nlm.nih.gov/38051030/)**
 	- Methodology: Model selection, Feature selection, Deep learning
 	- Published: 2024Jul
@@ -12999,6 +13116,11 @@ A curated list of research papers on AI/ML applications in pharmacometrics and c
 	- Methodology: Supervised learning
 	- Published: 2022Nov
 	- Summary: Reviews technical aspects of public-private partnerships for collecting data to build machine learning models that predict pharmacokinetic parameters.
+
+- **[Validation of AI-enabled surrogate models in quantitative systems pharmacology: a practical, context-of-use-driven review.](https://pubmed.ncbi.nlm.nih.gov/42409163/)**
+	- Methodology: Surrogate modeling, Hybrid mechanistic–ML models, Neural networks, Gaussian processes, Bayesian ML
+	- Published: 2026Jul06
+	- Summary: Eight-step validation framework for AI-enabled surrogate models of QSP systems, illustrated with CAR-T and hybrid neural ODE erythropoiesis examples, aligned with ICH M15 and ASME V&V40.
 
 - **[Vancomycin resistance in gram-positive infections: evolutionary strategies of survival.](https://pubmed.ncbi.nlm.nih.gov/41563485/)**
 	- Methodology: Supervised learning, Hybrid mechanistic–ML models
