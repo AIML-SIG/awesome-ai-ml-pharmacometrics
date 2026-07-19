@@ -4,7 +4,7 @@
 
 A curated list of research papers on AI/ML applications in pharmacometrics and clinical pharmacology, regularly updated.
 
-**Last Updated**: 2026-07-12
+**Last Updated**: 2026-07-19
 
 ---
 ## Table of Contents
@@ -790,6 +790,11 @@ A curated list of research papers on AI/ML applications in pharmacometrics and c
 	- Methodology: Deep learning, Neural networks, Time-series modeling, Hybrid mechanistic–ML models, Reinforcement learning
 	- Published: 2026Jun24
 	- Summary: DoseAI uses Neural CDEs for counterfactual prediction and dynamic dose optimization under time-dependent confounding, evaluated on synthetic cancer and MIMIC-IV semi-synthetic data.
+
+- **[A distributional reinforcement learning model for temporal coagulation balance evaluation and state‑guided supportive suggestions.](https://pubmed.ncbi.nlm.nih.gov/42469406/)**
+	- Methodology: Reinforcement learning, Deep learning, Neural networks, Time-series modeling, Explainable AI
+	- Published: 2026Jul17
+	- Summary: Distributional offline RL with BiLSTM-Attention guides dynamic, individualized coagulopathy management in critically ill patients using longitudinal lab data.
 
 ## Dose selection / optimization
 
@@ -1995,6 +2000,26 @@ A curated list of research papers on AI/ML applications in pharmacometrics and c
 	- Methodology: Hybrid mechanistic–ML models, Supervised learning
 	- Published: 2026Jul06
 	- Summary: Integrates ML with population PK modeling to improve tacrolimus dosing and therapeutic drug monitoring in lung transplant recipients.
+
+- **[A multivariate ANN-CCD integrative model using cellulose based polymers for the development of osmotically controlled push-pull dexibuprofen tablets and its predictive pharmacokinetic modeling.](https://pubmed.ncbi.nlm.nih.gov/42456955/)**
+	- Methodology: Neural networks, Hybrid mechanistic–ML models
+	- Published: 2026Jul15
+	- Summary: ANN combined with Central Composite Design optimizes osmotic dexibuprofen tablet formulation, with PBPK modeling via GastroPlus for predictive pharmacokinetic assessment.
+
+- **[Therapeutic hybrid intelligence with neural and knowledge-based expert reasoning for SRS (THINKERS): an AI model for meningioma.](https://pubmed.ncbi.nlm.nih.gov/42467105/)**
+	- Methodology: Ensemble learning, Neural networks, Hybrid mechanistic–ML models, Explainable AI
+	- Published: 2026Jul17
+	- Summary: THINKERS-Meningioma uses a mixture-of-experts AI framework combining neural and knowledge-based reasoning to personalize stereotactic radiosurgery dose selection for intracranial meningiomas.
+
+- **[Finding Balance: Multiobjective Optimization in Molecular Generative Modeling.](https://pubmed.ncbi.nlm.nih.gov/42317170/)**
+	- Methodology: Deep learning, Reinforcement learning, Neural networks, Supervised learning
+	- Published: 2026Jul13
+	- Summary: Multiobjective optimization combined with generative models to design de novo small molecules balancing potency, safety, metabolic stability, and multi-target engagement.
+
+- **[Physics-Informed LSTM Neural Network for Personalized Pharmacokinetic Modeling of Polymyxin B in Critically Ill Patients.](https://pubmed.ncbi.nlm.nih.gov/42463031/)**
+	- Methodology: Deep learning, Neural networks, Hybrid mechanistic–ML models, Time-series modeling, Mechanism-informed machine learning
+	- Published: 2026Jul16
+	- Summary: A physics-informed LSTM neural network integrating PK principles with deep learning for personalized Polymyxin B concentration prediction in critically ill patients.
 
 ## Drug repurposing
 
@@ -5020,6 +5045,16 @@ A curated list of research papers on AI/ML applications in pharmacometrics and c
 	- Published: 2026Jul05
 	- Summary: LGSM fuses 2D topology, 3D conformational, and SMILES-based language model representations in a deep learning framework for accurate, interpretable ADMET property prediction.
 
+- **[Finding Balance: Multiobjective Optimization in Molecular Generative Modeling.](https://pubmed.ncbi.nlm.nih.gov/42317170/)**
+	- Methodology: Deep learning, Reinforcement learning, Neural networks, Supervised learning
+	- Published: 2026Jul13
+	- Summary: Multiobjective optimization combined with generative models to design de novo small molecules balancing potency, safety, metabolic stability, and multi-target engagement.
+
+- **[Targeting SAM-dependent methyltransferase in Mycobacterium avium complex (MAC) with natural products: ADMET and computational profiling.](https://pubmed.ncbi.nlm.nih.gov/42466192/)**
+	- Methodology: Deep learning
+	- Published: 2026
+	- Summary: AI-based protein structure modeling and molecular docking/simulation to identify natural product leads targeting SAM-dependent methyltransferase in Mycobacterium avium complex.
+
 ## Endpoint / biomarker assessment
 
 - **[Analyzing patient perspectives with large language models: a cross-sectional study of sentiment and thematic classification on exception from informed consent.](https://pubmed.ncbi.nlm.nih.gov/39979559/)**
@@ -5733,6 +5768,11 @@ A curated list of research papers on AI/ML applications in pharmacometrics and c
 - **[Efficient in vivo assembly of DNA encoded multivalent BTEs for dual antigen targeting for broadening therapeutic impact in ovarian cancer.](https://pubmed.ncbi.nlm.nih.gov/42198849/)**
 	- Published: 2026May26
 	- Summary: This paper describes development of DNA-encoded bispecific T cell engagers for ovarian cancer treatment without using or surveying AI/ML methods.
+
+- **[Randomized, Double-Blind, Placebo-Controlled First-in-Human Trial of a First-in-Class AI-Designed Monoclonal Antibody (GB-0669) Against the Conserved SARS-CoV-2 Spike S2 Stem Helix.](https://pubmed.ncbi.nlm.nih.gov/42446369/)**
+	- Methodology: Other/General
+	- Published: 2026Jul14
+	- Summary: Error during classification
 
 ## Outcome prediction
 
@@ -6591,6 +6631,16 @@ A curated list of research papers on AI/ML applications in pharmacometrics and c
 	- Published: 2026Jul08
 	- Summary: A transformer-based deep learning model is developed to predict individual hemoglobin responses to ESA therapy in hemodialysis patients for personalized anemia management.
 
+- **[A distributional reinforcement learning model for temporal coagulation balance evaluation and state‑guided supportive suggestions.](https://pubmed.ncbi.nlm.nih.gov/42469406/)**
+	- Methodology: Reinforcement learning, Deep learning, Neural networks, Time-series modeling, Explainable AI
+	- Published: 2026Jul17
+	- Summary: Distributional offline RL with BiLSTM-Attention guides dynamic, individualized coagulopathy management in critically ill patients using longitudinal lab data.
+
+- **[Therapeutic hybrid intelligence with neural and knowledge-based expert reasoning for SRS (THINKERS): an AI model for meningioma.](https://pubmed.ncbi.nlm.nih.gov/42467105/)**
+	- Methodology: Ensemble learning, Neural networks, Hybrid mechanistic–ML models, Explainable AI
+	- Published: 2026Jul17
+	- Summary: THINKERS-Meningioma uses a mixture-of-experts AI framework combining neural and knowledge-based reasoning to personalize stereotactic radiosurgery dose selection for intracranial meningiomas.
+
 ## Patient risk stratification / management
 
 - **[Computer-aided diagnosis of prostate cancer in the peripheral zone using multiparametric MRI.](https://pubmed.ncbi.nlm.nih.gov/22640958/)**
@@ -6902,6 +6952,16 @@ A curated list of research papers on AI/ML applications in pharmacometrics and c
 	- Methodology: Supervised learning, Ensemble learning
 	- Published: 2026Jul02
 	- Summary: ML models (AUC=0.840) combined with a Bi/h-Bi2Te3 photoelectric sensor for apatinib detection to predict HCC recurrence after TACE and enable precision management.
+
+- **[A distributional reinforcement learning model for temporal coagulation balance evaluation and state‑guided supportive suggestions.](https://pubmed.ncbi.nlm.nih.gov/42469406/)**
+	- Methodology: Reinforcement learning, Deep learning, Neural networks, Time-series modeling, Explainable AI
+	- Published: 2026Jul17
+	- Summary: Distributional offline RL with BiLSTM-Attention guides dynamic, individualized coagulopathy management in critically ill patients using longitudinal lab data.
+
+- **[Therapeutic hybrid intelligence with neural and knowledge-based expert reasoning for SRS (THINKERS): an AI model for meningioma.](https://pubmed.ncbi.nlm.nih.gov/42467105/)**
+	- Methodology: Ensemble learning, Neural networks, Hybrid mechanistic–ML models, Explainable AI
+	- Published: 2026Jul17
+	- Summary: THINKERS-Meningioma uses a mixture-of-experts AI framework combining neural and knowledge-based reasoning to personalize stereotactic radiosurgery dose selection for intracranial meningiomas.
 
 ## Pharmacodynamic modeling
 
@@ -9911,6 +9971,21 @@ A curated list of research papers on AI/ML applications in pharmacometrics and c
 	- Published: 2026Jul06
 	- Summary: Integrates ML with population PK modeling to improve tacrolimus dosing and therapeutic drug monitoring in lung transplant recipients.
 
+- **[A multivariate ANN-CCD integrative model using cellulose based polymers for the development of osmotically controlled push-pull dexibuprofen tablets and its predictive pharmacokinetic modeling.](https://pubmed.ncbi.nlm.nih.gov/42456955/)**
+	- Methodology: Neural networks, Hybrid mechanistic–ML models
+	- Published: 2026Jul15
+	- Summary: ANN combined with Central Composite Design optimizes osmotic dexibuprofen tablet formulation, with PBPK modeling via GastroPlus for predictive pharmacokinetic assessment.
+
+- **[Targeting SAM-dependent methyltransferase in Mycobacterium avium complex (MAC) with natural products: ADMET and computational profiling.](https://pubmed.ncbi.nlm.nih.gov/42466192/)**
+	- Methodology: Deep learning
+	- Published: 2026
+	- Summary: AI-based protein structure modeling and molecular docking/simulation to identify natural product leads targeting SAM-dependent methyltransferase in Mycobacterium avium complex.
+
+- **[Physics-Informed LSTM Neural Network for Personalized Pharmacokinetic Modeling of Polymyxin B in Critically Ill Patients.](https://pubmed.ncbi.nlm.nih.gov/42463031/)**
+	- Methodology: Deep learning, Neural networks, Hybrid mechanistic–ML models, Time-series modeling, Mechanism-informed machine learning
+	- Published: 2026Jul16
+	- Summary: A physics-informed LSTM neural network integrating PK principles with deep learning for personalized Polymyxin B concentration prediction in critically ill patients.
+
 ## Postmarketing surveillance
 
 - **[PharmBERT: a domain-specific BERT model for drug labels.](https://pubmed.ncbi.nlm.nih.gov/37317617/)**
@@ -10858,6 +10933,21 @@ A curated list of research papers on AI/ML applications in pharmacometrics and c
 	- Published: 2026Jul06
 	- Summary: Integrates ML with population PK modeling to improve tacrolimus dosing and therapeutic drug monitoring in lung transplant recipients.
 
+- **[A distributional reinforcement learning model for temporal coagulation balance evaluation and state‑guided supportive suggestions.](https://pubmed.ncbi.nlm.nih.gov/42469406/)**
+	- Methodology: Reinforcement learning, Deep learning, Neural networks, Time-series modeling, Explainable AI
+	- Published: 2026Jul17
+	- Summary: Distributional offline RL with BiLSTM-Attention guides dynamic, individualized coagulopathy management in critically ill patients using longitudinal lab data.
+
+- **[Therapeutic hybrid intelligence with neural and knowledge-based expert reasoning for SRS (THINKERS): an AI model for meningioma.](https://pubmed.ncbi.nlm.nih.gov/42467105/)**
+	- Methodology: Ensemble learning, Neural networks, Hybrid mechanistic–ML models, Explainable AI
+	- Published: 2026Jul17
+	- Summary: THINKERS-Meningioma uses a mixture-of-experts AI framework combining neural and knowledge-based reasoning to personalize stereotactic radiosurgery dose selection for intracranial meningiomas.
+
+- **[Physics-Informed LSTM Neural Network for Personalized Pharmacokinetic Modeling of Polymyxin B in Critically Ill Patients.](https://pubmed.ncbi.nlm.nih.gov/42463031/)**
+	- Methodology: Deep learning, Neural networks, Hybrid mechanistic–ML models, Time-series modeling, Mechanism-informed machine learning
+	- Published: 2026Jul16
+	- Summary: A physics-informed LSTM neural network integrating PK principles with deep learning for personalized Polymyxin B concentration prediction in critically ill patients.
+
 ## RWD phenotyping
 
 - **[Boosting drug named entity recognition using an aggregate classifier.](https://pubmed.ncbi.nlm.nih.gov/26116947/)**
@@ -11796,6 +11886,11 @@ A curated list of research papers on AI/ML applications in pharmacometrics and c
 	- Published: 2022
 	- Summary: This review discusses drug repurposing for cancer therapy and mentions the need for AI methods to analyze molecular signatures, but does not focus on specific AI/ML methodologies.
 
+- **[Drug repurposing in oncology: Bridging computational discovery to clinical application.](https://pubmed.ncbi.nlm.nih.gov/41839763/)**
+	- Methodology: Supervised learning
+	- Published: 2026Jul15
+	- Summary: Review of computational and experimental drug repurposing strategies in oncology, including ML, molecular docking, network-based modeling, and transcriptomic signature reversal approaches.
+
 - **[Editor's note on the themed issue: integration of machine learning and quantitative systems pharmacology.](https://pubmed.ncbi.nlm.nih.gov/35041146/)**
 	- Published: 2022Feb
 	- Summary: Editor's note introducing a themed issue on integrating machine learning with quantitative systems pharmacology, providing perspective on the field's direction.
@@ -12556,6 +12651,10 @@ A curated list of research papers on AI/ML applications in pharmacometrics and c
 	- Published: 2019Jul
 	- Summary: This review discusses biomarkers for pain therapy and mentions machine learning techniques could process biomarker data to optimize individual treatment selection.
 
+- **[Precision Medicine for Anticoagulation Strategies in the Cath Lab: Part 2.](https://pubmed.ncbi.nlm.nih.gov/42467330/)**
+	- Published: 2026Jul17
+	- Summary: A clinical review on intraprocedural anticoagulation strategies during PCI in high-risk populations; no AI/ML methods are used or surveyed.
+
 - **[Precision Pediatric Cancer Nanomedicine: Advancing Personalized Nano Therapies to Reduce Non-Communicable Diseases Through AI-Driven 3D-Printed Drugs.](https://pubmed.ncbi.nlm.nih.gov/41717314/)**
 	- Methodology: Bayesian ML
 	- Published: 2026
@@ -12908,6 +13007,10 @@ A curated list of research papers on AI/ML applications in pharmacometrics and c
 	- Methodology: Deep learning, Neural networks
 	- Published: 2025
 	- Summary: This review paper surveys AI/ML advancements in drug discovery, covering deep learning applications in CADD, PBPK modeling, and nano-QSAR for enhanced drug development.
+
+- **[The Israeli IBD Research Nucleus: collaborative advancements in Israeli IBD research.](https://pubmed.ncbi.nlm.nih.gov/42454214/)**
+	- Published: 2026
+	- Summary: Narrative review of a decade of Israeli IBD Research Nucleus collaborative work; no AI/ML methods are used or surveyed.
 
 - **[The Next Generation of Machine Learning in DDIs Prediction.](https://pubmed.ncbi.nlm.nih.gov/33504300/)**
 	- Methodology: Deep learning
