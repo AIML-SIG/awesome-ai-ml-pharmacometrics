@@ -4,7 +4,7 @@
 
 A curated list of research papers on AI/ML applications in pharmacometrics and clinical pharmacology, regularly updated.
 
-**Last Updated**: 2026-07-26
+**Last Updated**: 2026-08-02
 
 ---
 ## Table of Contents
@@ -32,6 +32,7 @@ A curated list of research papers on AI/ML applications in pharmacometrics and c
 - [Precision medicine / optimized treatment regimen](#precision-medicine-optimized-treatment-regimen)
 - [RWD phenotyping](#rwd-phenotyping)
 - [Survival analysis](#survival-analysis)
+- [Synthetic control](#synthetic-control)
 
 ## Adherence to drug regimen
 
@@ -260,6 +261,11 @@ A curated list of research papers on AI/ML applications in pharmacometrics and c
 	- Methodology: Deep learning, Hybrid mechanistic–ML models, Feature selection, Neural networks, Time-series modeling, Mechanism-informed machine learning
 	- Published: 2026Jul
 	- Summary: Combines neural ODEs with LASSO regression to automatically propose interpretable mechanistic PK/PD structural models from data, enabling automated pharmacometric model development.
+
+- **[Structured Schemas for Provenance-Rich, LLM-Assisted QSP Model Calibration.](https://pubmed.ncbi.nlm.nih.gov/42535762/)**
+	- Methodology: LLM, AI Agents
+	- Published: 2026Aug
+	- Summary: MAPLE uses LLMs with structured validation schemas to automate provenance-rich literature extraction and calibration data curation for QSP model parameterization in pancreatic cancer.
 
 ## Causal inference
 
@@ -505,6 +511,16 @@ A curated list of research papers on AI/ML applications in pharmacometrics and c
 	- Published: 2026Jul20
 	- Summary: ML methods identify gut microbiome features associated with tacrolimus PK variability in HCT recipients, complementing population PK modeling and PGx covariates.
 
+- **[Voriconazole Exacerbates Subtherapeutic Linezolid Exposure in Critically Ill Patients with Staphylococcus aureus infection: Drug-Drug Interaction Evaluation and Dose Optimization Based on Population Modeling and Ensemble Learning.](https://pubmed.ncbi.nlm.nih.gov/42526658/)**
+	- Methodology: Ensemble learning, Supervised learning, Explainable AI, Tree-based models
+	- Published: 2026Jul29
+	- Summary: Evaluates voriconazole-linezolid PK drug interaction in critically ill patients using population PK modeling and interpretable ensemble ML for precision dose optimization.
+
+- **[A wearable patch for continuous levodopa monitoring in sweat: Towards exertion and power-free pharmacodynamic assessment in Parkinson's disease.](https://pubmed.ncbi.nlm.nih.gov/42507913/)**
+	- Methodology: Supervised learning, Feature selection
+	- Published: 2026Aug11
+	- Summary: ML identifies sweat and blood pressure as key features for estimating blood L-dopa levels from a wearable sweat-sensing patch in Parkinson's disease patients.
+
 ## Data imputation
 
 - **[Improving Genotype Imputation in High-Dimensional Pharmacogenomics Using Multiple Imputation: Evaluation with Machine Learning Approaches.](https://pubmed.ncbi.nlm.nih.gov/41407383/)**
@@ -571,6 +587,11 @@ A curated list of research papers on AI/ML applications in pharmacometrics and c
 	- Methodology: Deep learning, Neural networks
 	- Published: 2026Apr
 	- Summary: Uses Wasserstein GANs to generate artificial patient profiles for augmenting population pharmacokinetic datasets and improving parameter estimation confidence intervals.
+
+- **[Diffusion models for virtual populations and pharmacometric simulations.](https://pubmed.ncbi.nlm.nih.gov/42527765/)**
+	- Methodology: Deep learning, Neural networks, Time-series modeling, Unsupervised learning
+	- Published: 2026Jul29
+	- Summary: Diffusion models (DDPM, SDM, TDM) are evaluated for generating virtual populations with physiological covariates and pharmacokinetic profiles, outperforming tabular VAE approaches.
 
 ## Discovery of subpatient groups
 
@@ -678,6 +699,11 @@ A curated list of research papers on AI/ML applications in pharmacometrics and c
 	- Methodology: Tree-based models
 	- Published: 2026Jun22
 	- Summary: Uses classification and regression tree (CART) analysis with PK simulation to identify predictors of DEA accumulation and optimize amiodarone dosing to minimize pulmonary toxicity.
+
+- **[Pathomic biomarkers derived from whole-slide histopathology predict hepatocellular carcinoma progression and enable GPC3-linked tumour microenvironment stratification in a preclinical experimental oncology model.](https://pubmed.ncbi.nlm.nih.gov/42155213/)**
+	- Methodology: Deep learning, Supervised learning, Unsupervised learning
+	- Published: 2026Aug
+	- Summary: AI-based pathomic biomarkers from whole-slide histopathology images predict HCC progression and stratify tumour microenvironment via GPC3-linked features in a preclinical model.
 
 ## Disease progression modeling
 
@@ -800,6 +826,16 @@ A curated list of research papers on AI/ML applications in pharmacometrics and c
 	- Methodology: Reinforcement learning, Deep learning, Neural networks, Time-series modeling, Explainable AI
 	- Published: 2026Jul17
 	- Summary: Distributional offline RL with BiLSTM-Attention guides dynamic, individualized coagulopathy management in critically ill patients using longitudinal lab data.
+
+- **[Structured Schemas for Provenance-Rich, LLM-Assisted QSP Model Calibration.](https://pubmed.ncbi.nlm.nih.gov/42535762/)**
+	- Methodology: LLM, AI Agents
+	- Published: 2026Aug
+	- Summary: MAPLE uses LLMs with structured validation schemas to automate provenance-rich literature extraction and calibration data curation for QSP model parameterization in pancreatic cancer.
+
+- **[Pathomic biomarkers derived from whole-slide histopathology predict hepatocellular carcinoma progression and enable GPC3-linked tumour microenvironment stratification in a preclinical experimental oncology model.](https://pubmed.ncbi.nlm.nih.gov/42155213/)**
+	- Methodology: Deep learning, Supervised learning, Unsupervised learning
+	- Published: 2026Aug
+	- Summary: AI-based pathomic biomarkers from whole-slide histopathology images predict HCC progression and stratify tumour microenvironment via GPC3-linked features in a preclinical model.
 
 ## Dose selection / optimization
 
@@ -2025,6 +2061,11 @@ A curated list of research papers on AI/ML applications in pharmacometrics and c
 	- Methodology: Deep learning, Neural networks, Hybrid mechanistic–ML models, Time-series modeling, Mechanism-informed machine learning
 	- Published: 2026Jul16
 	- Summary: A physics-informed LSTM neural network integrating PK principles with deep learning for personalized Polymyxin B concentration prediction in critically ill patients.
+
+- **[Voriconazole Exacerbates Subtherapeutic Linezolid Exposure in Critically Ill Patients with Staphylococcus aureus infection: Drug-Drug Interaction Evaluation and Dose Optimization Based on Population Modeling and Ensemble Learning.](https://pubmed.ncbi.nlm.nih.gov/42526658/)**
+	- Methodology: Ensemble learning, Supervised learning, Explainable AI, Tree-based models
+	- Published: 2026Jul29
+	- Summary: Evaluates voriconazole-linezolid PK drug interaction in critically ill patients using population PK modeling and interpretable ensemble ML for precision dose optimization.
 
 ## Drug repurposing
 
@@ -5070,6 +5111,11 @@ A curated list of research papers on AI/ML applications in pharmacometrics and c
 	- Published: 2026Jul24
 	- Summary: Hybrid PBPK-constrained neural ODE framework combining mechanistic PBPK models with neural ODEs to improve internal dose prediction for environmental health risk assessment.
 
+- **[Machine Learning Enables Rapid Prediction of Acid-Reducing Agent Drug Interactions: A Streamlined Complement to PBPK Modeling.](https://pubmed.ncbi.nlm.nih.gov/42538618/)**
+	- Methodology: Supervised learning, Tree-based models, Ensemble learning, Hybrid mechanistic–ML models, Surrogate modeling
+	- Published: 2026Aug
+	- Summary: XGBoost ML model trained on PBPK-simulated virtual drugs predicts pH-dependent DDI AUC ratios for weakly basic drugs co-administered with acid-reducing agents.
+
 ## Endpoint / biomarker assessment
 
 - **[Analyzing patient perspectives with large language models: a cross-sectional study of sentiment and thematic classification on exception from informed consent.](https://pubmed.ncbi.nlm.nih.gov/39979559/)**
@@ -5517,6 +5563,21 @@ A curated list of research papers on AI/ML applications in pharmacometrics and c
 	- Published: 2026Jul06
 	- Summary: XGBoost and PCA classify anthracycline chemotherapeutics from optical nanosensor spectral fingerprints in synthetic biofluids for PK measurement.
 
+- **[Scanner-agnostic artificial intelligence approach for fast bone scintigraphy.](https://pubmed.ncbi.nlm.nih.gov/42482648/)**
+	- Methodology: Deep learning, Neural networks
+	- Published: 2026Aug
+	- Summary: A scanner-agnostic adaptive-diffusion U-Net reconstructs diagnostic-grade bone scintigraphy images from half-time/half-dose acquisitions without scanner-specific retraining.
+
+- **[A wearable patch for continuous levodopa monitoring in sweat: Towards exertion and power-free pharmacodynamic assessment in Parkinson's disease.](https://pubmed.ncbi.nlm.nih.gov/42507913/)**
+	- Methodology: Supervised learning, Feature selection
+	- Published: 2026Aug11
+	- Summary: ML identifies sweat and blood pressure as key features for estimating blood L-dopa levels from a wearable sweat-sensing patch in Parkinson's disease patients.
+
+- **[Pathomic biomarkers derived from whole-slide histopathology predict hepatocellular carcinoma progression and enable GPC3-linked tumour microenvironment stratification in a preclinical experimental oncology model.](https://pubmed.ncbi.nlm.nih.gov/42155213/)**
+	- Methodology: Deep learning, Supervised learning, Unsupervised learning
+	- Published: 2026Aug
+	- Summary: AI-based pathomic biomarkers from whole-slide histopathology images predict HCC progression and stratify tumour microenvironment via GPC3-linked features in a preclinical model.
+
 ## Enrichment design
 
 - **[Computational design of clinical trials using a combination of simulation and the genetic algorithm.](https://pubmed.ncbi.nlm.nih.gov/36793239/)**
@@ -5798,6 +5859,15 @@ A curated list of research papers on AI/ML applications in pharmacometrics and c
 	- Methodology: Reinforcement learning, Deep learning, Supervised learning
 	- Published: 2026Jul21
 	- Summary: REINVENT generative AI platform uses transfer learning and reinforcement learning with QSAR scoring to discover novel HPK1 kinase inhibitor scaffolds in drug discovery.
+
+- **[Jiawei Shoutai Pill promotes embryo implantation via PPAR signaling and endometrial microbiota remodeling: An integrative multi-omics study.](https://pubmed.ncbi.nlm.nih.gov/42314265/)**
+	- Published: 2026Aug
+	- Summary: Multi-omics study on Jiawei Shoutai Pill's mechanism in embryo implantation; no AI/ML methods used.
+
+- **[From uniformity to individuality: Computational modelling provides a mechanistic rationale for weight-adjusted botulinum neurotoxin a dosing.](https://pubmed.ncbi.nlm.nih.gov/42532319/)**
+	- Methodology: Other/General
+	- Published: 2026Jul30
+	- Summary: Error during classification
 
 ## Outcome prediction
 
@@ -6666,6 +6736,16 @@ A curated list of research papers on AI/ML applications in pharmacometrics and c
 	- Published: 2026Jul17
 	- Summary: THINKERS-Meningioma uses a mixture-of-experts AI framework combining neural and knowledge-based reasoning to personalize stereotactic radiosurgery dose selection for intracranial meningiomas.
 
+- **[Pathomic biomarkers derived from whole-slide histopathology predict hepatocellular carcinoma progression and enable GPC3-linked tumour microenvironment stratification in a preclinical experimental oncology model.](https://pubmed.ncbi.nlm.nih.gov/42155213/)**
+	- Methodology: Deep learning, Supervised learning, Unsupervised learning
+	- Published: 2026Aug
+	- Summary: AI-based pathomic biomarkers from whole-slide histopathology images predict HCC progression and stratify tumour microenvironment via GPC3-linked features in a preclinical model.
+
+- **[Machine Learning Enables Rapid Prediction of Acid-Reducing Agent Drug Interactions: A Streamlined Complement to PBPK Modeling.](https://pubmed.ncbi.nlm.nih.gov/42538618/)**
+	- Methodology: Supervised learning, Tree-based models, Ensemble learning, Hybrid mechanistic–ML models, Surrogate modeling
+	- Published: 2026Aug
+	- Summary: XGBoost ML model trained on PBPK-simulated virtual drugs predicts pH-dependent DDI AUC ratios for weakly basic drugs co-administered with acid-reducing agents.
+
 ## Patient risk stratification / management
 
 - **[Computer-aided diagnosis of prostate cancer in the peripheral zone using multiparametric MRI.](https://pubmed.ncbi.nlm.nih.gov/22640958/)**
@@ -6987,6 +7067,11 @@ A curated list of research papers on AI/ML applications in pharmacometrics and c
 	- Methodology: Ensemble learning, Neural networks, Hybrid mechanistic–ML models, Explainable AI
 	- Published: 2026Jul17
 	- Summary: THINKERS-Meningioma uses a mixture-of-experts AI framework combining neural and knowledge-based reasoning to personalize stereotactic radiosurgery dose selection for intracranial meningiomas.
+
+- **[Pathomic biomarkers derived from whole-slide histopathology predict hepatocellular carcinoma progression and enable GPC3-linked tumour microenvironment stratification in a preclinical experimental oncology model.](https://pubmed.ncbi.nlm.nih.gov/42155213/)**
+	- Methodology: Deep learning, Supervised learning, Unsupervised learning
+	- Published: 2026Aug
+	- Summary: AI-based pathomic biomarkers from whole-slide histopathology images predict HCC progression and stratify tumour microenvironment via GPC3-linked features in a preclinical model.
 
 ## Pharmacodynamic modeling
 
@@ -7419,6 +7504,11 @@ A curated list of research papers on AI/ML applications in pharmacometrics and c
 	- Methodology: Deep learning, Neural networks, Time-series modeling, Supervised learning
 	- Published: 2026Jul08
 	- Summary: A transformer-based deep learning model is developed to predict individual hemoglobin responses to ESA therapy in hemodialysis patients for personalized anemia management.
+
+- **[A wearable patch for continuous levodopa monitoring in sweat: Towards exertion and power-free pharmacodynamic assessment in Parkinson's disease.](https://pubmed.ncbi.nlm.nih.gov/42507913/)**
+	- Methodology: Supervised learning, Feature selection
+	- Published: 2026Aug11
+	- Summary: ML identifies sweat and blood pressure as key features for estimating blood L-dopa levels from a wearable sweat-sensing patch in Parkinson's disease patients.
 
 ## Pharmacokinetic modeling
 
@@ -10021,6 +10111,26 @@ A curated list of research papers on AI/ML applications in pharmacometrics and c
 	- Published: 2026Jul24
 	- Summary: Hybrid PBPK-constrained neural ODE framework combining mechanistic PBPK models with neural ODEs to improve internal dose prediction for environmental health risk assessment.
 
+- **[Voriconazole Exacerbates Subtherapeutic Linezolid Exposure in Critically Ill Patients with Staphylococcus aureus infection: Drug-Drug Interaction Evaluation and Dose Optimization Based on Population Modeling and Ensemble Learning.](https://pubmed.ncbi.nlm.nih.gov/42526658/)**
+	- Methodology: Ensemble learning, Supervised learning, Explainable AI, Tree-based models
+	- Published: 2026Jul29
+	- Summary: Evaluates voriconazole-linezolid PK drug interaction in critically ill patients using population PK modeling and interpretable ensemble ML for precision dose optimization.
+
+- **[Diffusion models for virtual populations and pharmacometric simulations.](https://pubmed.ncbi.nlm.nih.gov/42527765/)**
+	- Methodology: Deep learning, Neural networks, Time-series modeling, Unsupervised learning
+	- Published: 2026Jul29
+	- Summary: Diffusion models (DDPM, SDM, TDM) are evaluated for generating virtual populations with physiological covariates and pharmacokinetic profiles, outperforming tabular VAE approaches.
+
+- **[A wearable patch for continuous levodopa monitoring in sweat: Towards exertion and power-free pharmacodynamic assessment in Parkinson's disease.](https://pubmed.ncbi.nlm.nih.gov/42507913/)**
+	- Methodology: Supervised learning, Feature selection
+	- Published: 2026Aug11
+	- Summary: ML identifies sweat and blood pressure as key features for estimating blood L-dopa levels from a wearable sweat-sensing patch in Parkinson's disease patients.
+
+- **[Machine Learning Enables Rapid Prediction of Acid-Reducing Agent Drug Interactions: A Streamlined Complement to PBPK Modeling.](https://pubmed.ncbi.nlm.nih.gov/42538618/)**
+	- Methodology: Supervised learning, Tree-based models, Ensemble learning, Hybrid mechanistic–ML models, Surrogate modeling
+	- Published: 2026Aug
+	- Summary: XGBoost ML model trained on PBPK-simulated virtual drugs predicts pH-dependent DDI AUC ratios for weakly basic drugs co-administered with acid-reducing agents.
+
 ## Postmarketing surveillance
 
 - **[PharmBERT: a domain-specific BERT model for drug labels.](https://pubmed.ncbi.nlm.nih.gov/37317617/)**
@@ -10988,6 +11098,16 @@ A curated list of research papers on AI/ML applications in pharmacometrics and c
 	- Published: 2026Jul20
 	- Summary: ML methods identify gut microbiome features associated with tacrolimus PK variability in HCT recipients, complementing population PK modeling and PGx covariates.
 
+- **[Voriconazole Exacerbates Subtherapeutic Linezolid Exposure in Critically Ill Patients with Staphylococcus aureus infection: Drug-Drug Interaction Evaluation and Dose Optimization Based on Population Modeling and Ensemble Learning.](https://pubmed.ncbi.nlm.nih.gov/42526658/)**
+	- Methodology: Ensemble learning, Supervised learning, Explainable AI, Tree-based models
+	- Published: 2026Jul29
+	- Summary: Evaluates voriconazole-linezolid PK drug interaction in critically ill patients using population PK modeling and interpretable ensemble ML for precision dose optimization.
+
+- **[A wearable patch for continuous levodopa monitoring in sweat: Towards exertion and power-free pharmacodynamic assessment in Parkinson's disease.](https://pubmed.ncbi.nlm.nih.gov/42507913/)**
+	- Methodology: Supervised learning, Feature selection
+	- Published: 2026Aug11
+	- Summary: ML identifies sweat and blood pressure as key features for estimating blood L-dopa levels from a wearable sweat-sensing patch in Parkinson's disease patients.
+
 ## RWD phenotyping
 
 - **[Boosting drug named entity recognition using an aggregate classifier.](https://pubmed.ncbi.nlm.nih.gov/26116947/)**
@@ -11062,12 +11182,24 @@ A curated list of research papers on AI/ML applications in pharmacometrics and c
 	- Published: 2022Oct
 	- Summary: Machine learning methods including LASSO, survival trees, and random forests are used to select important covariates for time-to-event models predicting survival outcomes in cancer patients.
 
+## Synthetic control
+
+- **[Diffusion models for virtual populations and pharmacometric simulations.](https://pubmed.ncbi.nlm.nih.gov/42527765/)**
+	- Methodology: Deep learning, Neural networks, Time-series modeling, Unsupervised learning
+	- Published: 2026Jul29
+	- Summary: Diffusion models (DDPM, SDM, TDM) are evaluated for generating virtual populations with physiological covariates and pharmacokinetic profiles, outperforming tabular VAE approaches.
+
 ## Reviews / Tutorials / Perspectives
 
 - **[A Novel Perspective on Using Artificial Intelligence and Nanoinformatics to Develop Nanomedicines.](https://pubmed.ncbi.nlm.nih.gov/41568483/)**
 	- Methodology: Supervised learning
 	- Published: 2026Jan09
 	- Summary: This review surveys AI/ML applications in nanomedicine development, focusing on QSAR/QSPR models and PBPK modeling for optimizing physicochemical properties and predicting biodistribution.
+
+- **[A Pharmaco-Epidemiological Research Program Leveraging a Nationwide Database of Kidney Transplantation.](https://pubmed.ncbi.nlm.nih.gov/42494189/)**
+	- Methodology: Deep learning, Hybrid mechanistic–ML models, Time-series modeling
+	- Published: 2026Aug
+	- Summary: A pharmaco-epidemiological program using a nationwide kidney transplant database, developing a hybrid deep learning model to predict renal graft function decline and optimize immunosuppressive dosing.
 
 - **[A Review on AI-Based Data-Driven Models for Optimization of Nanocarriers as Drug Delivery Systems.](https://pubmed.ncbi.nlm.nih.gov/41668335/)**
 	- Methodology: Supervised learning, Unsupervised learning, Hybrid mechanistic–ML models
@@ -12020,6 +12152,10 @@ A curated list of research papers on AI/ML applications in pharmacometrics and c
 	- Published: 2021Jan
 	- Summary: This review paper surveys machine learning methods for causal inference to estimate individualized treatment effects from real-world observational data like EHRs.
 
+- **[From Small Data to Big Decisions: How Clinical Pharmacology Shapes Rare Disease Development.](https://pubmed.ncbi.nlm.nih.gov/42535720/)**
+	- Published: 2026Aug
+	- Summary: Review of model-informed clinical pharmacology approaches for rare disease drug development; no AI/ML methods are used or surveyed.
+
 - **[From Structure to Selectivity: Integrating CADD and AIDD in Rational Medicinal Chemistry Strategies for DYRK1A Inhibitor Discovery.](https://pubmed.ncbi.nlm.nih.gov/42476932/)**
 	- Methodology: Deep learning, Neural networks
 	- Published: 2026Jul20
@@ -12450,6 +12586,10 @@ A curated list of research papers on AI/ML applications in pharmacometrics and c
 	- Published: 2026Mar17
 	- Summary: This review examines how AI/ML approaches can contribute to PK/PD time-course modeling across various levels depending on available data and research questions.
 
+- **[Managing multidrug resistant Gram-negative bacteraemia in immunocompromised hosts.](https://pubmed.ncbi.nlm.nih.gov/42107119/)**
+	- Published: 2026Aug01
+	- Summary: A clinical review on managing multidrug-resistant Gram-negative bloodstream infections in immunocompromised hosts; no AI/ML methods are used or surveyed.
+
 - **[Mastering the complexities of cancer nanomedicine with text mining, AI and automation.](https://pubmed.ncbi.nlm.nih.gov/39848590/)**
 	- Methodology: Unsupervised learning, Supervised learning
 	- Published: 2025Mar10
@@ -12458,6 +12598,11 @@ A curated list of research papers on AI/ML applications in pharmacometrics and c
 - **[Matrix Effects and Analytical Instability in Pharmaceutical Bioanalysis: Current Challenges and Future Directions.](https://pubmed.ncbi.nlm.nih.gov/42421221/)**
 	- Published: 2026Jul08
 	- Summary: Review of matrix effects and analytical instability in pharmaceutical bioanalysis, mentioning AI-assisted workflows among advances in LC-MS and sample preparation technologies.
+
+- **[Mechanistic advances in nanomedicine, nucleic acid therapies, and AI-driven research on cervical cancer.](https://pubmed.ncbi.nlm.nih.gov/42521019/)**
+	- Methodology: Hybrid mechanistic–ML models
+	- Published: 2026Jul28
+	- Summary: Review of nanomedicine and nucleic acid therapies for cervical cancer, including AI-assisted models for formulation design, PK prediction, and precision dosing.
 
 - **[Metabolic phenotypes: Molecular bridges between health homeostasis and disease imbalance.](https://pubmed.ncbi.nlm.nih.gov/41245891/)**
 	- Published: 2025
@@ -12827,6 +12972,10 @@ A curated list of research papers on AI/ML applications in pharmacometrics and c
 	- Published: 2023Dec
 	- Summary: A perspective paper discussing the integration of artificial intelligence methods with quantitative systems pharmacology approaches in modern drug development.
 
+- **[Radiolabeling of clinically approved nanomedicine carriers: lessons from albumin- and liposome-based systems for biomaterial design and translational imaging.](https://pubmed.ncbi.nlm.nih.gov/42522922/)**
+	- Published: 2026Jul29
+	- Summary: A review of radiolabeling strategies for clinically approved nanomedicine carriers (albumin nanoparticles, PEGylated liposomes) for translational imaging; no AI/ML methods used.
+
 - **[Recent Advances in Co-Former Screening and Formation Prediction of Multicomponent Solid Forms of Low Molecular Weight Drugs.](https://pubmed.ncbi.nlm.nih.gov/37765145/)**
 	- Methodology: Supervised learning
 	- Published: 2023Aug22
@@ -12993,6 +13142,11 @@ A curated list of research papers on AI/ML applications in pharmacometrics and c
 	- Published: 2003May
 	- Summary: This review surveys computational techniques including machine learning methods, regression models, and clustering to assess drug-likeness of compounds for pharmaceutical screening.
 
+- **[Shear Stress Modeling and Machine Learning for Nanomedicine Development: A Mechanistic Pathway to Pharmacokinetic Prediction.](https://pubmed.ncbi.nlm.nih.gov/42505089/)**
+	- Methodology: Deep learning, Neural networks, Hybrid mechanistic–ML models, Surrogate modeling, Mechanism-informed machine learning
+	- Published: 2026Jul27
+	- Summary: Review synthesizing CFD and ML (PINNs, deep operator networks, graph NNs) for mechanistically informed PK prediction of nanomedicines under vascular shear stress.
+
 - **[Should LLMs be over empowered for high-stake regulatory research?](https://pubmed.ncbi.nlm.nih.gov/40576029/)**
 	- Methodology: LLM
 	- Published: 2025May01
@@ -13049,6 +13203,11 @@ A curated list of research papers on AI/ML applications in pharmacometrics and c
 	- Methodology: Hybrid mechanistic–ML models
 	- Published: 2025
 	- Summary: This mini-review surveys systems immunology approaches that integrate AI/ML with mechanistic models to understand immune networks and guide therapeutic innovation.
+
+- **[Systems pharmacology approaches to modeling immune training and tolerance.](https://pubmed.ncbi.nlm.nih.gov/42127728/)**
+	- Methodology: Hybrid mechanistic–ML models, Explainable AI
+	- Published: 2026Aug
+	- Summary: Mini-review of QSP (ODE-based) and AI/ML approaches for modeling trained immunity and immune tolerance, highlighting biomarker discovery, digital twins, and pharmacological targeting.
 
 - **[Target-Controlled Infusion of Propofol: A Systematic Review of Recent Results.](https://pubmed.ncbi.nlm.nih.gov/40289063/)**
 	- Methodology: Supervised learning
@@ -13206,6 +13365,10 @@ A curated list of research papers on AI/ML applications in pharmacometrics and c
 	- Methodology: Supervised learning
 	- Published: 2020Nov09
 	- Summary: This perspective paper discusses the potential of AI/ML methods like NLP and machine learning to analyze EHR data for improving medication safety and therapeutic outcomes in hospital pharmacy.
+
+- **[Transdermal delivery of biologics.](https://pubmed.ncbi.nlm.nih.gov/42521025/)**
+	- Published: 2026Jul28
+	- Summary: A review of transdermal delivery strategies for biologics; no AI/ML methods are used or surveyed.
 
 - **[Transfer learning empowers accurate pharmacokinetics prediction of small samples.](https://pubmed.ncbi.nlm.nih.gov/38460571/)**
 	- Methodology: Supervised learning
