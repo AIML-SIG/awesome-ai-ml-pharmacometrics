@@ -4,7 +4,7 @@
 
 A curated list of research papers on AI/ML applications in pharmacometrics and clinical pharmacology, regularly updated.
 
-**Last Updated**: 2026-08-02
+**Last Updated**: 2026-08-09
 
 ---
 ## Table of Contents
@@ -2066,6 +2066,10 @@ A curated list of research papers on AI/ML applications in pharmacometrics and c
 	- Methodology: Ensemble learning, Supervised learning, Explainable AI, Tree-based models
 	- Published: 2026Jul29
 	- Summary: Evaluates voriconazole-linezolid PK drug interaction in critically ill patients using population PK modeling and interpretable ensemble ML for precision dose optimization.
+
+- **[A pharmacometric framework for norepinephrine transporter occupancy and dose equivalence across psychotropic medications.](https://pubmed.ncbi.nlm.nih.gov/42549822/)**
+	- Published: 2026Aug04
+	- Summary: Pharmacometric framework quantifying NET occupancy and dose equivalence across psychotropic medications using target engagement modeling, without AI/ML methods.
 
 ## Drug repurposing
 
@@ -5116,6 +5120,11 @@ A curated list of research papers on AI/ML applications in pharmacometrics and c
 	- Published: 2026Aug
 	- Summary: XGBoost ML model trained on PBPK-simulated virtual drugs predicts pH-dependent DDI AUC ratios for weakly basic drugs co-administered with acid-reducing agents.
 
+- **[Identifying potential core genes for chronic obstructive pulmonary disease associated with cocaine exposure via integrated bioinformatics and network toxicology.](https://pubmed.ncbi.nlm.nih.gov/42567086/)**
+	- Methodology: Supervised learning, Feature selection, Unsupervised learning
+	- Published: 2026Aug04
+	- Summary: Three ML algorithms combined with network topology analysis identify CTSD as a core gene linking cocaine exposure to COPD, validated by molecular docking and scRNA-seq.
+
 ## Endpoint / biomarker assessment
 
 - **[Analyzing patient perspectives with large language models: a cross-sectional study of sentiment and thematic classification on exception from informed consent.](https://pubmed.ncbi.nlm.nih.gov/39979559/)**
@@ -5578,6 +5587,11 @@ A curated list of research papers on AI/ML applications in pharmacometrics and c
 	- Published: 2026Aug
 	- Summary: AI-based pathomic biomarkers from whole-slide histopathology images predict HCC progression and stratify tumour microenvironment via GPC3-linked features in a preclinical model.
 
+- **[Identifying potential core genes for chronic obstructive pulmonary disease associated with cocaine exposure via integrated bioinformatics and network toxicology.](https://pubmed.ncbi.nlm.nih.gov/42567086/)**
+	- Methodology: Supervised learning, Feature selection, Unsupervised learning
+	- Published: 2026Aug04
+	- Summary: Three ML algorithms combined with network topology analysis identify CTSD as a core gene linking cocaine exposure to COPD, validated by molecular docking and scRNA-seq.
+
 ## Enrichment design
 
 - **[Computational design of clinical trials using a combination of simulation and the genetic algorithm.](https://pubmed.ncbi.nlm.nih.gov/36793239/)**
@@ -5656,6 +5670,10 @@ A curated list of research papers on AI/ML applications in pharmacometrics and c
 	- Methodology: Hybrid mechanistic–ML models, Neural networks, Deep learning, Mechanism-informed machine learning, Time-series modeling
 	- Published: 2026Jul24
 	- Summary: Hybrid PBPK-constrained neural ODE framework combining mechanistic PBPK models with neural ODEs to improve internal dose prediction for environmental health risk assessment.
+
+- **[A pharmacometric framework for norepinephrine transporter occupancy and dose equivalence across psychotropic medications.](https://pubmed.ncbi.nlm.nih.gov/42549822/)**
+	- Published: 2026Aug04
+	- Summary: Pharmacometric framework quantifying NET occupancy and dose equivalence across psychotropic medications using target engagement modeling, without AI/ML methods.
 
 ## Model selection
 
@@ -5868,6 +5886,11 @@ A curated list of research papers on AI/ML applications in pharmacometrics and c
 	- Methodology: Other/General
 	- Published: 2026Jul30
 	- Summary: Error during classification
+
+- **[Enhancing salt stress tolerance in sugar beet via TiO2 nanoparticles: a machine learning approach.](https://pubmed.ncbi.nlm.nih.gov/42545040/)**
+	- Methodology: Supervised learning, Tree-based models, Ensemble learning
+	- Published: 2026Aug03
+	- Summary: Gradient Boosting and other ML regression models are used to predict sugar beet responses to TiO2 nanoparticles under salt stress and optimize dosage combinations.
 
 ## Outcome prediction
 
@@ -7509,6 +7532,10 @@ A curated list of research papers on AI/ML applications in pharmacometrics and c
 	- Methodology: Supervised learning, Feature selection
 	- Published: 2026Aug11
 	- Summary: ML identifies sweat and blood pressure as key features for estimating blood L-dopa levels from a wearable sweat-sensing patch in Parkinson's disease patients.
+
+- **[A pharmacometric framework for norepinephrine transporter occupancy and dose equivalence across psychotropic medications.](https://pubmed.ncbi.nlm.nih.gov/42549822/)**
+	- Published: 2026Aug04
+	- Summary: Pharmacometric framework quantifying NET occupancy and dose equivalence across psychotropic medications using target engagement modeling, without AI/ML methods.
 
 ## Pharmacokinetic modeling
 
@@ -10131,6 +10158,15 @@ A curated list of research papers on AI/ML applications in pharmacometrics and c
 	- Published: 2026Aug
 	- Summary: XGBoost ML model trained on PBPK-simulated virtual drugs predicts pH-dependent DDI AUC ratios for weakly basic drugs co-administered with acid-reducing agents.
 
+- **[Artificial intelligence-driven cross-endpoint stacked ensemble learning for separate but meta-feature coupled prediction of six human pharmacokinetic endpoints with RDKit molecular representation and applicability domain control on real TDC benchmark data.](https://pubmed.ncbi.nlm.nih.gov/42565845/)**
+	- Methodology: Supervised learning, Tree-based models, Ensemble learning, Feature selection, Explainable AI
+	- Published: 2026Aug07
+	- Summary: Cross-endpoint stacked ensemble using RDKit descriptors predicts six human PK endpoints (HIA, Caco-2, VDss, PPBR, CL, t½) with cross-target meta-features and applicability domain control.
+
+- **[A pharmacometric framework for norepinephrine transporter occupancy and dose equivalence across psychotropic medications.](https://pubmed.ncbi.nlm.nih.gov/42549822/)**
+	- Published: 2026Aug04
+	- Summary: Pharmacometric framework quantifying NET occupancy and dose equivalence across psychotropic medications using target engagement modeling, without AI/ML methods.
+
 ## Postmarketing surveillance
 
 - **[PharmBERT: a domain-specific BERT model for drug labels.](https://pubmed.ncbi.nlm.nih.gov/37317617/)**
@@ -11335,6 +11371,10 @@ A curated list of research papers on AI/ML applications in pharmacometrics and c
 	- Published: 2022Aug29
 	- Summary: This review surveys ML applications across four pharmacometrics pipeline stages: data preparation, hypothesis generation, predictive modeling, and model validation.
 
+- **[Advanced assay design for characterizing anti-drug antibody responses in clinical serum samples.](https://pubmed.ncbi.nlm.nih.gov/42566261/)**
+	- Published: 2026Aug07
+	- Summary: Review of advanced ADA assay designs for immunogenicity characterization, mentioning AI and systems immunogenicity as future perspectives without detailing specific AI/ML methods.
+
 - **[Advancements in radiation dose reduction for pediatric CT head Imaging: A scoping review of emerging Technologies, Protocols, and optimization strategies.](https://pubmed.ncbi.nlm.nih.gov/41567817/)**
 	- Methodology: Deep learning
 	- Published: 2026Mar
@@ -12095,6 +12135,10 @@ A curated list of research papers on AI/ML applications in pharmacometrics and c
 	- Published: 2026Jun28
 	- Summary: Review of AI/ML methods including ML, graph-based, and generative models to guide polymeric lipid nanoparticle formulation design for breast cancer nanomedicine.
 
+- **[Engineering strategies and translational progress in targeted nanoparticle drug delivery.](https://pubmed.ncbi.nlm.nih.gov/42547457/)**
+	- Published: 2026Aug03
+	- Summary: Review of nanoparticle-based drug delivery engineering strategies; no AI/ML methods are used or surveyed in this paper.
+
 - **[Ensemble Learning, Deep Learning-Based and Molecular Descriptor-Based Quantitative Structure-Activity Relationships.](https://pubmed.ncbi.nlm.nih.gov/36903654/)**
 	- Methodology: Deep learning, Ensemble learning, Neural networks
 	- Published: 2023Mar06
@@ -12160,6 +12204,11 @@ A curated list of research papers on AI/ML applications in pharmacometrics and c
 	- Methodology: Deep learning, Neural networks
 	- Published: 2026Jul20
 	- Summary: Review of CADD and AIDD approaches for discovering selective DYRK1A inhibitors, covering structure-based design, AI-driven methods, and rational medicinal chemistry strategies.
+
+- **[From bedside queries to complex care: AI for decision-making in infectious diseases.](https://pubmed.ncbi.nlm.nih.gov/42570802/)**
+	- Methodology: LLM
+	- Published: 2026Aug08
+	- Summary: Perspective on AI as a decision-support tool in infectious diseases, addressing clinical data heterogeneity and specialist shortages in routine care.
 
 - **[From mechanism to application: Harnessing oxidative stress signaling for innovative food design.](https://pubmed.ncbi.nlm.nih.gov/41508505/)**
 	- Methodology: Deep learning
@@ -12741,6 +12790,10 @@ A curated list of research papers on AI/ML applications in pharmacometrics and c
 	- Published: 2025Oct
 	- Summary: This review surveys machine learning approaches alongside PBPK models for predicting drug-drug interactions to improve safety assessment in drug development.
 
+- **[Nonoperating room anesthesia in the ICU: current practice and considerations.](https://pubmed.ncbi.nlm.nih.gov/42546269/)**
+	- Published: 2026Aug04
+	- Summary: Non-AI/ML review of anesthetic considerations for ICU nonoperating room anesthesia procedures, covering optimization, monitoring, and systems issues.
+
 - **[Ophthalmic drug discovery and development using artificial intelligence and digital health technologies.](https://pubmed.ncbi.nlm.nih.gov/40998989/)**
 	- Methodology: Supervised learning, Deep learning, Neural networks
 	- Published: 2025Sep25
@@ -12972,6 +13025,11 @@ A curated list of research papers on AI/ML applications in pharmacometrics and c
 	- Published: 2023Dec
 	- Summary: A perspective paper discussing the integration of artificial intelligence methods with quantitative systems pharmacology approaches in modern drug development.
 
+- **[Radiation dose optimization and dosimetry in pediatric nuclear medicine: Current concepts and future directions.](https://pubmed.ncbi.nlm.nih.gov/42557153/)**
+	- Methodology: Deep learning, Neural networks
+	- Published: 2026Aug05
+	- Summary: Review of pediatric nuclear medicine radiation dose optimization, including emerging AI/ML applications in image reconstruction, organ segmentation, predictive dosimetry, and low-count imaging.
+
 - **[Radiolabeling of clinically approved nanomedicine carriers: lessons from albumin- and liposome-based systems for biomaterial design and translational imaging.](https://pubmed.ncbi.nlm.nih.gov/42522922/)**
 	- Published: 2026Jul29
 	- Summary: A review of radiolabeling strategies for clinically approved nanomedicine carriers (albumin nanoparticles, PEGylated liposomes) for translational imaging; no AI/ML methods used.
@@ -13039,6 +13097,11 @@ A curated list of research papers on AI/ML applications in pharmacometrics and c
 	- Methodology: Supervised learning, Neural networks
 	- Published: 2007Nov
 	- Summary: This review surveys regression methods including machine learning approaches for developing QSAR/QSPR models to predict pharmacodynamic, pharmacokinetic and toxicological properties.
+
+- **[Reimagining antimicrobial resistance: AI-driven predictive epidemiology and the C-AMRE framework for next-generation antibiotic discovery.](https://pubmed.ncbi.nlm.nih.gov/42562952/)**
+	- Methodology: Deep learning, Hybrid mechanistic–ML models, Supervised learning, Unsupervised learning, Neural networks
+	- Published: 2026Aug06
+	- Summary: Review proposing the C-AMRE framework integrating AI, genomic surveillance, molecular simulation, and digital twins for predictive AMR epidemiology and next-generation antibiotic discovery.
 
 - **[Reinforcement learning as an innovative model-based approach: Examples from precision dosing, digital health and computational psychiatry.](https://pubmed.ncbi.nlm.nih.gov/36873047/)**
 	- Methodology: Reinforcement learning
