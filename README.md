@@ -4,7 +4,7 @@
 
 A curated list of research papers on AI/ML applications in pharmacometrics and clinical pharmacology, regularly updated.
 
-**Last Updated**: 2026-08-16
+**Last Updated**: 2026-08-23
 
 ---
 ## Table of Contents
@@ -520,6 +520,11 @@ A curated list of research papers on AI/ML applications in pharmacometrics and c
 	- Methodology: Supervised learning, Feature selection
 	- Published: 2026Aug11
 	- Summary: ML identifies sweat and blood pressure as key features for estimating blood L-dopa levels from a wearable sweat-sensing patch in Parkinson's disease patients.
+
+- **[Analysis of Pharmacokinetic-Pharmacodynamic Relationships of Nanoparticles against Tumors.](https://pubmed.ncbi.nlm.nih.gov/42611221/)**
+	- Methodology: Supervised learning, Tree-based models, Feature selection, Explainable AI, Ensemble learning
+	- Published: 2026Aug18
+	- Summary: ML models (especially tree-based) are developed to predict antitumor efficacy from nanoparticle PK-PD data, identifying key features like zeta potential and targeting strategy.
 
 ## Data imputation
 
@@ -3019,6 +3024,11 @@ A curated list of research papers on AI/ML applications in pharmacometrics and c
 	- Published: 2026
 	- Summary: A dual-branch GIN+MLP deep learning model predicts IC50 drug sensitivity across cancer types using 3D drug graph representations and ssGSEA biological pathway features.
 
+- **[Cloud-based ligand-guided virtual screening with deep-learning-enhanced docking identifies a micromolar CXCR4 antagonist.](https://pubmed.ncbi.nlm.nih.gov/42622749/)**
+	- Methodology: Deep learning, Neural networks
+	- Published: 2026Aug20
+	- Summary: Cloud-based virtual screening workflow using CNN-enhanced docking (Gnina) identifies a micromolar CXCR4 antagonist from a 274K compound library for colorectal cancer.
+
 ## Drug toxicity prediction
 
 - **[Attention Mechanism-Based Graph Neural Network Model for Effective Activity Prediction of SARS-CoV-2 Main Protease Inhibitors: Application to Drug Repurposing as Potential COVID-19 Therapy.](https://pubmed.ncbi.nlm.nih.gov/37960886/)**
@@ -5135,6 +5145,11 @@ A curated list of research papers on AI/ML applications in pharmacometrics and c
 	- Published: 2026Aug12
 	- Summary: A multitask deep neural network (GSK3BMTPred) predicts GSK3β inhibitor classification and potency, integrated with virtual screening and molecular docking to identify selective GSK3β inhibitors.
 
+- **[MetabolEx: Platform for Small-Molecule Metabolites Generation and Metabolic Pathway Prediction.](https://pubmed.ncbi.nlm.nih.gov/42630857/)**
+	- Methodology: Supervised learning, Hybrid mechanistic–ML models
+	- Published: 2026Aug19
+	- Summary: MetabolEx integrates rule-based metabolite enumeration with ML classifiers to predict Phase I/II metabolic pathways, reducing false positives while maintaining high recall.
+
 ## Endpoint / biomarker assessment
 
 - **[Analyzing patient perspectives with large language models: a cross-sectional study of sentiment and thematic classification on exception from informed consent.](https://pubmed.ncbi.nlm.nih.gov/39979559/)**
@@ -5685,6 +5700,11 @@ A curated list of research papers on AI/ML applications in pharmacometrics and c
 	- Published: 2026Aug04
 	- Summary: Pharmacometric framework quantifying NET occupancy and dose equivalence across psychotropic medications using target engagement modeling, without AI/ML methods.
 
+- **[Analysis of Pharmacokinetic-Pharmacodynamic Relationships of Nanoparticles against Tumors.](https://pubmed.ncbi.nlm.nih.gov/42611221/)**
+	- Methodology: Supervised learning, Tree-based models, Feature selection, Explainable AI, Ensemble learning
+	- Published: 2026Aug18
+	- Summary: ML models (especially tree-based) are developed to predict antitumor efficacy from nanoparticle PK-PD data, identifying key features like zeta potential and targeting strategy.
+
 ## Model selection
 
 - **[Artificial Neural Networks approach to pharmacokinetic model selection in DCE-MRI studies.](https://pubmed.ncbi.nlm.nih.gov/27876537/)**
@@ -5914,6 +5934,10 @@ A curated list of research papers on AI/ML applications in pharmacometrics and c
 - **[Mechanistically guided development of a high-concentration sustained-release intramuscular depot formulation for fulvestrant.](https://pubmed.ncbi.nlm.nih.gov/42586450/)**
 	- Published: 2026Aug12
 	- Summary: Mechanistic formulation development of a high-concentration sustained-release IM depot for fulvestrant; no AI/ML methods used.
+
+- **[[Paeoniflorin alleviates cancer-related fatigue during chemotherapy for breast cancer by targeting EZH2/CCNE1 to regulate cell cycle and inflammatory microenvironment].](https://pubmed.ncbi.nlm.nih.gov/42576492/)**
+	- Published: 2026Aug20
+	- Summary: Non-AI/ML study investigating molecular mechanisms of Paeoniflorin in alleviating cancer-related fatigue during breast cancer chemotherapy via EZH2/CCNE1 targeting.
 
 ## Outcome prediction
 
@@ -6792,6 +6816,11 @@ A curated list of research papers on AI/ML applications in pharmacometrics and c
 	- Published: 2026Aug
 	- Summary: XGBoost ML model trained on PBPK-simulated virtual drugs predicts pH-dependent DDI AUC ratios for weakly basic drugs co-administered with acid-reducing agents.
 
+- **[Analysis of Pharmacokinetic-Pharmacodynamic Relationships of Nanoparticles against Tumors.](https://pubmed.ncbi.nlm.nih.gov/42611221/)**
+	- Methodology: Supervised learning, Tree-based models, Feature selection, Explainable AI, Ensemble learning
+	- Published: 2026Aug18
+	- Summary: ML models (especially tree-based) are developed to predict antitumor efficacy from nanoparticle PK-PD data, identifying key features like zeta potential and targeting strategy.
+
 ## Patient risk stratification / management
 
 - **[Computer-aided diagnosis of prostate cancer in the peripheral zone using multiparametric MRI.](https://pubmed.ncbi.nlm.nih.gov/22640958/)**
@@ -7564,6 +7593,11 @@ A curated list of research papers on AI/ML applications in pharmacometrics and c
 	- Methodology: Deep learning, Neural networks, Supervised learning, Mechanism-informed machine learning
 	- Published: 2026
 	- Summary: A dual-branch GIN+MLP deep learning model predicts IC50 drug sensitivity across cancer types using 3D drug graph representations and ssGSEA biological pathway features.
+
+- **[Analysis of Pharmacokinetic-Pharmacodynamic Relationships of Nanoparticles against Tumors.](https://pubmed.ncbi.nlm.nih.gov/42611221/)**
+	- Methodology: Supervised learning, Tree-based models, Feature selection, Explainable AI, Ensemble learning
+	- Published: 2026Aug18
+	- Summary: ML models (especially tree-based) are developed to predict antitumor efficacy from nanoparticle PK-PD data, identifying key features like zeta potential and targeting strategy.
 
 ## Pharmacokinetic modeling
 
@@ -10199,6 +10233,16 @@ A curated list of research papers on AI/ML applications in pharmacometrics and c
 	- Methodology: Deep learning, Neural networks, Supervised learning, Explainable AI
 	- Published: 2026Aug12
 	- Summary: A multitask deep neural network (GSK3BMTPred) predicts GSK3β inhibitor classification and potency, integrated with virtual screening and molecular docking to identify selective GSK3β inhibitors.
+
+- **[MetabolEx: Platform for Small-Molecule Metabolites Generation and Metabolic Pathway Prediction.](https://pubmed.ncbi.nlm.nih.gov/42630857/)**
+	- Methodology: Supervised learning, Hybrid mechanistic–ML models
+	- Published: 2026Aug19
+	- Summary: MetabolEx integrates rule-based metabolite enumeration with ML classifiers to predict Phase I/II metabolic pathways, reducing false positives while maintaining high recall.
+
+- **[Analysis of Pharmacokinetic-Pharmacodynamic Relationships of Nanoparticles against Tumors.](https://pubmed.ncbi.nlm.nih.gov/42611221/)**
+	- Methodology: Supervised learning, Tree-based models, Feature selection, Explainable AI, Ensemble learning
+	- Published: 2026Aug18
+	- Summary: ML models (especially tree-based) are developed to predict antitumor efficacy from nanoparticle PK-PD data, identifying key features like zeta potential and targeting strategy.
 
 ## Postmarketing surveillance
 
@@ -12983,6 +13027,11 @@ A curated list of research papers on AI/ML applications in pharmacometrics and c
 - **[Precision Medicine for Anticoagulation Strategies in the Cath Lab: Part 2.](https://pubmed.ncbi.nlm.nih.gov/42467330/)**
 	- Published: 2026Jul17
 	- Summary: A clinical review on intraprocedural anticoagulation strategies during PCI in high-risk populations; no AI/ML methods are used or surveyed.
+
+- **[Precision Medicine in Combating Antimicrobial Resistance: A Comprehensive Review.](https://pubmed.ncbi.nlm.nih.gov/42617757/)**
+	- Methodology: Supervised learning
+	- Published: 2026Aug19
+	- Summary: Comprehensive review of precision medicine approaches to combat AMR, including ML-assisted decision support, rapid diagnostics, precision dosing, and targeted therapeutics within stewardship frameworks.
 
 - **[Precision Pediatric Cancer Nanomedicine: Advancing Personalized Nano Therapies to Reduce Non-Communicable Diseases Through AI-Driven 3D-Printed Drugs.](https://pubmed.ncbi.nlm.nih.gov/41717314/)**
 	- Methodology: Bayesian ML
