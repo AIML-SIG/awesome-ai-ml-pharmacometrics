@@ -4,7 +4,7 @@
 
 A curated list of research papers on AI/ML applications in pharmacometrics and clinical pharmacology, regularly updated.
 
-**Last Updated**: 2026-08-23
+**Last Updated**: 2026-09-13
 
 ---
 ## Table of Contents
@@ -2076,6 +2076,11 @@ A curated list of research papers on AI/ML applications in pharmacometrics and c
 	- Published: 2026Aug04
 	- Summary: Pharmacometric framework quantifying NET occupancy and dose equivalence across psychotropic medications using target engagement modeling, without AI/ML methods.
 
+- **[Machine Learning-Driven Prediction of Dose-Linear Pharmacokinetics: Utilizing Molecular Descriptors to Guide Formulation Strategy.](https://pubmed.ncbi.nlm.nih.gov/42730098/)**
+	- Methodology: Supervised learning, Tree-based models, Feature selection, Neural networks, Ensemble learning, Explainable AI
+	- Published: 2026Sep08
+	- Summary: ML models (Random Forest, XGBoost, LASSO, Neural Networks, TabPFN) predict dose-linear PK in mice using molecular descriptors to guide early-stage drug formulation strategy.
+
 ## Drug repurposing
 
 - **[Attention Mechanism-Based Graph Neural Network Model for Effective Activity Prediction of SARS-CoV-2 Main Protease Inhibitors: Application to Drug Repurposing as Potential COVID-19 Therapy.](https://pubmed.ncbi.nlm.nih.gov/37960886/)**
@@ -3028,6 +3033,16 @@ A curated list of research papers on AI/ML applications in pharmacometrics and c
 	- Methodology: Deep learning, Neural networks
 	- Published: 2026Aug20
 	- Summary: Cloud-based virtual screening workflow using CNN-enhanced docking (Gnina) identifies a micromolar CXCR4 antagonist from a 274K compound library for colorectal cancer.
+
+- **[Machine Learning-Driven Prediction of Dose-Linear Pharmacokinetics: Utilizing Molecular Descriptors to Guide Formulation Strategy.](https://pubmed.ncbi.nlm.nih.gov/42730098/)**
+	- Methodology: Supervised learning, Tree-based models, Feature selection, Neural networks, Ensemble learning, Explainable AI
+	- Published: 2026Sep08
+	- Summary: ML models (Random Forest, XGBoost, LASSO, Neural Networks, TabPFN) predict dose-linear PK in mice using molecular descriptors to guide early-stage drug formulation strategy.
+
+- **[Artificial intelligence-guided discovery of fungal ergosterol derivatives as selective LXRβ agonists targeting the cholesterol dependency of glioblastoma.](https://pubmed.ncbi.nlm.nih.gov/42732035/)**
+	- Methodology: Supervised learning, Deep learning, Neural networks
+	- Published: 2026Sep12
+	- Summary: AI-based virtual screening pipeline (ML-QSAR, D-MPNN, deep learning DTI) screens 1.2M natural products to identify selective LXRβ agonists targeting glioblastoma cholesterol dependency.
 
 ## Drug toxicity prediction
 
@@ -5150,6 +5165,11 @@ A curated list of research papers on AI/ML applications in pharmacometrics and c
 	- Published: 2026Aug19
 	- Summary: MetabolEx integrates rule-based metabolite enumeration with ML classifiers to predict Phase I/II metabolic pathways, reducing false positives while maintaining high recall.
 
+- **[Artificial intelligence-guided discovery of fungal ergosterol derivatives as selective LXRβ agonists targeting the cholesterol dependency of glioblastoma.](https://pubmed.ncbi.nlm.nih.gov/42732035/)**
+	- Methodology: Supervised learning, Deep learning, Neural networks
+	- Published: 2026Sep12
+	- Summary: AI-based virtual screening pipeline (ML-QSAR, D-MPNN, deep learning DTI) screens 1.2M natural products to identify selective LXRβ agonists targeting glioblastoma cholesterol dependency.
+
 ## Endpoint / biomarker assessment
 
 - **[Analyzing patient perspectives with large language models: a cross-sectional study of sentiment and thematic classification on exception from informed consent.](https://pubmed.ncbi.nlm.nih.gov/39979559/)**
@@ -6821,6 +6841,11 @@ A curated list of research papers on AI/ML applications in pharmacometrics and c
 	- Published: 2026Aug18
 	- Summary: ML models (especially tree-based) are developed to predict antitumor efficacy from nanoparticle PK-PD data, identifying key features like zeta potential and targeting strategy.
 
+- **[Gradient Boosting Machine-Based Prognostic Model with SurvSHAP Analysis for Predicting Secondary Loss of Response to Infliximab Therapy in Crohn's Disease.](https://pubmed.ncbi.nlm.nih.gov/42732405/)**
+	- Methodology: Supervised learning, Tree-based models, Ensemble learning, Explainable AI
+	- Published: 2026
+	- Summary: GBM-based ML framework with SurvSHAP interpretability predicts secondary loss of response to infliximab in Crohn's disease patients over time.
+
 ## Patient risk stratification / management
 
 - **[Computer-aided diagnosis of prostate cancer in the peripheral zone using multiparametric MRI.](https://pubmed.ncbi.nlm.nih.gov/22640958/)**
@@ -7147,6 +7172,11 @@ A curated list of research papers on AI/ML applications in pharmacometrics and c
 	- Methodology: Deep learning, Supervised learning, Unsupervised learning
 	- Published: 2026Aug
 	- Summary: AI-based pathomic biomarkers from whole-slide histopathology images predict HCC progression and stratify tumour microenvironment via GPC3-linked features in a preclinical model.
+
+- **[Gradient Boosting Machine-Based Prognostic Model with SurvSHAP Analysis for Predicting Secondary Loss of Response to Infliximab Therapy in Crohn's Disease.](https://pubmed.ncbi.nlm.nih.gov/42732405/)**
+	- Methodology: Supervised learning, Tree-based models, Ensemble learning, Explainable AI
+	- Published: 2026
+	- Summary: GBM-based ML framework with SurvSHAP interpretability predicts secondary loss of response to infliximab in Crohn's disease patients over time.
 
 ## Pharmacodynamic modeling
 
@@ -10244,6 +10274,16 @@ A curated list of research papers on AI/ML applications in pharmacometrics and c
 	- Published: 2026Aug18
 	- Summary: ML models (especially tree-based) are developed to predict antitumor efficacy from nanoparticle PK-PD data, identifying key features like zeta potential and targeting strategy.
 
+- **[Machine Learning-Driven Prediction of Dose-Linear Pharmacokinetics: Utilizing Molecular Descriptors to Guide Formulation Strategy.](https://pubmed.ncbi.nlm.nih.gov/42730098/)**
+	- Methodology: Supervised learning, Tree-based models, Feature selection, Neural networks, Ensemble learning, Explainable AI
+	- Published: 2026Sep08
+	- Summary: ML models (Random Forest, XGBoost, LASSO, Neural Networks, TabPFN) predict dose-linear PK in mice using molecular descriptors to guide early-stage drug formulation strategy.
+
+- **[Artificial intelligence-guided discovery of fungal ergosterol derivatives as selective LXRβ agonists targeting the cholesterol dependency of glioblastoma.](https://pubmed.ncbi.nlm.nih.gov/42732035/)**
+	- Methodology: Supervised learning, Deep learning, Neural networks
+	- Published: 2026Sep12
+	- Summary: AI-based virtual screening pipeline (ML-QSAR, D-MPNN, deep learning DTI) screens 1.2M natural products to identify selective LXRβ agonists targeting glioblastoma cholesterol dependency.
+
 ## Postmarketing surveillance
 
 - **[PharmBERT: a domain-specific BERT model for drug labels.](https://pubmed.ncbi.nlm.nih.gov/37317617/)**
@@ -11300,6 +11340,11 @@ A curated list of research papers on AI/ML applications in pharmacometrics and c
 	- Published: 2022Oct
 	- Summary: Machine learning methods including LASSO, survival trees, and random forests are used to select important covariates for time-to-event models predicting survival outcomes in cancer patients.
 
+- **[Gradient Boosting Machine-Based Prognostic Model with SurvSHAP Analysis for Predicting Secondary Loss of Response to Infliximab Therapy in Crohn's Disease.](https://pubmed.ncbi.nlm.nih.gov/42732405/)**
+	- Methodology: Supervised learning, Tree-based models, Ensemble learning, Explainable AI
+	- Published: 2026
+	- Summary: GBM-based ML framework with SurvSHAP interpretability predicts secondary loss of response to infliximab in Crohn's disease patients over time.
+
 ## Synthetic control
 
 - **[Diffusion models for virtual populations and pharmacometric simulations.](https://pubmed.ncbi.nlm.nih.gov/42527765/)**
@@ -11679,6 +11724,11 @@ A curated list of research papers on AI/ML applications in pharmacometrics and c
 	- Methodology: Supervised learning, Deep learning, Neural networks
 	- Published: 2025Nov07
 	- Summary: This review surveys AI/ML applications in pharmaceutical formulation and dosage calculations, covering ML, DL, and NLP for drug property prediction, PK/PD modeling, and precision medicine.
+
+- **[Artificial Intelligence Across the Cancer Theranostics Workflow: Critical Appraisal of Current Evidence and Future Clinical Translation.](https://pubmed.ncbi.nlm.nih.gov/42728548/)**
+	- Methodology: Deep learning, Neural networks, Explainable AI, Hybrid mechanistic–ML models, Supervised learning, Unsupervised learning
+	- Published: 2026Sep11
+	- Summary: Review of AI/ML applications across cancer theranostics workflows, covering imaging, dosimetry, radiomics, digital twins, and physics-informed neural networks for personalized radiopharmaceutical therapy.
 
 - **[Artificial Intelligence Models and Tools for the Assessment of Drug-Herb Interactions.](https://pubmed.ncbi.nlm.nih.gov/40143062/)**
 	- Published: 2025Feb20
@@ -12262,6 +12312,10 @@ A curated list of research papers on AI/ML applications in pharmacometrics and c
 	- Published: 2026Jul20
 	- Summary: Review of exosome roles in cancer drug resistance and therapy, with mention of AI in biomarker discovery, cargo profiling, and engineered exosome design.
 
+- **[Expanding the E3 Ligase Landscape: From Small Molecule to Biological Targeted Protein Degradation.](https://pubmed.ncbi.nlm.nih.gov/42730806/)**
+	- Published: 2026Sep13
+	- Summary: Review of targeted protein degradation strategies including PROTAC E3 ligase ligands and biological recruitment approaches, with brief mention of AI-assisted design.
+
 - **[Exploring the Role of LLMs Like ChatGPT in Pharmacy Education for Supporting Students' Therapeutic Decision-making.](https://pubmed.ncbi.nlm.nih.gov/40617506/)**
 	- Methodology: LLM
 	- Published: 2025Aug
@@ -12753,6 +12807,11 @@ A curated list of research papers on AI/ML applications in pharmacometrics and c
 	- Published: 2026Jul28
 	- Summary: Review of nanomedicine and nucleic acid therapies for cervical cancer, including AI-assisted models for formulation design, PK prediction, and precision dosing.
 
+- **[Mercury Debt: Molecular Mechanisms and Exposome Mapping of Persistent Post-Amalgam Exposure.](https://pubmed.ncbi.nlm.nih.gov/42727934/)**
+	- Methodology: Hybrid mechanistic–ML models
+	- Published: 2026Sep11
+	- Summary: Review proposing 'Mercury Debt' concept, integrating PBPK modeling, AOP networks, and ML toxicity prediction to characterize persistent post-amalgam mercury exposure.
+
 - **[Metabolic phenotypes: Molecular bridges between health homeostasis and disease imbalance.](https://pubmed.ncbi.nlm.nih.gov/41245891/)**
 	- Published: 2025
 	- Summary: This review discusses metabolic phenotypes in disease and mentions future integration of AI and big data mining but does not survey specific AI/ML methodologies.
@@ -12815,6 +12874,10 @@ A curated list of research papers on AI/ML applications in pharmacometrics and c
 	- Methodology: Hybrid mechanistic–ML models
 	- Published: 2025Jun13
 	- Summary: This perspective paper proposes integrating AI/ML with mechanistic models in a structured workflow to improve preclinical drug development and translational success.
+
+- **[Molecular design and delivery of extracellular and membrane protein degradation chimeras.](https://pubmed.ncbi.nlm.nih.gov/42702251/)**
+	- Published: 2026Sep06
+	- Summary: Review of extracellular/membrane protein degradation strategies (meTPD), briefly mentioning AI-assisted molecular design; not primarily an AI/ML paper.
 
 - **[Moving From Point-Based Analysis to Systems-Based Modeling: Knowledge Integration to Address Antimicrobial Resistance.](https://pubmed.ncbi.nlm.nih.gov/40751366/)**
 	- Methodology: Hybrid mechanistic–ML models
@@ -13518,6 +13581,10 @@ A curated list of research papers on AI/ML applications in pharmacometrics and c
 	- Methodology: Deep learning
 	- Published: 2022Feb
 	- Summary: This scoping review surveys how deep learning can be used for dose optimization in low-dose computed tomography by enhancing image quality through denoising.
+
+- **[Therapeutics candidates and repurposing strategies to target parkinson's disease pathology: current evidence and future directions.](https://pubmed.ncbi.nlm.nih.gov/42714656/)**
+	- Published: 2026Sep09
+	- Summary: A comprehensive review of repurposed drugs and therapeutic candidates targeting Parkinson's disease pathological hallmarks, without AI/ML methods.
 
 - **[Toward Integrated Clinical-Computational Nuclear Medicine.](https://pubmed.ncbi.nlm.nih.gov/41284557/)**
 	- Methodology: Deep learning
