@@ -4,7 +4,7 @@
 
 A curated list of research papers on AI/ML applications in pharmacometrics and clinical pharmacology, regularly updated.
 
-**Last Updated**: 2026-09-13
+**Last Updated**: 2026-09-20
 
 ---
 ## Table of Contents
@@ -709,6 +709,11 @@ A curated list of research papers on AI/ML applications in pharmacometrics and c
 	- Methodology: Deep learning, Supervised learning, Unsupervised learning
 	- Published: 2026Aug
 	- Summary: AI-based pathomic biomarkers from whole-slide histopathology images predict HCC progression and stratify tumour microenvironment via GPC3-linked features in a preclinical model.
+
+- **[A prospective randomized controlled pilot study of gut microbiome modulation by Nigella sativa seed oil and thymoquinone metabolism in healthy volunteers: implications for gastrointestinal surgery.](https://pubmed.ncbi.nlm.nih.gov/42744850/)**
+	- Methodology: Unsupervised learning, Supervised learning
+	- Published: 2026Sep15
+	- Summary: Pilot RCT using 16S rRNA sequencing and machine learning analyses to assess gut microbiome changes from Nigella sativa seed oil supplementation in healthy volunteers.
 
 ## Disease progression modeling
 
@@ -11481,6 +11486,11 @@ A curated list of research papers on AI/ML applications in pharmacometrics and c
 	- Published: 2020
 	- Summary: This perspective paper describes the ATOM consortium's machine learning-based drug discovery platform that simultaneously optimizes pharmacokinetics, toxicity, and molecular design.
 
+- **[Accelerating discovery: Transformative clinical trial models in neuro-oncology.](https://pubmed.ncbi.nlm.nih.gov/42748896/)**
+	- Methodology: Bayesian ML
+	- Published: 2026Sep16
+	- Summary: Review of emerging clinical trial designs in neuro-oncology, including Bayesian adaptive frameworks and master protocols, to accelerate CNS drug development.
+
 - **[Accelerating drug discovery with mass spectrometry-driven bioanalytical innovations and beyond.](https://pubmed.ncbi.nlm.nih.gov/42324885/)**
 	- Published: 2026Jun21
 	- Summary: Perspective on MS-driven bioanalytical innovations for complex therapeutics, with AI/ML-driven automation identified as a priority for managing data complexity in ADME workflows.
@@ -11945,6 +11955,11 @@ A curated list of research papers on AI/ML applications in pharmacometrics and c
 	- Published: 2025
 	- Summary: This review surveys AI applications in sweetener design, including virtual screening, QSAR modeling, and ADMET prediction for novel sweetener development.
 
+- **[Artificial intelligence-assisted lead optimization in drug discovery: bridging computational advances and translational challenges.](https://pubmed.ncbi.nlm.nih.gov/42752628/)**
+	- Methodology: Deep learning, Neural networks, Reinforcement learning, Explainable AI, LLM, Supervised learning
+	- Published: 2026Sep17
+	- Summary: Review of AI/ML methods (GNNs, transformers, diffusion models) for lead optimization in drug discovery, addressing translational gaps and trustworthy AI implementation.
+
 - **[Artificial intelligence-enabled nanomedicine: enhancing drug design and predictive modeling in pharmaceutics.](https://pubmed.ncbi.nlm.nih.gov/41353571/)**
 	- Methodology: Deep learning, Reinforcement learning, Neural networks
 	- Published: 2025Dec07
@@ -12340,6 +12355,11 @@ A curated list of research papers on AI/ML applications in pharmacometrics and c
 	- Methodology: Hybrid mechanistic–ML models
 	- Published: 2025Apr17
 	- Summary: This review surveys AI/ML-linked PBPK approaches for BCS class II drug formulation design and discusses mechanistic modeling strategies for absorption and dissolution.
+
+- **[Formulation-Driven Innovation in Antifungal Therapy: From Nanotechnology to AI-Assisted Design.](https://pubmed.ncbi.nlm.nih.gov/42761635/)**
+	- Methodology: Supervised learning, Deep learning, Neural networks
+	- Published: 2026
+	- Summary: Review of formulation strategies for antifungal therapy, including AI-driven computational modeling and nanotechnology to improve efficacy, reduce toxicity, and enable personalized treatment.
 
 - **[From Real-World Patient Data to Individualized Treatment Effects Using Machine Learning: Current and Future Methods to Address Underlying Challenges.](https://pubmed.ncbi.nlm.nih.gov/32449163/)**
 	- Methodology: Supervised learning
@@ -12898,6 +12918,10 @@ A curated list of research papers on AI/ML applications in pharmacometrics and c
 	- Methodology: Supervised learning, Unsupervised learning, Deep learning, Hybrid mechanistic–ML models
 	- Published: 2022
 	- Summary: This review surveys AI/ML applications in nanomedicine development, covering modeling approaches and artificial intelligence methods for drug delivery optimization.
+
+- **[Nanostructured lipid carriers for intranasal cannabidiol delivery in Dravet and Lennox-Gastaut syndromes: bridging preclinical promise to clinical translation.](https://pubmed.ncbi.nlm.nih.gov/42751849/)**
+	- Published: 2026Sep17
+	- Summary: Non-AI/ML review on intranasal nanostructured lipid carriers for cannabidiol delivery in Dravet and Lennox-Gastaut syndromes, covering preclinical evidence and translational gaps.
 
 - **[Naturally derived excipients in injectable nanomedicines: a systematic review of pharmacokinetic performance, regulatory readiness, and future quality by design perspectives.](https://pubmed.ncbi.nlm.nih.gov/42411369/)**
 	- Published: 2026Jul07
@@ -13686,6 +13710,10 @@ A curated list of research papers on AI/ML applications in pharmacometrics and c
 	- Methodology: Supervised learning
 	- Published: 2016
 	- Summary: This review surveys machine learning applications in drug discovery, covering target structure prediction, biological activity modeling, and ADMET profiling.
+
+- **[Use of neurostimulation in patients with treatment-resistant depression: current options and future directions.](https://pubmed.ncbi.nlm.nih.gov/42750650/)**
+	- Published: 2026Sep17
+	- Summary: Non-AI/ML review of neurostimulation options for treatment-resistant depression, focusing on neuromodulation approaches targeting neural circuit abnormalities.
 
 - **[Using machine learning surrogate modeling for faster QSP VP cohort generation.](https://pubmed.ncbi.nlm.nih.gov/37328956/)**
 	- Methodology: Surrogate modeling
