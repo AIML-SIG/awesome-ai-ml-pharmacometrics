@@ -4,7 +4,7 @@
 
 A curated list of research papers on AI/ML applications in pharmacometrics and clinical pharmacology, regularly updated.
 
-**Last Updated**: 2026-09-20
+**Last Updated**: 2026-10-11
 
 ---
 ## Table of Contents
@@ -714,6 +714,11 @@ A curated list of research papers on AI/ML applications in pharmacometrics and c
 	- Methodology: Unsupervised learning, Supervised learning
 	- Published: 2026Sep15
 	- Summary: Pilot RCT using 16S rRNA sequencing and machine learning analyses to assess gut microbiome changes from Nigella sativa seed oil supplementation in healthy volunteers.
+
+- **[Vancomycin treatment outcomes and machine learning-based identification of heterogeneous vancomycin-intermediate Staphylococcus aureus infections.](https://pubmed.ncbi.nlm.nih.gov/42833411/)**
+	- Methodology: Supervised learning, Tree-based models, Ensemble learning, Feature selection, Explainable AI
+	- Published: 2026Oct05
+	- Summary: ML-based diagnostic model developed to identify hVISA infections and evaluate vancomycin treatment outcomes in a multicenter study.
 
 ## Disease progression modeling
 
@@ -3048,6 +3053,11 @@ A curated list of research papers on AI/ML applications in pharmacometrics and c
 	- Methodology: Supervised learning, Deep learning, Neural networks
 	- Published: 2026Sep12
 	- Summary: AI-based virtual screening pipeline (ML-QSAR, D-MPNN, deep learning DTI) screens 1.2M natural products to identify selective LXRβ agonists targeting glioblastoma cholesterol dependency.
+
+- **[Deep learning-guided high-throughput screening and molecular dynamics simulations facilitate the discovery of potential FXIIa inhibitors.](https://pubmed.ncbi.nlm.nih.gov/42836876/)**
+	- Methodology: Deep learning, Neural networks
+	- Published: 2026Oct06
+	- Summary: Deep learning-guided virtual screening of ~21M compounds identifies potential FXIIa inhibitors, validated by molecular dynamics simulations and binding free energy calculations.
 
 ## Drug toxicity prediction
 
@@ -6851,6 +6861,11 @@ A curated list of research papers on AI/ML applications in pharmacometrics and c
 	- Published: 2026
 	- Summary: GBM-based ML framework with SurvSHAP interpretability predicts secondary loss of response to infliximab in Crohn's disease patients over time.
 
+- **[Vancomycin treatment outcomes and machine learning-based identification of heterogeneous vancomycin-intermediate Staphylococcus aureus infections.](https://pubmed.ncbi.nlm.nih.gov/42833411/)**
+	- Methodology: Supervised learning, Tree-based models, Ensemble learning, Feature selection, Explainable AI
+	- Published: 2026Oct05
+	- Summary: ML-based diagnostic model developed to identify hVISA infections and evaluate vancomycin treatment outcomes in a multicenter study.
+
 ## Patient risk stratification / management
 
 - **[Computer-aided diagnosis of prostate cancer in the peripheral zone using multiparametric MRI.](https://pubmed.ncbi.nlm.nih.gov/22640958/)**
@@ -7182,6 +7197,11 @@ A curated list of research papers on AI/ML applications in pharmacometrics and c
 	- Methodology: Supervised learning, Tree-based models, Ensemble learning, Explainable AI
 	- Published: 2026
 	- Summary: GBM-based ML framework with SurvSHAP interpretability predicts secondary loss of response to infliximab in Crohn's disease patients over time.
+
+- **[Vancomycin treatment outcomes and machine learning-based identification of heterogeneous vancomycin-intermediate Staphylococcus aureus infections.](https://pubmed.ncbi.nlm.nih.gov/42833411/)**
+	- Methodology: Supervised learning, Tree-based models, Ensemble learning, Feature selection, Explainable AI
+	- Published: 2026Oct05
+	- Summary: ML-based diagnostic model developed to identify hVISA infections and evaluate vancomycin treatment outcomes in a multicenter study.
 
 ## Pharmacodynamic modeling
 
@@ -11288,6 +11308,11 @@ A curated list of research papers on AI/ML applications in pharmacometrics and c
 	- Published: 2026Mar
 	- Summary: BioBERT models were used to classify and curate pharmacology research papers for maternal and pediatric populations in the MPRINT-KP knowledge portal.
 
+- **[Vancomycin treatment outcomes and machine learning-based identification of heterogeneous vancomycin-intermediate Staphylococcus aureus infections.](https://pubmed.ncbi.nlm.nih.gov/42833411/)**
+	- Methodology: Supervised learning, Tree-based models, Ensemble learning, Feature selection, Explainable AI
+	- Published: 2026Oct05
+	- Summary: ML-based diagnostic model developed to identify hVISA infections and evaluate vancomycin treatment outcomes in a multicenter study.
+
 ## Survival analysis
 
 - **[Metabolomics and lipidomics predictor of survival in hepatocellular carcinoma patients receiving tyrosine kinase inhibitor and immune checkpoint inhibitor combination therapy.](https://pubmed.ncbi.nlm.nih.gov/41265377/)**
@@ -11432,6 +11457,11 @@ A curated list of research papers on AI/ML applications in pharmacometrics and c
 	- Methodology: Supervised learning
 	- Published: 2025Dec
 	- Summary: This systematic review uses Natural Language Processing to identify and categorize engineered AAV capsids for neurotropic and ocular applications from PubMed abstracts.
+
+- **[ADMET all-inclusive: Accountability for the full end-to-end model life cycle is key to success.](https://pubmed.ncbi.nlm.nih.gov/42838385/)**
+	- Methodology: Supervised learning, Explainable AI
+	- Published: 2026Oct06
+	- Summary: Perspective on Bayer's end-to-end ML lifecycle management for ADMET prediction, emphasizing data quality, governance, and organizational accountability over algorithmic innovation.
 
 - **[ADMET modeling approaches in drug discovery.](https://pubmed.ncbi.nlm.nih.gov/30890362/)**
 	- Methodology: Supervised learning
@@ -12067,6 +12097,10 @@ A curated list of research papers on AI/ML applications in pharmacometrics and c
 	- Published: 2025Dec
 	- Summary: This paper proposes a framework integrating AI/ML with traditional modeling approaches for mRNA therapeutic development and decision making across the drug development lifecycle.
 
+- **[Combating Antimicrobial Resistance: Emerging Non-Traditional Therapeutics, Clinical Translation Challenges, and Future Perspectives.](https://pubmed.ncbi.nlm.nih.gov/42849638/)**
+	- Published: 2026Oct08
+	- Summary: Non-AI/ML review of antimicrobial resistance mechanisms and non-traditional therapeutics including AMPs, phage therapy, CRISPR, and nanotechnology-based platforms.
+
 - **[Combinations of single gene predictors with AI-driven polygenic precision therapies in cardiovascular diseases.](https://pubmed.ncbi.nlm.nih.gov/42268291/)**
 	- Methodology: Supervised learning
 	- Published: 2026Jun10
@@ -12235,6 +12269,11 @@ A curated list of research papers on AI/ML applications in pharmacometrics and c
 	- Published: 2022
 	- Summary: The paper presents a second-generation AI system for personalized opioid dosing that optimizes analgesic administration to improve effectiveness and minimize side effects.
 
+- **[Digital Twins in Toxicology: Toward Predictive, Personalized and Real-Time Risk Assessment.](https://pubmed.ncbi.nlm.nih.gov/42854864/)**
+	- Methodology: Hybrid mechanistic–ML models, Bayesian ML, Surrogate modeling, Time-series modeling, Mechanism-informed machine learning
+	- Published: 2026Oct09
+	- Summary: Review proposing digital twin architecture integrating PBPK/QSP with AI/ML for personalized, real-time toxicology risk assessment, identifying gaps in current models.
+
 - **[Digital pharmacological twins: Bridging multi-scale modelling and artificial intelligence for precision medicine: The DIGPHAT consortium.](https://pubmed.ncbi.nlm.nih.gov/41076365/)**
 	- Methodology: Hybrid mechanistic–ML models
 	- Published: 2025Sep26
@@ -12281,6 +12320,10 @@ A curated list of research papers on AI/ML applications in pharmacometrics and c
 	- Methodology: Machine Learning, Artificial Intelligence
 	- Published: 2025
 	- Summary: This review examines integration of AI/ML with PK data and multi-omics approaches for data-driven drug discovery in rare diseases to enable personalized therapeutic strategies.
+
+- **[Emerging nanostructured platforms for improved oral delivery of antidiabetic agents: overcoming physiological barriers and enhancing therapeutic efficacy.](https://pubmed.ncbi.nlm.nih.gov/42832092/)**
+	- Published: 2026Oct05
+	- Summary: Review on nanostructured drug delivery systems for oral antidiabetic agents; no AI/ML methods used or surveyed.
 
 - **[Emerging role of artificial intelligence in nuclear medicine.](https://pubmed.ncbi.nlm.nih.gov/33660696/)**
 	- Methodology: Deep learning, Neural networks, LLM
@@ -12596,9 +12639,17 @@ A curated list of research papers on AI/ML applications in pharmacometrics and c
 	- Published: 2025Oct
 	- Summary: This review paper surveys ML applications for predicting tumor protein-metal binding in cancer therapeutics, focusing on multimodal data integration and interpretability challenges.
 
+- **[Introduction to the Theme "Context Is Everything: Defining the Factors That Contribute to Variability in Drug Response".](https://pubmed.ncbi.nlm.nih.gov/42832785/)**
+	- Published: 2026Oct05
+	- Summary: Introductory perspective to a pharmacology review volume highlighting AI among emerging approaches for understanding variability in drug response, without applying AI/ML methods directly.
+
 - **[KEAP1-Nrf2 Signaling in Chronic Inflammatory Disorders: Integrating Redox Biology, Quantitative Evidence, and Precision Therapeutics.](https://pubmed.ncbi.nlm.nih.gov/42574364/)**
 	- Published: 2026Aug10
 	- Summary: Non-AI/ML review integrating redox biology and KEAP1-Nrf2 signaling as a therapeutic target in chronic inflammatory disorders.
+
+- **[Kinetics and mechanisms in lipopolysaccharide-induced neuroinflammation: a framework for phytochemicals screening.](https://pubmed.ncbi.nlm.nih.gov/42848270/)**
+	- Published: 2026Oct08
+	- Summary: Non-AI/ML review synthesizing LPS-induced neuroinflammation kinetics and mechanisms to propose a framework for phytochemical screening experimental design.
 
 - **[Leveraging Artificial Intelligence for decision support in neonatal and pediatric pharmacotherapy: A scoping review.](https://pubmed.ncbi.nlm.nih.gov/41344999/)**
 	- Methodology: Supervised learning
@@ -12822,6 +12873,10 @@ A curated list of research papers on AI/ML applications in pharmacometrics and c
 	- Published: 2026Jul08
 	- Summary: Review of matrix effects and analytical instability in pharmaceutical bioanalysis, mentioning AI-assisted workflows among advances in LC-MS and sample preparation technologies.
 
+- **[Mechanisms and determinants of mRNALipid Nanoparticle biodistribution: From pharmacokinetics to clinical translation.](https://pubmed.ncbi.nlm.nih.gov/42851665/)**
+	- Published: 2026Oct07
+	- Summary: Review of mRNA-LNP biodistribution mechanisms, PK modeling, and AI-assisted lipid design for tissue-specific delivery beyond liver and lymphoid organs.
+
 - **[Mechanistic advances in nanomedicine, nucleic acid therapies, and AI-driven research on cervical cancer.](https://pubmed.ncbi.nlm.nih.gov/42521019/)**
 	- Methodology: Hybrid mechanistic–ML models
 	- Published: 2026Jul28
@@ -13021,6 +13076,11 @@ A curated list of research papers on AI/ML applications in pharmacometrics and c
 	- Published: 2026Jan21
 	- Summary: This review discusses organoids in drug development with mention of AI-driven modeling integration but does not focus on specific AI/ML methodologies or applications.
 
+- **[PROTACs in personalized and precision medicine: transforming targeted therapy with advances in selectivity and patient stratification.](https://pubmed.ncbi.nlm.nih.gov/42853260/)**
+	- Methodology: Supervised learning, Deep learning, Neural networks
+	- Published: 2026Oct09
+	- Summary: Review of PROTAC technology for precision medicine, including AI/ML and computational modeling for PROTAC design, selectivity, and biomarker-guided patient stratification.
+
 - **[Peptide-based drug design using generative AI.](https://pubmed.ncbi.nlm.nih.gov/41376388/)**
 	- Methodology: Deep learning, Neural networks
 	- Published: 2026Jan13
@@ -13058,6 +13118,10 @@ A curated list of research papers on AI/ML applications in pharmacometrics and c
 	- Methodology: Supervised learning
 	- Published: 2023Jul29
 	- Summary: This review surveys drug-drug interaction evaluation methods including machine learning models alongside traditional pharmacokinetic and pharmacodynamic approaches.
+
+- **[Pharmacokinetic evaluation of inhaled formulations: from in vitro models to clinical assessment.](https://pubmed.ncbi.nlm.nih.gov/42849582/)**
+	- Published: 2026Oct08
+	- Summary: A comprehensive review of PK evaluation methodologies for inhaled formulations, covering in vitro, in vivo, clinical, and PBPK computational approaches; no AI/ML methods used.
 
 - **[Pharmacokinetic/Pharmacodynamic Background and Methods and Scientific Evidence Base for Dosing of Second-line Tuberculosis Drugs.](https://pubmed.ncbi.nlm.nih.gov/30496455/)**
 	- Published: 2018Nov28
@@ -13762,6 +13826,10 @@ A curated list of research papers on AI/ML applications in pharmacometrics and c
 	- Methodology: Supervised learning
 	- Published: 2016Feb
 	- Summary: Reviews drug-target prediction technologies including machine learning methods for network pharmacology applications in traditional Chinese medicine.
+
+- **[[Contrast agent strategies in elective oncological imaging].](https://pubmed.ncbi.nlm.nih.gov/42850294/)**
+	- Published: 2026Oct08
+	- Summary: Review of contrast agent strategies in oncological CT/MRI imaging, covering pharmacokinetics, safety, protocols, and briefly mentioning AI-based methods as future developments.
 
 - **[[Generating knowledge from complex data sets in human experimental pain research].](https://pubmed.ncbi.nlm.nih.gov/31478142/)**
 	- Methodology: Supervised learning, Unsupervised learning
