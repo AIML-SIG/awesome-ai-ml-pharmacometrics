@@ -4,7 +4,7 @@
 
 A curated list of research papers on AI/ML applications in pharmacometrics and clinical pharmacology, regularly updated.
 
-**Last Updated**: 2026-10-18
+**Last Updated**: 2026-10-25
 
 ---
 ## Table of Contents
@@ -267,6 +267,11 @@ A curated list of research papers on AI/ML applications in pharmacometrics and c
 	- Published: 2026Aug
 	- Summary: MAPLE uses LLMs with structured validation schemas to automate provenance-rich literature extraction and calibration data curation for QSP model parameterization in pancreatic cancer.
 
+- **[Predictive Performance of pyDarwin-Selected Versus Expert-Developed Paediatric Tobramycin Population Pharmacokinetic Models for Model-Informed Precision Dosing.](https://pubmed.ncbi.nlm.nih.gov/42897405/)**
+	- Methodology: Model selection, Bayesian ML
+	- Published: 2026Oct19
+	- Summary: pyDarwin ML-based automated model selection vs expert-developed PopPK models for paediatric tobramycin MIPD, evaluating predictive performance in external validation.
+
 ## Causal inference
 
 - **[Model-informed approach to estimate treatment effect in placebo-controlled clinical trials using an artificial intelligence-based propensity weighting methodology to account for non-specific responses to treatment.](https://pubmed.ncbi.nlm.nih.gov/39656323/)**
@@ -525,6 +530,11 @@ A curated list of research papers on AI/ML applications in pharmacometrics and c
 	- Methodology: Supervised learning, Tree-based models, Feature selection, Explainable AI, Ensemble learning
 	- Published: 2026Aug18
 	- Summary: ML models (especially tree-based) are developed to predict antitumor efficacy from nanoparticle PK-PD data, identifying key features like zeta potential and targeting strategy.
+
+- **[Predictive Performance of pyDarwin-Selected Versus Expert-Developed Paediatric Tobramycin Population Pharmacokinetic Models for Model-Informed Precision Dosing.](https://pubmed.ncbi.nlm.nih.gov/42897405/)**
+	- Methodology: Model selection, Bayesian ML
+	- Published: 2026Oct19
+	- Summary: pyDarwin ML-based automated model selection vs expert-developed PopPK models for paediatric tobramycin MIPD, evaluating predictive performance in external validation.
 
 ## Data imputation
 
@@ -2095,6 +2105,11 @@ A curated list of research papers on AI/ML applications in pharmacometrics and c
 	- Methodology: Supervised learning, Tree-based models, Ensemble learning, Explainable AI, Emulation of NLME models
 	- Published: 2026Oct14
 	- Summary: ML framework (CatBoost) trained on 90,000 simulated PopPK profiles predicts daptomycin AUC0-24 for precision dosing across diverse disease states, outperforming conventional PopPK models.
+
+- **[Predictive Performance of pyDarwin-Selected Versus Expert-Developed Paediatric Tobramycin Population Pharmacokinetic Models for Model-Informed Precision Dosing.](https://pubmed.ncbi.nlm.nih.gov/42897405/)**
+	- Methodology: Model selection, Bayesian ML
+	- Published: 2026Oct19
+	- Summary: pyDarwin ML-based automated model selection vs expert-developed PopPK models for paediatric tobramycin MIPD, evaluating predictive performance in external validation.
 
 ## Drug repurposing
 
@@ -6012,6 +6027,15 @@ A curated list of research papers on AI/ML applications in pharmacometrics and c
 - **[Comparative Effectiveness of Phenobarbital vs Diazepam for Alcohol Withdrawal Syndrome.](https://pubmed.ncbi.nlm.nih.gov/42862568/)**
 	- Published: 2026Oct12
 	- Summary: Comparative effectiveness study of phenobarbital vs diazepam for alcohol withdrawal syndrome; no AI/ML methods are used or surveyed.
+
+- **[Global characterization strategy for chemical constituent of traditional Chinese medicine formulas based on online comprehensive 2DLC-Q-TOF-MS/MS combined with deep learning clustering driven dual-mode acquisition: A case study of Qishen Yiqi Dropping Pills.](https://pubmed.ncbi.nlm.nih.gov/42721874/)**
+	- Methodology: Deep learning, Unsupervised learning
+	- Published: 2026Oct25
+	- Summary: Deep learning-based clustering and mass defect filtering are used to classify and prioritize precursor ions for improved MS/MS data acquisition in TCM formula characterization.
+
+- **[A fast and reliable quality assurance framework for CBCT-based synthetic CTs for adaptive proton radiotherapy.](https://pubmed.ncbi.nlm.nih.gov/42896591/)**
+	- Published: 2026Oct19
+	- Summary: This paper is not related to AI/ML in drug development or clinical pharmacology; it proposes a QA framework for CBCT-based synthetic CTs in adaptive proton radiotherapy.
 
 ## Outcome prediction
 
@@ -10368,6 +10392,11 @@ A curated list of research papers on AI/ML applications in pharmacometrics and c
 	- Published: 2026Oct14
 	- Summary: ML framework (CatBoost) trained on 90,000 simulated PopPK profiles predicts daptomycin AUC0-24 for precision dosing across diverse disease states, outperforming conventional PopPK models.
 
+- **[Predictive Performance of pyDarwin-Selected Versus Expert-Developed Paediatric Tobramycin Population Pharmacokinetic Models for Model-Informed Precision Dosing.](https://pubmed.ncbi.nlm.nih.gov/42897405/)**
+	- Methodology: Model selection, Bayesian ML
+	- Published: 2026Oct19
+	- Summary: pyDarwin ML-based automated model selection vs expert-developed PopPK models for paediatric tobramycin MIPD, evaluating predictive performance in external validation.
+
 ## Postmarketing surveillance
 
 - **[PharmBERT: a domain-specific BERT model for drug labels.](https://pubmed.ncbi.nlm.nih.gov/37317617/)**
@@ -11354,6 +11383,11 @@ A curated list of research papers on AI/ML applications in pharmacometrics and c
 	- Methodology: Supervised learning, Tree-based models, Ensemble learning, Explainable AI, Emulation of NLME models
 	- Published: 2026Oct14
 	- Summary: ML framework (CatBoost) trained on 90,000 simulated PopPK profiles predicts daptomycin AUC0-24 for precision dosing across diverse disease states, outperforming conventional PopPK models.
+
+- **[Predictive Performance of pyDarwin-Selected Versus Expert-Developed Paediatric Tobramycin Population Pharmacokinetic Models for Model-Informed Precision Dosing.](https://pubmed.ncbi.nlm.nih.gov/42897405/)**
+	- Methodology: Model selection, Bayesian ML
+	- Published: 2026Oct19
+	- Summary: pyDarwin ML-based automated model selection vs expert-developed PopPK models for paediatric tobramycin MIPD, evaluating predictive performance in external validation.
 
 ## RWD phenotyping
 
@@ -12801,6 +12835,10 @@ A curated list of research papers on AI/ML applications in pharmacometrics and c
 	- Published: 2025Mar
 	- Summary: This review examines LSFM applications in drug delivery monitoring during embryonic development, highlighting machine learning integration and AI-driven data analysis for tracking pharmacokinetics.
 
+- **[Longitudinal pharmaceutical care in hematopoietic stem cell transplantation: Current challenges and emerging opportunities.](https://pubmed.ncbi.nlm.nih.gov/42926189/)**
+	- Published: 2026Oct24
+	- Summary: Review proposing a longitudinal pharmaceutical care model for HSCT, mentioning AI, pharmacogenomics, and precision dosing as emerging opportunities without applying specific AI/ML methods.
+
 - **[Low-dimensional neural ODEs and their application in pharmacokinetics.](https://pubmed.ncbi.nlm.nih.gov/37837491/)**
 	- Methodology: Deep learning, Neural networks, Hybrid mechanistic–ML models
 	- Published: 2024Apr
@@ -13394,6 +13432,11 @@ A curated list of research papers on AI/ML applications in pharmacometrics and c
 	- Published: 2026Jul29
 	- Summary: A review of radiolabeling strategies for clinically approved nanomedicine carriers (albumin nanoparticles, PEGylated liposomes) for translational imaging; no AI/ML methods used.
 
+- **[Rational design of PROTACs empowered by deep generative modeling: current advances and future perspectives.](https://pubmed.ncbi.nlm.nih.gov/42918514/)**
+	- Methodology: Deep learning, Neural networks, LLM, Reinforcement learning
+	- Published: 2026Oct23
+	- Summary: Review of deep generative modeling approaches (language models, GNNs, diffusion models) for rational PROTAC design, covering linker/warhead generation and multi-objective optimization.
+
 - **[Rational drug design for Alzheimer's disease: from approved therapies to next-generation clinical candidates and AI-guided innovation.](https://pubmed.ncbi.nlm.nih.gov/42573081/)**
 	- Methodology: Supervised learning, Deep learning, Neural networks
 	- Published: 2026Aug10
@@ -13782,6 +13825,11 @@ A curated list of research papers on AI/ML applications in pharmacometrics and c
 - **[Toward Integration of Molecular Measures and Artificial Intelligence-Based Assessments With Clinical End Points in Inflammatory Bowel Disease.](https://pubmed.ncbi.nlm.nih.gov/41665578/)**
 	- Published: 2026Feb10
 	- Summary: This perspective paper outlines how AI-assisted tools can integrate molecular measures with clinical endpoints to improve IBD treatment assessment and enable precision medicine approaches.
+
+- **[Toward Reinforcement Learning-Enabled Model-Informed Precision Dosing: Concepts, Applications, and Implementation.](https://pubmed.ncbi.nlm.nih.gov/42905972/)**
+	- Methodology: Reinforcement learning
+	- Published: 2026Oct21
+	- Summary: Review of reinforcement learning as a framework for model-informed precision dosing, covering concepts, clinical applications, and implementation in therapeutic drug monitoring.
 
 - **[Toward indole postbiotics precision therapy via AI-powered drug delivery technologies.](https://pubmed.ncbi.nlm.nih.gov/41223607/)**
 	- Published: 2026Feb
